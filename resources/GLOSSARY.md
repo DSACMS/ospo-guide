@@ -59,8 +59,12 @@ A bookmark or display of appreciation for a repository. Stars are a manual way t
 - Once your pull request has been reviewed and approved, merge in your pull request, resulting in your changes on your branch being incorporated into the main branch.
 
 # CMS-Specific GitHub Resources
-<!--- TODO: These resources could use some blurbs/context. -->
 
-https://cloud.cms.gov/accessing-cms-cloud-github 
+Instructions on accessing CMS Cloud GitHubs (CMSGov & OIT-Enterprise):
+https://cloud.cms.gov/accessing-cms-cloud-github
+
+Instructions on managing CMS Cloud GitHub repositories. Find guidance on creating repositories, configuring repositories, making pull requests to repositories:
 https://cloud.cms.gov/managing-cms-cloud-github-repositories 
+
+List of Repositories on CMS Cloud Github:
 https://cloud.cms.gov/cms-cloud-github-repository-list
