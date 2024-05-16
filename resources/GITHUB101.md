@@ -1,5 +1,9 @@
-# GitHub Glossary
+# GitHub 101
 
+# Table of Contents
+1. [Git Terminology](##Git-Terminology)
+2. [GitHub Workflow: Making Changes to your Repository](##GitHub-Workflow:-Making-Changes-to-your-Repository)
+3. [CMS-Specific GitHub Resources](##CMS-Specific-GitHub-Resources)
 ## Git Terminology
 *Taken from [GitHub Docs](https://docs.github.com/en/get-started/quickstart/github-glossary)*
 
@@ -58,7 +62,7 @@ A bookmark or display of appreciation for a repository. Stars are a manual way t
 4. [Merge the Pull Request](https://docs.github.com/en/get-started/start-your-journey/hello-world#merging-your-pull-request)
 - Once your pull request has been reviewed and approved, merge in your pull request, resulting in your changes on your branch being incorporated into the main branch.
 
-# CMS-Specific GitHub Resources
+## CMS Specific GitHub Resources
 
 Instructions on accessing CMS Cloud GitHubs (CMSGov & OIT-Enterprise):
 https://cloud.cms.gov/accessing-cms-cloud-github
