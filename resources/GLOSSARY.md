@@ -3,7 +3,7 @@
 ## Git Terminology
 *Taken from [GitHub Docs](https://docs.github.com/en/get-started/quickstart/github-glossary)*
 
-### <img src="assets/repo_icon.png"> Repository 
+### ![repository](assets/repo_icon.png?raw=true) Repository 
 *Also known as “repo”*
 A repository is the most basic element of GitHub. They're easiest to imagine as a
 project's folder. A repository contains all of the project files (including documentation),
