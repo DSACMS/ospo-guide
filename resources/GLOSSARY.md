@@ -34,6 +34,9 @@ A personal copy of another user's repository that lives on your account. Forks a
 ### ![star](assets/star_icon.png?raw=true) Star
 A bookmark or display of appreciation for a repository. Stars are a manual way to rank the popularity of projects.
 
+### GitHub Repository Page
+![repository](assets/github_repository_page.png)
+
 ## GitHub Workflow: Making Changes to your Repository
 *Taken from [GitHub Docs](https://docs.github.com/en/get-started/quickstart/hello-world)*
 
