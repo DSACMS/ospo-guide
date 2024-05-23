@@ -1,9 +1,9 @@
 # GitHub 101
 
 ## Table of Contents
-1. [Git Terminology](##Git-Terminology)
-2. [GitHub Workflow: Making Changes to your Repository](##GitHub-Workflow:-Making-Changes-to-your-Repository)
-3. [CMS-Specific GitHub Resources](##CMS-Specific-GitHub-Resources)
+1. [Git Terminology](#git-terminology)
+2. [GitHub Workflow: Making Changes to your Repository](#github-workflow-making-changes-to-your-repository)
+3. [CMS-Specific GitHub Resources](#github-workflow-making-changes-to-your-repository)
 
 ## Git Terminology
 *Taken from [GitHub Docs](https://docs.github.com/en/get-started/quickstart/github-glossary)*
