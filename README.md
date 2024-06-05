@@ -1,10 +1,37 @@
 # Open Source Program Office Guide 
 
-- Welcome to CMS' OSPO
-- Inbound
-- Outbound
-- Growing
-- Resources 
+# Digital Service at CMS (DSACMS)
+We're a group of civic-minded technologists transforming how the federal government delivers healthcare to the American people. The Digital Service at CMS (DSAC) consists of engineers, designers, and product managers—serving our country by building and maintaining the technology underpinning our national health care programs. 
+
+# Centers for Medicare and Medicaid Services (CMS)
+Every day, millions of people in this country interact with the healthcare system. We believe these interactions should be straightforward, transparent and seamless. Whether it's looking for health insurance, making sense of medical bills, or researching nursing homes, we are working to unlock medical information and empower people with health data.
+
+- 88M people on Medicaid (2022)
+- 65M people on Medicare (2022)
+- 31M found insurance in ACA marketplace (2021)
+
+# What does the Digital Service at CMS do?
+We work to transform the U.S. healthcare system by:
+
+- Modernizing systems
+- Improving the design of healthcare experiences
+- Participating in policy development
+- Delivering value to the government, healthcare providers, and patients
+  
+We accomplish these goals by bringing the best and brightest talent from industry and government to CMS for a "tour of duty." By collaborating closely with dedicated CMS career civil servants, our work includes everything from creating public websites to implementing new legislation in back-office systems.
+
+# What does the Open Source Program Office (OSPO) at CMS do?
+Establish and maintain guidance, policies, practices, and talent pipelines that advance equity, build trust, and amplify impact across CMS, HHS, and Federal Open Source Ecosystems by working and sharing openly. Learn more about our work [here.](https://www.cms.gov/digital-service)
+
+## CMS OSPO in the News
+Open Source and the Digital Service at CMS.gov - All Things Open 2022 (VIDEO) (DECK)
+Whitehouse Open Source Software Security Initiative (OS3I) Supply Chain RFI (PDF)
+Innersource Summit 2023: Innersource to Open Source Journey in Government
+Inside CMS’ Groundbreaking Open Source Program Office (VIDEO)
+Repodiving into Open Source at CMS.gov (VIDEO)
+OSPOs in Highly Regulated Environments Panel Discussion @ Open Source Summit EU 2023
+TODOGroup OSPOlogy September Meeting
+OSPOs for Good Summit 2023 @ United Nations Headquarters NYC
 
 
 ## Acknowlegements
@@ -15,7 +42,7 @@ Medicare & Medicaid Services ([CMS.gov](https://cms.gov)) and The
 [USDigitalResponse.org](https://usdigitalresponse.org).
 
 
-## Policies
+### Policies
 
 ### Open Source Policy
 
@@ -33,7 +60,7 @@ the American public, but you are also welcome to submit anonymously.
 
 For more information about our Security, Vulnerability, and Responsible Disclosure Policies, see [SECURITY.md](SECURITY.md).
 
-## Public domain
+### Public domain
 
 This project is in the public domain within the United States, and copyright
 and related rights in the work worldwide are waived through the [CC0 1.0
