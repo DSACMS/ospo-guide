@@ -25,7 +25,7 @@ Establish and maintain guidance, policies, practices, and talent pipelines that 
 
 ## CMS OSPO in the News
 - [Open Source and the Digital Service at CMS.gov - All Things Open 2022](https://www.youtube.com/watch?v=Q0EJIevZS0I)
-- Whitehouse Open Source Software Security Initiative (OS3I) Supply Chain RFI (PDF)
+- Whitehouse Open Source Software Security Initiative (OS3I) [Supply Chain RFI](https://www.whitehouse.gov/oncd/briefing-room/2023/08/10/fact-sheet-office-of-the-national-cyber-director-requests-public-comment-on-open-source-software-security-and-memory-safe-programming-languages/)
 - [Innersource Summit 2023: Innersource to Open Source Journey in Government](https://innersourcecommons.org/events/isc-2023/)
 - [Inside CMS’ Groundbreaking Open Source Program Office](https://www.youtube.com/watch?v=34LQnyB3ydQ)
 - [Repodiving into Open Source at CMS.gov](https://www.youtube.com/watch?v=AypgQch2Qpk)
