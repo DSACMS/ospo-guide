@@ -32,6 +32,9 @@ Establish and maintain guidance, policies, practices, and talent pipelines that 
 - [OSPOs in Highly Regulated Environments Panel Discussion @ Open Source Summit EU 2023](https://osseu2023.sched.com/event/1OGeo/panel-discussion-ospos-transition-paths-for-regulated-environments-ana-jimenez-santamaria-linux-foundation-maurice-hendriks-city-of-amsterdam-nico-rikken-alliander-clare-dillon-innersourcecommons-thomas-steenbergen-epam?iframe=no&w=100%&sidebar=yes&bg=no)
 - TODOGroup OSPOlogy September 2023 Meeting
 - OSPOs for Good Summit 2023 @ United Nations Headquarters NYC
+- PyCon May 2024
+- Code for America May 2024
+- Open Source Summit North America (OSSNA) 2024 
 
 
 ## Acknowlegements
