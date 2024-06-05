@@ -18,20 +18,20 @@ We work to transform the U.S. healthcare system by:
 - Participating in policy development
 - Delivering value to the government, healthcare providers, and patients
   
-We accomplish these goals by bringing the best and brightest talent from industry and government to CMS for a "tour of duty." By collaborating closely with dedicated CMS career civil servants, our work includes everything from creating public websites to implementing new legislation in back-office systems.
+We accomplish these goals by bringing the best and brightest talent from industry and government to CMS for a "tour of duty." By collaborating closely with dedicated CMS career civil servants, our work includes everything from creating public websites to implementing new legislation in back-office systems. Learn more about our work [here.](https://www.cms.gov/digital-service)
 
 # What does the Open Source Program Office (OSPO) at CMS do?
-Establish and maintain guidance, policies, practices, and talent pipelines that advance equity, build trust, and amplify impact across CMS, HHS, and Federal Open Source Ecosystems by working and sharing openly. Learn more about our work [here.](https://www.cms.gov/digital-service)
+Establish and maintain guidance, policies, practices, and talent pipelines that advance equity, build trust, and amplify impact across CMS, HHS, and Federal Open Source Ecosystems by working and sharing openly. 
 
 ## CMS OSPO in the News
-Open Source and the Digital Service at CMS.gov - All Things Open 2022 (VIDEO) (DECK)
-Whitehouse Open Source Software Security Initiative (OS3I) Supply Chain RFI (PDF)
-Innersource Summit 2023: Innersource to Open Source Journey in Government
-Inside CMS’ Groundbreaking Open Source Program Office (VIDEO)
-Repodiving into Open Source at CMS.gov (VIDEO)
-OSPOs in Highly Regulated Environments Panel Discussion @ Open Source Summit EU 2023
-TODOGroup OSPOlogy September Meeting
-OSPOs for Good Summit 2023 @ United Nations Headquarters NYC
+- [Open Source and the Digital Service at CMS.gov - All Things Open 2022](https://www.youtube.com/watch?v=Q0EJIevZS0I)
+- Whitehouse Open Source Software Security Initiative (OS3I) Supply Chain RFI (PDF)
+- [Innersource Summit 2023: Innersource to Open Source Journey in Government](https://innersourcecommons.org/events/isc-2023/)
+- [Inside CMS’ Groundbreaking Open Source Program Office](https://www.youtube.com/watch?v=34LQnyB3ydQ)
+- [Repodiving into Open Source at CMS.gov](https://www.youtube.com/watch?v=AypgQch2Qpk)
+- [OSPOs in Highly Regulated Environments Panel Discussion @ Open Source Summit EU 2023](https://osseu2023.sched.com/event/1OGeo/panel-discussion-ospos-transition-paths-for-regulated-environments-ana-jimenez-santamaria-linux-foundation-maurice-hendriks-city-of-amsterdam-nico-rikken-alliander-clare-dillon-innersourcecommons-thomas-steenbergen-epam?iframe=no&w=100%&sidebar=yes&bg=no)
+- TODOGroup OSPOlogy September 2023 Meeting
+- OSPOs for Good Summit 2023 @ United Nations Headquarters NYC
 
 
 ## Acknowlegements
