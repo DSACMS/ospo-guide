@@ -6,9 +6,9 @@ We're a group of civic-minded technologists transforming how the federal governm
 # Centers for Medicare and Medicaid Services (CMS)
 Every day, millions of people in this country interact with the healthcare system. We believe these interactions should be straightforward, transparent and seamless. Whether it's looking for health insurance, making sense of medical bills, or researching nursing homes, we are working to unlock medical information and empower people with health data.
 
-- 88M people on Medicaid (2022)
-- 65M people on Medicare (2022)
-- 31M found insurance in ACA marketplace (2021)
+- 76M people on Medicaid & CHIP (2024)
+- 67M people on Medicare (2024)
+- 21M found insurance in ACA marketplace (2024)
 
 # What does the Digital Service at CMS do?
 We work to transform the U.S. healthcare system by:
