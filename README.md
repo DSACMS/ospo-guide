@@ -40,8 +40,8 @@ Establish and maintain guidance, policies, practices, and talent pipelines that 
 - [PyCon May 2024](https://github.com/DSACMS/pycon-poster-2024/blob/main/repo-baselines.pdf)
 - Code for America May 2024
 - Open Source Summit North America (OSSNA) 2024
-> [Establishing a Repository Baseline](https://www.youtube.com/watch?v=v0aaVBicOjI)
-> [Repository Cohorts](https://www.youtube.com/watch?v=FpVNSAj9eDg)
+    - [Establishing a Repository Baseline](https://www.youtube.com/watch?v=v0aaVBicOjI)
+    - [Repository Cohorts](https://www.youtube.com/watch?v=FpVNSAj9eDg)
 
 
 ## Acknowlegements
