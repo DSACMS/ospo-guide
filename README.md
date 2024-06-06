@@ -37,17 +37,17 @@ Establish and maintain guidance, policies, practices, and talent pipelines that 
 - [OSPOs in Highly Regulated Environments Panel Discussion @ Open Source Summit EU 2023](https://osseu2023.sched.com/event/1OGeo/panel-discussion-ospos-transition-paths-for-regulated-environments-ana-jimenez-santamaria-linux-foundation-maurice-hendriks-city-of-amsterdam-nico-rikken-alliander-clare-dillon-innersourcecommons-thomas-steenbergen-epam?iframe=no&w=100%&sidebar=yes&bg=no)
 - TODOGroup OSPOlogy September 2023 Meeting
 - OSPOs for Good Summit 2023 @ United Nations Headquarters NYC
-- PyCon May 2024
+- [PyCon May 2024](https://github.com/DSACMS/pycon-poster-2024/blob/main/repo-baselines.pdf)
 - Code for America May 2024
-- Open Source Summit North America (OSSNA) 2024 
+- Open Source Summit North America (OSSNA) 2024
+> [Establishing a Repository Baseline](https://www.youtube.com/watch?v=v0aaVBicOjI)
+> [Repository Cohorts](https://www.youtube.com/watch?v=FpVNSAj9eDg)
 
 
 ## Acknowlegements
-This project was developed as a collaboration between the United States Digital
-Service ([USDS.gov](https://usds.gov)), The Department of Health and Human
-Services ([HHS.gov](https://hhs.gov)), The Digital Service at the Centers for
-Medicare & Medicaid Services ([CMS.gov](https://cms.gov)) and The
-[USDigitalResponse.org](https://usdigitalresponse.org).
+Our work is developed as a collaboration between the United States Digital Service (USDS.gov), The Department of Health and Human Services (HHS.gov), The Digital Service at the Centers for Medicare & Medicaid Services (CMS.gov), The USDigitalResponse.org, and other Federal Open Source Community Members.
+
+Thank you all for your support and contributions.
 
 
 ### Policies
