@@ -51,7 +51,7 @@ Information required:
 
 #### (Optional) Step 2: Creating Child Teams
 
-Child teams can be granted additional and more granular access to certain repositories. Examples of child teams can include code reviewers, developers under a repo domain, and project leads.
+[Child teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams#nested-teams) can be granted additional and more granular access to certain repositories. Examples of child teams can include code reviewers, developers under a repo domain, and project leads.
 
 Information required:
 - Team name: *projectName*\_*teamType*
@@ -68,9 +68,9 @@ If you are looking to create a completely new repository, your repository can be
 Information required:
 - Repository Name
 - Repository Description
-- Project’s Maturity Model Tier
+- Project’s [Maturity Model Tier](https://github.com/DSACMS/repo-scaffolder/blob/main/maturity-model-tiers.md)
 - Repository Topics
-- Team name OR List of Committers’ GH username + email
+- Team name or List of Committers’ GH username + email
 - Repository Visibility: private or public
     - Include an assessment of benefits and risks of selecting this visibility
 
@@ -92,7 +92,7 @@ Currently, the DSACMS org does not use many third-party integrations at the mome
 Information required:
 - Third-party Integration / GitHub App to be added
 - Reason for usage
-- Project’s Maturity Model Tier
+- Project’s [Maturity Model Tier](https://github.com/DSACMS/repo-scaffolder/blob/main/maturity-model-tiers.md)
 - Keys that will need to be created
 
 
@@ -102,7 +102,7 @@ Information required:
 
 #### Members
 
-Review the list of current organization members and their attributes:
+Review the [list of current organization members](https://github.com/orgs/DSACMS/people) and their attributes:
 
 - Is 2FA enabled?
 - What is their role? (owner vs member)
@@ -110,14 +110,14 @@ Review the list of current organization members and their attributes:
 
 #### Outside/Pending Collaborators
 
-Review the list of outside collaborators and their attributes:
+Review the [list of outside collaborators](https://github.com/orgs/DSACMS/outside-collaborators) and their attributes:
 
 - Is 2FA enabled?
 - What repositories do they have access to?
 
 #### Invitations
 
-Review the list of sent invitations and failed invitations :
+Review the [list of sent invitations](https://github.com/orgs/DSACMS/people/pending_invitations) and [failed invitations](https://github.com/orgs/DSACMS/people/failed_invitations):
 
 - Assess whether to resend or delete failed invitations
 
@@ -144,15 +144,17 @@ Two-factor authentication is required for everyone under the DSACMS organization
 
 ##### Code Security
 
-<ins>Review Code Security Configurations</ins>
+<ins>Review Code Security Configurations</ins>\
 https://github.com/organizations/DSACMS/settings/security_products
 
 - All repositories use the GitHub-recommended code security configuration:
+![Code Security Configuration](../assets/githubmanagementpolicy/code_security_configurations.png)
+
 - Currently, all public repositories under DSACMS use GitHub Advanced Security
     features (i.e. Code Scanning, Secret Scanning). Private repositories will only have
     free features enabled.
 
-<ins>Review Global Settings</ins>
+<ins>Review Global Settings</ins>\
 https://github.com/organizations/DSACMS/settings/security_analysis
 - Dependabot is enabled by default with a rule to dismiss low-impact alerts for
 development-scoped dependencies.
@@ -165,14 +167,14 @@ development-scoped dependencies.
 
 <ins>Review Tokens Settings</ins>
 
-The active tokens must be reviewed on a monthly basis. Export the log as a CSV and attach it to the *name_of_ticket_here* in internal GitHub.
+The active tokens must be reviewed on a monthly basis. Export the log as a CSV and attach it to the *name_of_ticket_here* in internal GitHub.\
 https://github.com/organizations/DSACMS/settings/personal-access-tokens/active
 
 - Who is the owner?
 - Does the token have organization and repository permissions and/or access?
 - When was the token last used?
 
-<ins>Requesting for Personal Access Tokens</ins>
+<ins>Requesting for Personal Access Tokens</ins>\
 Personal Access Tokens will be granted for repo permissions with read and/or write access. Organization permissions will require explicit permission.
 
 ##### Private Keys for GitHub Apps
@@ -185,11 +187,9 @@ Please review keys used for third-party apps and GitHub apps: https://github.com
 https://github.com/organizations/DSACMS/settings/secrets/actions
 
 - Secrets and variables allow you to manage reusable configuration data. Secrets
-    are encrypted and are used for sensitive data.
-    https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actio
-    ns
-- Anyone with collaborator access to the repositories with access to a secret or
-    variable can use it for Actions.
+    are encrypted and are used for sensitive data.\
+    https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions
+- Anyone with collaborator access to the repositories with access to a secret or variable can use it for Actions.
 - Cannot be used in private repositories in our current plan.
 
 ##### Codespaces Secrets
@@ -208,23 +208,56 @@ use it for Dependabot.
 
 The DSACMS GitHub Organization is currently under the **GitHub free plan**.
 
-<!-- Photo of free plan features. -->
+![GitHub Free Plan Features](../assets/githubmanagementpolicy/github_free_plan_features.png)
 
-The usage of the features below must be reviewed on a monthly basis. Export this information into a report using the “Get Usage Report” button and attach it to the *name_of_ticket_here* in internal GitHub.
+The [usage](https://github.com/settings/billing/summary#usage) of the features below must be reviewed on a monthly basis. Export this information into a report using the “Get Usage Report” button and attach it to the *name_of_ticket_here* in internal GitHub.
 
-<!-- Convert to table -->
-```
-Feature Limit Notes
-GitHub Actions 2,000 minutes
-Packages 1GB limit
-Storage for Actions and
-Packages
-0.5 GB
-Codespaces: Usage hours 120 core hours
-Codespaces: Storage 15 GB
-Git LFS Data: Storage 1 GB
-Git LFS Data: Bandwidth 1 GB
-```
+<table>
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Limit</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>GitHub Actions</td>
+            <td>2,000 minutes</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Packages</td>
+            <td>1 GB</td>
+            <td></td>
+            </tr>
+        <tr>
+            <td>Storage for Actions and Packages</td>
+            <td>0.5 GB</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Codespaces: Usage hours</td>
+            <td>120 core hours</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Codespaces: Storage</td>
+            <td>15 GB</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Git LFS Data: Storage</td>
+            <td>1 GB</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Git LFS Data: Bandwidth</td>
+            <td>1 GB</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 ### FAQs
 
