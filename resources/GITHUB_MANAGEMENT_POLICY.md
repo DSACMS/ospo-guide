@@ -4,18 +4,15 @@
 
 ## Table of Contents
 
-### [GitHub Organization Access](#github-organization-access)
+##### [GitHub Organization Access](#github-organization-access)
 - [Get access to a team as a member](#get-access-to-a-team-as-a-member)
 - [Request a new team to be created](#request-a-new-team-to-be-created)
 - [Request a new repo to be created](#request-a-new-repo-to-be-created)
 - [Request a team to be added to a repo](#request-a-team-to-be-added-to-a-repo)
 - [Request a third-party integration to be added to the repo](#request-a-third-party-integration-to-be-added-to-the-repo)
 
-### [Offboarding](#offboarding)
+##### [Offboarding](#offboarding)
 - [Monthly audit of membership](#monthly-audit-of-membership)
-    - [Members](#members)
-    - [Outside/Pending Collaborators](#outsidepending-collaborators)
-    - [Invitations](#invitations)
 - [Review activity log](#review-activity-log)
 - [Security](#security)
     - [Organization-wide Settings](#organization-wide-settings)
@@ -29,8 +26,7 @@
         - [Codespaces Secrets](#codespaces-secrets)
         - [Dependabot Secrets](#dependabot-secrets)
     - [Monitor usage under GitHub plan](#monitor-usage-under-github-plan)
-- [FAQs](#faqs)
-
+##### [FAQs](#faqs)
 
 ## GitHub Organization Access
 
