@@ -217,44 +217,36 @@ The [usage](https://github.com/settings/billing/summary#usage) of the features b
         <tr>
             <th>Feature</th>
             <th>Limit</th>
-            <th>Notes</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>GitHub Actions</td>
             <td>2,000 minutes</td>
-            <td></td>
         </tr>
         <tr>
             <td>Packages</td>
             <td>1 GB</td>
-            <td></td>
             </tr>
         <tr>
             <td>Storage for Actions and Packages</td>
             <td>0.5 GB</td>
-            <td></td>
         </tr>
         <tr>
             <td>Codespaces: Usage hours</td>
             <td>120 core hours</td>
-            <td></td>
         </tr>
         <tr>
             <td>Codespaces: Storage</td>
             <td>15 GB</td>
-            <td></td>
         </tr>
         <tr>
             <td>Git LFS Data: Storage</td>
             <td>1 GB</td>
-            <td></td>
         </tr>
         <tr>
             <td>Git LFS Data: Bandwidth</td>
             <td>1 GB</td>
-            <td></td>
         </tr>
     </tbody>
 </table>
