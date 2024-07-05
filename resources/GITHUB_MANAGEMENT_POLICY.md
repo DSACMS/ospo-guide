@@ -2,33 +2,34 @@
 
 ## DSACMS Organization
 
-GitHub Organization Access
-Get access to a team as a member
-Request a new team to be created
-Step 1: Creating a Parent Team with All Project Members
-Step 2: Creating Child Teams
-Request a new repo to be created
-Request a team to be added to a repo
-Request a third-party integration to be added to the repo
-Offboarding
-Monthly audit of membership
-Members
-Outside/Pending Collaborators
-Invitations
-Review activity log
-Security
-Organization-wide Settings
-Authentication Security
-Code Security
-Check Tokens & Keys
-Personal Access Tokens
-Private Keys for GitHub Apps
-Check Secrets
-Actions Secrets & Variables
-Codespaces Secrets
-Dependabot Secrets
-Monitor usage under GitHub plan
-FAQs
+## Table of Contents
+
+### [GitHub Organization Access](#github-organization-access)
+- [Get access to a team as a member](#get-access-to-a-team-as-a-member)
+- [Request a new team to be created](#request-a-new-team-to-be-created)
+- [Request a new repo to be created](#request-a-new-repo-to-be-created)
+- [Request a team to be added to a repo](#request-a-team-to-be-added-to-a-repo)
+- [Request a third-party integration to be added to the repo](#request-a-third-party-integration-to-be-added-to-the-repo)
+
+### [Offboarding](#offboarding)
+- [Monthly audit of membership](#monthly-audit-of-membership)
+    - [Members](#members)
+    - [Outside/Pending Collaborators](#outsidepending-collaborators)
+    - [Invitations](#invitations)
+- [Review activity log](#review-activity-log)
+- [Security](#security)
+    - [Organization-wide Settings](#organization-wide-settings)
+        - [Authentication Security](#authentication-security)
+        - [Code Security](#code-security)
+    - [Check Tokens & Keys](#check-tokens--keys)
+        - [Personal Access Tokens](#personal-access-tokens)
+        - [Private Keys for GitHub Apps](#private-keys-for-github-apps)
+    - [Check Secrets](#check-secrets)
+        - [Actions Secrets & Variables](#actions-secrets--variables)
+        - [Codespaces Secrets](#codespaces-secrets)
+        - [Dependabot Secrets](#dependabot-secrets)
+    - [Monitor usage under GitHub plan](#monitor-usage-under-github-plan)
+- [FAQs](#faqs)
 
 
 ## GitHub Organization Access
