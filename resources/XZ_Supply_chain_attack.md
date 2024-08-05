@@ -94,9 +94,13 @@ In order for users to have access to software, developers need to create some wa
 
 ## Reviews and Reviewers:
 
-- Andrea
-- Elizabeth S
-- SCSTF Friendlies (Mike Kania)
+- Isaac Milarsky
+- Natalia Luzuriaga
+- Andrea Fletcher
+- Elizabeth Schweinsberg
+- Alberto Colón Viera
+- Remy DeCausemaker
+- CMS Security Community Slack
 
 ## Additional Resources:
 
