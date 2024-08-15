@@ -100,6 +100,7 @@ In order for users to have access to software, developers need to create some wa
 - Elizabeth Schweinsberg
 - Alberto Colón Viera
 - Remy DeCausemaker
+- Ron Heft
 - CMS Security Community Slack
 
 ## Additional Resources:
