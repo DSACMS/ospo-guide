@@ -56,12 +56,41 @@ A bookmark or display of appreciation for a repository. Stars are a manual way t
 - When you create a commit, write a commit message, which is a description explaining why a particular change was made.
 
 3. [Open a Pull Request](https://docs.github.com/en/get-started/start-your-journey/hello-world#opening-a-pull-request)
-- When you open a pull request, you're proposing your changes and requesting that someone review and pull in your contribution and merge them into the main branch. 
+- When you open a pull request, you're proposing your changes and requesting that someone review and pull in your contribution and merge them into the specified branch. 
 - Pull requests show differences of the content from both branches. The changes, additions, and subtractions are shown in different colors.
 - Reviewers start discussions on the proposed changes by commenting on the pull request. After a full review, they can either approve your pull request to merge or request for any edits.
 
 4. [Merge the Pull Request](https://docs.github.com/en/get-started/start-your-journey/hello-world#merging-your-pull-request)
 - Once your pull request has been reviewed and approved, merge in your pull request, resulting in your changes on your branch being incorporated into the main branch.
+
+## Recommended GitHub Branch Workflow: Keeping Track of Many Pending Changes
+
+### Merging A New Feature into a Development Branch 
+- When you want to implement a new feature into a repository, it is best practice to have a staging version of the code to test before it becomes the canonical version of the code
+- This is why you should have a `dev` branch in addition to `main`
+- New feature changes should be committed to `dev` for testing first before being merged into `main` when confidence is high it will not break production 
+
+#### Step-by-step Merging a feature into main
+
+1. Person 1 clones repository to their local machine
+
+2. Person 1 creates a new feature branch off of dev: `git checkout -b my-cool-new-feature`
+
+3. Person 1 makes changes of some kind to the files
+
+5. Person 1 Adds & commits the files: `git add -A && git commit -am "My new feature commit"`
+
+6. Person 1 pushes the changes: `git push`
+
+7. Person 1 creates a pull request from feature branch into dev, i.e. `my-cool-new-feature` will be merged into `dev`
+
+8. Another Person, Person 2, will then review this pull request to judge whether the potential changes should be merged
+
+9. Person 2 then merges the pull request
+
+10. Later, after the `dev` branch has been tested and it is time to update `main` a pull request will be created to merge `dev` into `main`
+
+11. The team will then review the resulting pull request and merge dev into main once they are satisfied with the state of `dev`
 
 ## CMS Specific GitHub Resources
 
