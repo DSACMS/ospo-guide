@@ -3,10 +3,10 @@
 Welcome to our OSPO reading list! If you would like to submit items to the reading list, please check out [this issue template](https://github.com/DSACMS/ospo-guide/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=). Many of the reading items listed are influenced by the TODO group’s recommended reading.
 
 #### Suggested Reading Acceptance Criteria
-- Is the item open licensed? 
-- Is it behind a paywall? 
-- Is it about current open source policy? 
-- Is this a historical piece? 
+- [ ] Is the item open licensed? 
+- [ ] Is it behind a paywall? 
+- [ ] Is it about current open source policy? 
+- [ ] Is this a historical piece? 
 
 ## Reading List
 - [Open Source Archetypes: A Framework For Purposeful Open Source](https://blog.mozilla.org/wp-content/uploads/2018/05/MZOTS_OS_Archetypes_report_ext_scr.pdf)
