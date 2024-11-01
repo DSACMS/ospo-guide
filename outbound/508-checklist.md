@@ -33,16 +33,16 @@ In **Slides**, complete the following tasks:
 
 In **Microsoft Powerpoint or aternative of your choice**, please complete the following:
 
-    -[ ] Run Accessibility Checker
-        -[ ] Resolve Errors
-            - [ ] Missing alt text
-                - [ ] Mark decorative objects
-            - [ ] Missing title slide
-        - [ ] Review Warnings
-            - [ ] Check reading order
-        - [ ] Review Tips
-            - [ ] Duplicate slide titles
-        - [ ] Review the screen reader outline
+ - [ ] Run Accessibility Checker
+    - [ ] Resolve Errors
+      - [ ] Missing alt text
+        - [ ] Mark decorative objects
+      - [ ] Missing title slide
+    - [ ] Review Warnings
+        - [ ] Check reading order
+    - [ ] Review Tips
+        - [ ] Duplicate slide titles
+    - [ ] Review the screen reader outline
 
 ## Upload to decks repository
 
