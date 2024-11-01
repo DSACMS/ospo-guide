@@ -1,10 +1,10 @@
-# Powerpoint Presentation 508 Checklist
+# Digital Presentation 508 Checklist
 
 ## About
 
-508 compliance refers to the standards outlined by [Section 508 of the Rehabilitation Act](https://www.access-board.gov/about/law/ra.html), which mandates that electronic documents must be accessible to all, including people with disabilities. The OSPO seeks to make all our PowerPoint presentations, documents, and other electronic materials fully accessible and compliant with 508 standards.
+508 compliance refers to the standards outlined by [Section 508 of the Rehabilitation Act](https://www.access-board.gov/about/law/ra.html), which mandates that electronic documents must be accessible to all, including people with disabilities. The OSPO seeks to make all our digital presentations, documents, and other electronic materials fully accessible and compliant with 508 standards.
 
-Below is our process making a powerpoint slide presentation 508 compliant.
+Below is our process for making a slide presentation accessible:
 
 ## 508 Checklist
 
@@ -27,6 +27,7 @@ In **Google Slides**, complete the following tasks:
 | 11 | [Ensuring Descriptions of Embedded Audio, Video and Multimedia Files are Accurate](https://www.section508.gov/training/presentations/aed-cop-pptx11/) | <ul><li>Carefully name your media files with descriptive titles that clearly convey the content, and when necessary, add detailed captions or alternative text to explain what is being shown or heard.</li><li>Include key details like speaker names, topic, or location when relevant.</li><li>When adding images with embedded audio or video, provide alternative text that describes what is visually happening in the image alongside the audio or video content.</li></ul> | |
 | 12 | [Excluding Flashing Objects](https://www.section508.gov/training/presentations/aed-cop-pptx12/) | <ul><li>Remove flashing objects from slides since they can cause seizures</li</ul>
 | 13 | [Saving in the .pptx Format with a Descriptive Filename](https://www.section508.gov/training/presentations/aed-cop-pptx13/) | <ul><li>Use a descriptive file name to identify the document and its purpose so everyone can locate, open, and switch between documents.</li></ul> | |
+| 14 | [Export the .pptx to a .pdf](https://www.section508.gov/create/pdfs/) | <ul><li>PDF files typically look the same on every device, and don't rely on dynamically loading things like typefaces or images from local systems. PDFs help preserve formatting, and limit usage of features like animations or transitions, that can be difficult to process in screenreaders or other accessibility tools.</li></ul> | |
 
 ## Final Review
 
