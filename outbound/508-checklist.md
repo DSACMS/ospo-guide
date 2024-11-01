@@ -10,7 +10,7 @@ Below is our process for making a slide presentation accessible:
 
 Based on [Create Accessible Presentations](https://www.section508.gov/create/presentations/)
 
-In **Google Slides**, complete the following tasks:
+In **Slides**, complete the following tasks:
 
 | # | Module Name | Tasks | Completed? ✅ |
 |---| :-----------| :-----| :-------------|
@@ -31,7 +31,7 @@ In **Google Slides**, complete the following tasks:
 
 ## Final Review
 
-In **Microsoft Powerpoint**, please complete the following:
+In **Microsoft Powerpoint or aternative of your choice**, please complete the following:
 
     -[ ] Run Accessibility Checker
         -[ ] Resolve Errors
@@ -46,4 +46,4 @@ In **Microsoft Powerpoint**, please complete the following:
 
 ## Upload to decks repository
 
-In **Microsoft Powerpoint**, export to a .pdf format. Upload the 508-ed file to the [decks repository](https://github.com/DSACMS/decks) via pull request.
+In **Microsoft Powerpoint or aternative of your choice**, export to a .pdf format. Upload the 508-ed file to the [decks repository](https://github.com/DSACMS/decks) via pull request.
