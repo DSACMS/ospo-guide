@@ -67,7 +67,7 @@ In the repository's settings page, click on the **Archive this Repository** butt
 
  Step 1             |  Step 2
 :-------------------------:|:-------------------------:
-![](github.png)  |  ![](github2.png)
+![](../assets/archivingrepos/archiving_example_1.png)  |  ![](../assets/archivingrepos/archiving_example_2.png)
 
 ## Archiving a repository on CMS-wide GitHub Organizations
 
