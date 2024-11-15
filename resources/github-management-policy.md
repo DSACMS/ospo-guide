@@ -87,7 +87,7 @@ Information required:
 
 ### Request a third-party integration to be added to the repo
 
-Currently, the DSACMS org does not use many third-party integrations at the moment. Guidance for this is still being established at the moment as we are currently working on developing our inbound processes.
+The DSACMS org uses the following third-party GitHub apps: SonarCloud. If your team would like to install and use an integration in your repository, please file a request by sending a slack message at #cms-ospo. We are open to adding more integrations to this list based on team needs.
 
 Information required:
 - Third-party Integration / GitHub App to be added
