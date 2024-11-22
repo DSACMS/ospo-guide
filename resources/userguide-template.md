@@ -26,7 +26,7 @@ Anything you’d like to share about your interests outside of work, to spark co
 
 ### **Work bio**
 
-Add your bio here. Maybe aim for 250 words.
+Add your bio here. Aim for 250 words.
 
 ### **Work skills**
 
