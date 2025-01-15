@@ -10,11 +10,11 @@ This is a review process to approve open source software to be used in the agenc
 
 [Existing Products and Alternatives](#existing-products-and-alternatives)
 
-[Software Evaluation \[BR-OSS-2\]](#software-evaluation-[br-oss-2])
+[Software Evaluation \[BR-OSS-2\]](#software-evaluation-br-oss-2)
 
-[Total Cost of Ownership \[BR-OSS-3\]](#total-cost-of-ownership-[br-oss-3])
+[Total Cost of Ownership \[BR-OSS-3\]](#total-cost-of-ownership-br-oss-3)
 
-[License Compatibility \[BR-OSS-4\]](#license-compatibility-[br-oss-4])
+[License Compatibility \[BR-OSS-4\]](#license-compatibility-br-oss-4)
 
 [Security Assessment](#security-assessment)
 
@@ -161,7 +161,7 @@ It will be CMS’s responsibility to ensure that all subsequent government estim
 
 **Integration and Customization Costs**: Open source projects may not be designed to operate within enterprise IT infrastructure. IT departments may have to integrate and customize OSS to suit their environments.
 
-**Operations & Support Costs**: Addressed in the [License Compatibility](#license-compatibility-[br-oss-4]) section
+**Operations & Support Costs**: Addressed in the [License Compatibility](#license-compatibility-br-oss-4) section
 
 | Assessment                                                                                                                             | Cost Type                    | Response |
 | :------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------- | :------- |
@@ -300,7 +300,7 @@ Overall Score:
 
 **Results**
 
-## \*\*Insert scorecard report here\*\*
+\*\*Insert scorecard report here\*\*
 
 ## **Additional Notes & Questions**
 
