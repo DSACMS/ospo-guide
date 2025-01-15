@@ -1,6 +1,6 @@
 # **\[DRAFT\] Inbound Review Checklist**
 
-## **Instructions** {#instructions}
+## **Instructions**
 
 This is a review process to approve open source software to be used in the agency. If you would like to use a specific software, please complete the following steps.
 
@@ -61,12 +61,6 @@ This is a review process to approve open source software to be used in the agenc
 [Sign off](#sign-off)
 
 [Going Forward](#going-forward)
-
-[OSPO Notes](#ospo-notes)
-
-[Proposed Process](#proposed-process)
-
-##
 
 ## **Request Overview** {#request-overview}
 
@@ -233,7 +227,7 @@ _Provide information on the software’s license and terms & conditions associat
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------- |
 | What are the licensing terms/agreements?                                                                                                                                                      |          |
 | What is the licensing usage type? (i.e. Named user, site concurrent, etc.)                                                                                                                    |          |
-| What is the licensing model? (i.e. perpetual, perpetual \+ support renewal, subscription)                                                                                                     |          |
+| What is the licensing model? (i.e. perpetual, perpetual \+ support renewal, subscription)                                                                                                     |          |
 | Does the license associated with the OSS have any of the following restrictions that are unreasonable for CMS: limiting the redistribution of the software code merging with proprietary code |          |
 
 ### Costs {#costs}
