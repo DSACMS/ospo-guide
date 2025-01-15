@@ -35,7 +35,7 @@ Please provide the following information on the software:
 | Name                                                |          |
 | Intended Purpose                                    |          |
 | Project associated with request                     |          |
-| Software Type (OSS, Enterprise, Package, API, etc.) |          |
+| Software Type (OSS, Enterprise, Package, API, etc.) |          |
 
 ### Project & Team Information
 
@@ -43,7 +43,7 @@ Please provide the following information on the project and team:
 
 |                                                                                           | Response |
 | :---------------------------------------------------------------------------------------- | :------- |
-| Who is using the software? *Is it all users or specific people? Provide a list of people* |          |
+| Who is using the software? _Is it all users or specific people? Provide a list of people_ |          |
 | Describe the project associated with the request                                          |          |
 
 ## **Existing Products and Alternatives**
