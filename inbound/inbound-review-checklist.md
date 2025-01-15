@@ -8,53 +8,15 @@ This is a review process to approve open source software to be used in the agenc
 
 [Request Overview](#request-overview)
 
-[Software Information](#software-information)
-
-[Project & Team Information](#project-&-team-information)
-
 [Existing Products and Alternatives](#existing-products-and-alternatives)
-
-[Conduct Strategic Analysis and Analyze Alternatives](#conduct-strategic-analysis-and-analyze-alternatives)
-
-[Existing CMS-approved software](#existing-cms-approved-software)
-
-[Commercial Solutions](#commercial-solutions)
-
-[Custom Software](#custom-software)
-
-[Resources](#resources)
 
 [Software Evaluation \[BR-OSS-2\]](#software-evaluation-[br-oss-2])
 
-[Notes on Productization](#notes-on-productization)
-
 [Total Cost of Ownership \[BR-OSS-3\]](#total-cost-of-ownership-[br-oss-3])
-
-[Cost Types](#cost-types)
 
 [License Compatibility \[BR-OSS-4\]](#license-compatibility-[br-oss-4])
 
-[Licensing Model / Compliance](#licensing-model-/-compliance)
-
-[Costs](#costs)
-
-[Provisioning](#provisioning)
-
-[Support](#support)
-
 [Security Assessment](#security-assessment)
-
-[Compliance with Federal & Agency Security Policies](#compliance-with-federal-&-agency-security-policies)
-
-[Software Composition Analysis](#software-composition-analysis)
-
-[Toolkit](#toolkit)
-
-[Run and Review OpenSSF Scorecard](#run-and-review-openssf-scorecard)
-
-[Determining which scorecard minimums to use:](#determining-which-scorecard-minimums-to-use:)
-
-[Run and Review MITRE Hipcheck](#run-and-review-mitre-hipcheck)
 
 [Additional Notes & Questions](#additional-notes-&-questions)
 
@@ -62,9 +24,9 @@ This is a review process to approve open source software to be used in the agenc
 
 [Going Forward](#going-forward)
 
-## **Request Overview** {#request-overview}
+## **Request Overview**
 
-### Software Information {#software-information}
+### Software Information
 
 Please provide the following information on the software:
 
@@ -75,7 +37,7 @@ Please provide the following information on the software:
 | Project associated with request                     |          |
 | Software Type (OSS, Enterprise, Package, API, etc.) |          |
 
-### Project & Team Information {#project-&-team-information}
+### Project & Team Information
 
 Please provide the following information on the project and team:
 
@@ -84,15 +46,13 @@ Please provide the following information on the project and team:
 | Who is using the software? *Is it all users or specific people? Provide a list of people* |          |
 | Describe the project associated with the request                                          |          |
 
-##
-
-## **Existing Products and Alternatives** {#existing-products-and-alternatives}
+## **Existing Products and Alternatives**
 
 According to Section 3.1 of the Source Code Policy:
 
 In meeting their software needs, covered agencies must conduct \[a\] [three-step analysis](https://code.gov/agency-compliance/compliance/procurement/) \[…\] intended to leverage existing solutions – consistent with principles of category management and shared services – and suitable commercial solutions, while mitigating unnecessary spending on custom-developed software solutions.
 
-### Conduct Strategic Analysis and Analyze Alternatives {#conduct-strategic-analysis-and-analyze-alternatives}
+### Conduct Strategic Analysis and Analyze Alternatives
 
 It is important to conduct strategic analysis and alternatives analysis to determine whether to use an existing Federal software solution or to acquire or develop a new software solution.
 
@@ -100,19 +60,19 @@ It is important to conduct strategic analysis and alternatives analysis to deter
 
 When evaluating alternatives, consider the following:
 
-#### Existing CMS-approved software {#existing-cms-approved-software}
+#### Existing CMS-approved software
 
 - Are there other OSS or COTS products in use at CMS that can serve the same purpose as the OSS?
 
-#### Commercial Solutions {#commercial-solutions}
+#### Commercial Solutions
 
 - COTS can be extended through custom code to satisfy your requirements, however this can become [difficult and costly to maintain](https://guides.18f.gov/derisking-government-tech/software-solutions/#why-to-avoid-umots-or-beware-customizing-cots).
 
-#### Custom Software {#custom-software}
+#### Custom Software
 
 - Having determined that no Federal or commercial solutions exist that completely meet their needs, consider building or buying custom software.
 
-#### Resources {#resources}
+#### Resources
 
 - [18F guide on understanding and choosing a software solution](https://guides.18f.gov/derisking-government-tech/software-solutions/)
 
@@ -152,9 +112,7 @@ _Create a table for each solution considered_
 | Phase per year breakdown Development costs Operations and Maintenance costs System total cost                    |           |
 | What are the cost savings or avoidance associated with this solution?                                            |           |
 
-##
-
-## **Software Evaluation \[BR-OSS-2\]** {#software-evaluation-[br-oss-2]}
+## **Software Evaluation \[BR-OSS-2\]**
 
 Finding the right OSS that meets CMS’s needs requires assessing the maturity of the software and the level of support provided by the community involved in the OSS project. Evaluate the software based on the criteria below according to BR-OSS-2:
 
@@ -172,11 +130,11 @@ _When assessing each criterion, be sure to flag any potential risks found._
 | Bug & Tracking Vulnerability | Is there a bug / vulnerability reporting and resolution system? How quickly are patches issued to resolve them?                                                                                   |          |
 | Productization               | Refer to [Considerations](#considerations:) section                                                                                                                                               |          |
 
-### Notes on Productization {#notes-on-productization}
+### Notes on Productization
 
 CMS is especially interested in the degree to which the OSS is “productized” (in comparison to COTS), which encompasses much of these three criteria. Although most OSS is only partially productized, information is available to support productization. **CMS’s primary concern is assessing the burden to overcome the lack of productization and determining whether the benefits outweigh the risks in this regard.** Initially, CMS will only consider OSS that has third-party vendor support for productization (Red Hat, for example, is a third-party vendor that offers an “enterprise-ready” distribution of Linux (an open source operating system platform) along with associated support, training, and consulting services).
 
-#### Considerations: {#considerations:}
+#### Considerations
 
 - Does the project directly provide or offer support contracts for this product?
 - Is there a 3rd party vendor who provides or offers support contracts for this product?
@@ -187,13 +145,13 @@ CMS is especially interested in the degree to which the OSS is “productized”
 - If a subscription lapses, does CMS continue to have access to the product as it is, or do we lose access to the system?
 - Do any other agencies or operational divisions use this product in a production system?
 
-## **Total Cost of Ownership \[BR-OSS-3\]** {#total-cost-of-ownership-[br-oss-3]}
+## **Total Cost of Ownership \[BR-OSS-3\]**
 
 For CMS, reducing cost is relevant and a valid driver for using OSS. According to BR-OSS-3, the agency must determine the total cost of ownership and the risks of using open source as a solution before adopting or authorizing adoption of OSS for a CMS project.
 
 It will be CMS’s responsibility to ensure that all subsequent government estimates and/or contractor quotes clearly show a detailed breakout of costs associated with using the OSS.
 
-### Cost Types {#cost-types}
+### Cost Types
 
 **Evaluation Costs**: OSS must be installed and evaluated locally to assess its use within the enterprise.
 
@@ -213,13 +171,11 @@ It will be CMS’s responsibility to ensure that all subsequent government estim
 | Describe how maintenance will be conducted                                                                                             | Maintenance                  |          |
 | Does CMS have adequate resources to support development, operations, and maintenance for the OSS?                                      | Maintenance                  |          |
 
-##
-
-## **License Compatibility \[BR-OSS-4\]** {#license-compatibility-[br-oss-4]}
+## **License Compatibility \[BR-OSS-4\]**
 
 When selecting OSS, CMS must ensure that the associated OSS license is consistent with CMS’s objectives and environment. The TRB is responsible for approval of OSS licenses within the [CMS Open Source Policy](https://github.com/CMSgov/cms-open-source-policy).
 
-### Licensing Model / Compliance {#licensing-model-/-compliance}
+### Licensing Model / Compliance
 
 _Provide information on the software’s license and terms & conditions associated with its usage_
 
@@ -230,7 +186,7 @@ _Provide information on the software’s license and terms & conditions associat
 | What is the licensing model? (i.e. perpetual, perpetual \+ support renewal, subscription)                                                                                                     |          |
 | Does the license associated with the OSS have any of the following restrictions that are unreasonable for CMS: limiting the redistribution of the software code merging with proprietary code |          |
 
-### Costs {#costs}
+### Costs
 
 _Provide information on how the software is priced_
 
@@ -241,7 +197,7 @@ _Provide information on how the software is priced_
 | Who holds the license agreement?         |          |
 | Who is currently paying for these costs? |          |
 
-### Provisioning {#provisioning}
+### Provisioning
 
 _Provide information on the setup, configuration, and access management process required to enable software usage._
 
@@ -252,7 +208,7 @@ _Provide information on the setup, configuration, and access management process 
 | Does the requestor have access to the license key? |          |
 | What is the licensing contact information?         |          |
 
-### Support {#support}
+### Support
 
 _Assess the support services delivered, the tools and processes involved, roles of support teams, and overall operation and support costs \[BR-OSS-3\]._
 
@@ -262,17 +218,15 @@ _Assess the support services delivered, the tools and processes involved, roles 
 | Is there an active support agreement? (SLAs)                                                                     |          |
 | What is the support contact information?                                                                         |          |
 
-##
-
-## **Security Assessment** {#security-assessment}
+## **Security Assessment**
 
 To evaluate the risks associated with using the software, our software approval and assurance process incorporates thorough checks focused on security, integrity, dependencies, potential malicious activity, and long-term project support. Leveraging tools like OpenSSF Scorecard and MITRE Hipcheck, we identify and flag potential concerns for further investigation by our product and security teams.
 
-### Compliance with Federal & Agency Security Policies {#compliance-with-federal-&-agency-security-policies}
+### Compliance with Federal & Agency Security Policies
 
 Are there CMS or federal security policies that prohibit the use of the OSS? Does the OSS product allow implementation of CMS or federal security requirements?
 
-### Software Composition Analysis {#software-composition-analysis}
+### Software Composition Analysis
 
 1. Generate a Software Bill of Materials (SBOM) (see: [https://www.cisa.gov/sbom](https://www.cisa.gov/sbom) for more details)
    1. If project is on GitHub, you can find and export the SBOM in the repository insights page: github.com/\<REPO*\>*/network/dependencies
@@ -280,7 +234,7 @@ Are there CMS or federal security policies that prohibit the use of the OSS? Doe
 2. Use tools in the toolkit below to ingest the SBOM and create reports providing detailed information of the software composition
    1. Check for common and known vulnerabilities using the National Vulnerability Database (NVD)
 
-### Toolkit {#toolkit}
+### Toolkit
 
 Below is a list of suggested tools to run for software composition analysis:
 
@@ -297,22 +251,18 @@ Below is a list of suggested tools to run for software composition analysis:
 
 \*\*Insert report and review here\*\*
 
-###
-
-###
-
-### Run and Review OpenSSF Scorecard {#run-and-review-openssf-scorecard}
+### Run and Review OpenSSF Scorecard
 
 The [OpenSSF Scorecard](https://securityscorecards.dev/#what-is-openssf-scorecard) assesses security risks and community security practices of the software through a series of automated checks. The scorecard checks for vulnerabilities affecting different parts of the software supply chain including source code, build, dependencies, testing, and project maintenance.
 
-#### Determining which scorecard minimums to use: {#determining-which-scorecard-minimums-to-use:}
+#### Determining which scorecard minimums to use
 
 - Is it a web-facing project?
 - Does it allow for user input?
 - Is it written in a memory unsafe language like C or C++?
 - Is it packaged and released on a distribution site like pypi, npm, crates, etc…?
 
-#### Instructions:
+#### Instructions
 
 1. Run the scorecard on the software repository [using the CLI](https://securityscorecards.dev/#using-the-cli).
 2. Report the scores in the table below. Check whether they pass the minimum.
@@ -344,9 +294,7 @@ Overall Score:
 
 \*\*Insert review here\*\*
 
-###
-
-### Run and Review MITRE Hipcheck {#run-and-review-mitre-hipcheck}
+### Run and Review MITRE Hipcheck
 
 [Hipcheck](https://github.com/mitre/hipcheck) is a command line interface (CLI) tool for analyzing open source software packages and source repositories to understand their software supply chain risk. It analyzes a project's software development practices and detects active supply chain attacks to give you both a long-term and immediate picture of the risk from using a package.
 
@@ -354,11 +302,11 @@ Overall Score:
 
 ## \*\*Insert scorecard report here\*\*
 
-## **Additional Notes & Questions** {#additional-notes-&-questions}
+## **Additional Notes & Questions**
 
 \*Insert any notes or questions here\*
 
-## **Sign off** {#sign-off}
+## **Sign off**
 
 After reviewing the materials prepared by the team that put in the request, the business owner signs off on a risk acceptance for usage of the software product.
 
@@ -371,7 +319,7 @@ Requesting sign off from key people on this request.
 | ISG Technical Approval         | ISG REVIEWER                                    | \[Approved/Needs Approval\]                                                         |
 | Business Owner(s)              | BUSINESS OWNER 1 BUSINESS OWNER 2               | \[Approved/Needs Approval\] \[Approved/Needs Approval\]                             |
 
-## **Going Forward** {#going-forward}
+## **Going Forward**
 
 Contractors using open source frameworks and libraries are responsible for:
 
