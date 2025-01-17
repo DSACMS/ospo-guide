@@ -1,6 +1,6 @@
 # **Outbound Reviews: Scanning Tools for PII and Secrets**
 
-**Bulk\_extractor** is a forensic tool used to extract useful information from disk images, files and other digital media. It looks for strings of interest, such as email addresses, URLs, credit card numbers and other artifacts. Unlike traditional forensic tools, **bulk\_extractor** does not mount or parse the file system, making it faster and more suitable for unstructured data. It is commonly used for cybersecurity investigations, data recovery and digital forensics. 
+**Bulk_extractor** is a forensic tool used to extract useful information from disk images, files and other digital media. It looks for strings of interest, such as email addresses, URLs, credit card numbers and other artifacts. Unlike traditional forensic tools, **bulk_extractor** does not mount or parse the file system, making it faster and more suitable for unstructured data. It is commonly used for cybersecurity investigations, data recovery and digital forensics. 
 
 **Gitleaks** is an open-source tool designed to detect and prevent secrets (like API keys, tokens and passwords) from being committed to Git repositories. It scans repositories, including their entire history, for hardcoded secrets and generates reports to help developers address potential security vulnerabilities. **Gitleaks** is specifically tailored to source code repositories, making it highly effective in development environments.
 
@@ -42,19 +42,19 @@ GitLeaks:
 
 Ensure you are installing bulk\_extractor in your local drive not within the repository or disk you are checking.
 
-* \`brew install autoconf\`  
-* \`brew install automake\`  
-* \`brew install libtool\`  
-* \`brew install pkg-config\`
+`$ brew install autoconf`  
+`$ brew install automake`  
+`$ brew install libtool`  
+`$ brew install pkg-config`
 
-* \`git clone \--recurse-submodules [https://github.com/simsong/bulk\_extractor.git](https://github.com/simsong/bulk_extractor.git)\`
+`$ git clone --recurse-submodules https://github.com/simsong/bulk_extractor.git`
 
-* \`cd bulk\_extractor\`
+`$ cd bulk\_extractor`
 
-* \`./bootstrap.sh\`  
-* \`./configure\`  
-* \`make\`  
-* \`make install\`
+`$ ./bootstrap.sh`  
+`$ ./configure`  
+`$ make`  
+`$ make install`
 
 ### **Bulk-Extractor Installation for Windows**
 
@@ -69,32 +69,32 @@ Ensure you are installing bulk\_extractor in your local drive not within the rep
 		or
 
 * Start with a clean Virtual Machine (VM) and use these commands:  
-  * $ git clone \--recurse-submodules [https://github.com/simsong/bulk\_extractor.git](https://github.com/simsong/bulk_extractor.git)  
-  * $ cd bulk\_extractor/etc  
-  * $ bash CONFIGURE\_FEDORA36\_win64.bash  
-  * $ cd ..  
-  * $ make win64
+ `$ git clone --recurse-submodules https://github.com/simsong/bulk_extractor.git`
+ `$ cd bulk_extractor/etc` 
+ `$ bash CONFIGURE_FEDORA36_win64.bash`
+ `$ cd ..`  
+ `$ make win64`
 
 * Open Command Prompt and test the installation:  
-  * \`bulk\_extractor.exe \-h\`
+`bulk_extractor.exe -h`
 
-Note: Currently bulk\_extractor 2.1 does not build on windows, but bulk\_extractor 2.0 does.
+**Note:** Currently bulk\_extractor 2.1 does not build on windows, but bulk\_extractor 2.0 does.
 
 ### **Bulk-Extractor Installation for Linux**
 
 * Update your package manager:  
-  * \`sudo apt-get update\`  
+  `$ sudo apt-get update`  
 * Install required dependencies  
-  * \`sudo apt-get install \-y build-essential cmake\`  
+  `$ sudo apt-get install -y build-essential cmake`  
 * Clone the Bulk Extractor repository and build the source code:  
-  * \`git clone [https://github.com/simsong/bulk\_extractor.git](https://github.com/simsong/bulk_extractor.git)\`  
-  * \`cd bulk\_extractor\`  
-  * \`mkdir build && cd build\`  
-  * \`cmake ..\`  
-  * \`make\`  
-  * \`sudo make install\`  
+  `$ git clone https://github.com/simsong/bulk_extractor.git`  
+  `$ cd bulk_extractor`  
+  `$ mkdir build && cd build`  
+  `$ cmake ..`  
+  `$ make`  
+  `$ sudo make install`  
 * Verify installation:  
-  * \`bulk\_extractor \-h\`
+  `$ bulk_extractor -h`
 
 ### **How to use:**
 
@@ -102,13 +102,13 @@ Note: Currently bulk\_extractor 2.1 does not build on windows, but bulk\_extract
 * Alternatively, if the repository you are checking has a directory already available for storing test results, you can use that.
 
 You can run the basic:   
-\`bulk\_extractor \-o \</path/to/output\_directory\> \<path/to/input\_file\_or\_image\>\`
+`$ bulk_extractor -o </path/to/output_directory> <path/to/input_file_or_image>`
 
 You can also extract only certain files:  
 Example:  
-\`bulk\_extractor \-o \<output\_directory\> \-E email,input \<input\_file\_or\_image\>\`
+`$ bulk_extractor -o <output_directory> -E email,input <input_file_or_image>`
 
-Outputs are saved as \`.txt\` files.
+Outputs are saved as `.txt` files.
 
 ---
 
@@ -120,8 +120,8 @@ Outputs are saved as \`.txt\` files.
 
 ### **Language use:**
 
-Python \- Great  
-R \- Meh  
-C++ \- Great  
-Java \- Ok  
-JavaScript \- Ok  
+Python - Great  
+R - Meh  
+C++ - Great  
+Java - Ok  
+JavaScript - Ok  
