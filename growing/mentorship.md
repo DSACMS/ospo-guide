@@ -7,7 +7,7 @@ This guide describes the general approach that our team takes to supporting each
 ## Definitions
 
 **<dt>The Federal Retirement Cliff</dt>**  
-<dd>According to OMB.gov’s most recent data in 2024, "for every 1 employee under the age of 30, there are 7 over the age of 50."</dd> Source:[https://www.opm.gov/policy-data-oversight/data-analysis-documentation/federal-employment-reports/reports-publications/full-time-permanent-age-distributions/](https://www.opm.gov/policy-data-oversight/data-analysis-documentation/federal-employment-reports/reports-publications/full-time-permanent-age-distributions/)
+<dd>According to OMB.gov’s most recent data in 2024, "for every 1 employee under the age of 30, there are 7 over the age of 50." Source: https://www.opm.gov/policy-data-oversight/data-analysis-documentation/federal-employment-reports/reports-publications/full-time-permanent-age-distributions/</dd>
 
 ## Guidance
 
