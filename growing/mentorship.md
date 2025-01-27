@@ -27,15 +27,13 @@ This guide describes the general approach that our team takes to supporting each
 One contributor alone, is isolated. Two can be partners. Three or more is the start of a community. This makes the cohort more resilient to continuity challenges such as sick time, vacation days, hiring cycle gaps, and onboarding ramp-up time. Cohorts also allow pooling of technical resources and distribution of work. Think of Cohorts like a roster for a team sport. It is difficult to find one player who can play every position on the field. Instead you can think about your 'bench strength' of talent, and optimize for depth or breadth as your team scales up or down. We've seen the most cohort cohesion when hiring fullstack generalists, rather than specialized roles (backend, front-end, data science) particularly when hiring early career. Specialization often occurs later in your career or education path, so early career folks may not have had the time to accumulate specialized experience or training. When the entire cohort can perform most tasks, sharing work and pairing or mobbing problems also becomes easier.
 
 ### Identify Team Strengths and Interests  
-Some of the first onboarding activities we conduct with new hires or volunteers is to do a Skills and Goals Inventory, and create User Guides.
+Some of the first onboarding activities we conduct with new hires or volunteers is to do a Skills and Goals Inventory, and create User Guides. You can view our starter template here: https://github.com/DSACMS/ospo-guide/blob/main/resources/userguide-template.md
 
 #### Skills and Goals Inventory
 
 - Part One: What personal Strengths/Skills do you already have? (Domains, Tools, Roles)   
 - Part One: What personal Strengths/Skills would you like to develop? (Domains, Tools, Roles)  
 - Part Two: What OSPO projects will help you meet your personal development goals?
-
-#### User-guide (README)
 
 ## Embrace Agile Development  
 ### Regularity and Consistency  
