@@ -1,0 +1,44 @@
+{
+  "name": "ospo-guide",
+  "description": "Open Source Program Office Guide for CMS.gov",
+  "longDescription": "",
+  "status": "",
+  "permissions": {
+    "license": [
+      {
+        "name": "",
+        "URL": ""
+      }
+    ],
+    "usageType": "",
+    "exemptionText": ""
+  },
+  "organization": "",
+  "repositoryURL": "https://github.com/DSACMS/ospo-guide",
+  "vcs": "git",
+  "laborHours": 2992,
+  "platforms": [],
+  "categories": [],
+  "softwareType": "",
+  "languages": [],
+  "maintenance": "",
+  "date": {
+    "created": "2024-04-03T20:47:21Z",
+    "lastModified": "2025-02-11T17:21:41Z",
+    "metaDataLastUpdated": "2025-02-11T17:22:34.291Z"
+  },
+  "tags": [],
+  "contact": {
+    "email": "",
+    "name": ""
+  },
+  "localisation": false,
+  "repositoryType": "",
+  "userInput": false,
+  "fismaLevel": "",
+  "group": "",
+  "subsetInHealthcare": [],
+  "userType": [],
+  "repositoryHost": "github",
+  "maturityModelTier": 0
+}
