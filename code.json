@@ -1,0 +1,44 @@
+{
+  "name": "ospo-guide",
+  "description": "Open Source Program Office Guide for CMS.gov",
+  "longDescription": "Source of truth for all processes that take place within the Open Source Program Office.",
+  "status": "Production",
+  "permissions": {
+    "license": [
+      {
+        "name": "CC0 1.0 Universal",
+        "URL": "https://github.com/DSACMS/ospo-guide/blob/main/LICENSE"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": ""
+  },
+  "organization": "Centers for Medicare & Medicaid Services",
+  "repositoryURL": "https://github.com/DSACMS/ospo-guide",
+  "vcs": "git",
+  "laborHours": 2992,
+  "platforms": ["web"],
+  "categories": ["knowledge-management", "document-management"],
+  "softwareType": "standalone/web",
+  "languages": ["Markdown"],
+  "maintenance": "internal",
+  "date": {
+    "created": "2024-04-03T20:47:21Z",
+    "lastModified": "2025-02-11T17:21:41Z",
+    "metaDataLastUpdated": "2025-02-11T17:22:34.291Z"
+  },
+  "tags": ["OSPO", "guide", "documentation"],
+  "contact": {
+    "email": "opensource@cms.hhs.gov",
+    "name": "CMS Open Source Team"
+  },
+  "localisation": false,
+  "repositoryType": "standards",
+  "userInput": false,
+  "fismaLevel": "Low",
+  "group": "CMS/OA/DSAC",
+  "subsetInHealthcare": ["Operational"],
+  "userType": ["Government"],
+  "repositoryHost": "github.com/DSACMS",
+  "maturityModelTier": 2
+}
