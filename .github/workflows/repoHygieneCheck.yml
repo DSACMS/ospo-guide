@@ -47,10 +47,10 @@ jobs:
     if: needs.check-first-run.outputs.should_run == 'true'
     uses: DSACMS/repo-scaffolder/.github/workflows/extendJSONFile.yml@main
     with: 
-      url_to_json: 'https://raw.githubusercontent.com/DSACMS/repo-scaffolder/main/tier1/%7B%7Bcookiecutter.project_slug%7D%7D/repolinter.json'
+      url_to_json: 'https://raw.githubusercontent.com/DSACMS/repo-scaffolder/main/tier2/%7B%7Bcookiecutter.project_slug%7D%7D/repolinter.json'
   
   repolinter-checks:
-    name: Tier 1 Checks
+    name: Tier 2 Checks
     needs: [check-first-run, resolve-repolinter-json]
     if: needs.check-first-run.outputs.should_run == 'true'
     runs-on: ubuntu-latest
