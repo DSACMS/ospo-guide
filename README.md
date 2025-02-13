@@ -74,3 +74,43 @@ dedication](https://creativecommons.org/publicdomain/zero/1.0/) as indicated in 
 All contributions to this project will be released under the CC0 dedication. By
 submitting a pull request or issue, you are agreeing to comply with this waiver
 of copyright interest.
+ 
+ ## About the Project 
+<!-- This should be a longer-form description of the project. It can include history, background, details, problem statements, links to design documents or other supporting materials, or any other information/context that a user or contributor might be interested in. --> 
+ 
+ ## Project Vision 
+<!-- Provide the long-term goals and aspirations for this project. --> 
+ 
+ ## Project Mission 
+<!-- Provide the core mission and objectives driving this project. --> 
+ 
+ ## Agency Mission 
+<!-- Provide the mission of the agency and how this project aligns. --> 
+ 
+ ## Team Mission 
+<!-- Provide the team's mission and how they work together. --> 
+ 
+ ## Core Team 
+An up-to-date list of core team members can be found in [MAINTAINERS.md](MAINTAINERS.md). At this time, the project is still building the core team and defining roles and responsibilities. We are eagerly seeking individuals who would like to join the community and help us define and fill these roles. 
+ 
+ ## Local Development 
+<!--- TODO - with example below: 
+This project is monorepo with several apps. Please see the [api](./api/README.md) and [frontend](./frontend/README.md) READMEs for information on spinning up those projects locally. Also see the project [documentation](./documentation) for more info. --> 
+ 
+ ## Coding Style and Linters 
+<!-- TODO - Add the repo's linting and code style guidelines --> 
+ Each application has its own linting and testing guidelines. Lint and code tests are run on each commit, so linters and tests should be run locally before commiting. 
+ 
+ ## Contributing 
+Thank you for considering contributing to an Open Source project of the US Government! For more information about our contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md). 
+ 
+ ## Codeowners 
+The contents of this repository are managed by **{responsible organization(s)}**. Those responsible for the code and documentation in this repository can be found in [CODEOWNERS.md](CODEOWNERS.md). 
+ 
+ ## Community Guidelines 
+Principles and guidelines for participating in our open source community are can be found in [COMMUNITY_GUIDELINES.md](COMMUNITY_GUIDELINES.md). Please read them before joining or starting a conversation in this repo or one of the channels listed below. All community members and participants are expected to adhere to the community guidelines and code of conduct when participating in community spaces including: code repositories, communication channels and venues, and events. 
+ 
+ ### Software Bill of Materials (SBOM) 
+A Software Bill of Materials (SBOM) is a formal record containing the details and supply chain relationships of various components used in building software.
+In the spirit of [Executive Order 14028 - Improving the Nation's Cyber Security](https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/information-technology-category/it-security/executive-order-14028), a SBOM for this repository is provided here: https://github.com/{repo_org}/{repo_name}/network/dependencies.
+For more information and resources about SBOMs, visit: https://www.cisa.gov/sbom.
