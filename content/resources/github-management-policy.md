@@ -32,6 +32,19 @@ sticky_sidenav: true
 - [Monthly audit of membership](#monthly-audit-of-membership)
 - [Review activity log](#review-activity-log)
 - [Security](#security)
+
+  - [Organization-wide Settings](#organization-wide-settings)
+    - [Authentication Security](#authentication-security)
+    - [Code Security](#code-security)
+  - [Check Tokens & Keys](#check-tokens--keys)
+    - [Personal Access Tokens](#personal-access-tokens)
+    - [Private Keys for GitHub Apps](#private-keys-for-github-apps)
+  - [Check Secrets](#check-secrets)
+    - [Actions Secrets & Variables](#actions-secrets--variables)
+    - [Codespaces Secrets](#codespaces-secrets)
+    - [Dependabot Secrets](#dependabot-secrets)
+  - [Monitor usage under GitHub plan](#monitor-usage-under-github-plan)
+
   - [Organization-wide Settings](#organization-wide-settings)
     - [Authentication Security](#authentication-security)
     - [Code Security](#code-security)
@@ -52,6 +65,7 @@ sticky_sidenav: true
 
 #### Step 1: Creating a Team with Project Maintainers - Maintainers Team
 
+Project maintainers will be placed in their own separate team and serve as the main point of contact for coordinating team & repository management with the OSPO.
 Project maintainers will be placed in their own separate team and serve as the main point of contact for coordinating team & repository management with the OSPO.
 
 Information required:
@@ -76,6 +90,10 @@ Information required:
 [Child teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams#nested-teams) can be granted additional and more granular access to certain repositories. Examples of child teams can include code reviewers, developers under a repo domain, and project leads.
 
 Information required:
+
+- Team name: _projectName_\__teamType_
+
+  - Examples of team types: frontend team, backend team, reviewers
 
 - Team name: _projectName_\__teamType_
   - Examples of team types: frontend team, backend team, reviewers
@@ -108,11 +126,18 @@ Information required:
   - Committer team
   - Any other teams/child teams
 
+- Project teams to add to repository, such as:
+
+  - Maintainer team
+  - Committer team
+  - Any other teams/child teams
+
 - Repository Visibility: private or public
   - Include an assessment of benefits and risks of selecting this visibility
 
 ### Request a new team to be added to a repo
 
+Maintainer teams have MAINTAIN access while committer teams have WRITE access. If you or other members want to be promoted to MAINTAIN access, please indicate this in the form. ADMIN access is only available to DSACMS organization owners for now. MAINTAINERS.md will be updated accordingly.
 Maintainer teams have MAINTAIN access while committer teams have WRITE access. If you or other members want to be promoted to MAINTAIN access, please indicate this in the form. ADMIN access is only available to DSACMS organization owners for now. MAINTAINERS.md will be updated accordingly.
 
 Information required:
@@ -174,6 +199,7 @@ Review the [list of sent invitations](https://github.com/orgs/DSACMS/people/pend
 ### Review activity log
 
 The audit log for organization activity must be reviewed on a monthly basis. Export the log as a CSV and attach it to the _name_of_ticket_here_ in internal CMS GitHub. Any org members can do this. https://github.com/organizations/DSACMS/settings/audit-log
+The audit log for organization activity must be reviewed on a monthly basis. Export the log as a CSV and attach it to the _name_of_ticket_here_ in internal CMS GitHub. Any org members can do this. https://github.com/organizations/DSACMS/settings/audit-log
 
 - Organization Membership
 - Team Management
@@ -197,9 +223,12 @@ Two-factor authentication is required for everyone under the DSACMS organization
 [https://github.com/organizations/DSACMS/settings/security_products](https://github.com/organizations/DSACMS/settings/security_products)
 
 - All repositories use the GitHub-recommended code security configuration:
+  ![Code Security Configuration](../assets/githubmanagementpolicy/code_security_configurations.png)
   {% image_with_class "assets/resources/img/github-management-policy/code_security_configurations.png" "" "GitHub Code Security Configurations" %}
 
 - Currently, all public repositories under DSACMS use GitHub Advanced Security
+  features (i.e. Code Scanning, Secret Scanning). Private repositories will only have
+  free features enabled.
   features (i.e. Code Scanning, Secret Scanning). Private repositories will only have
   free features enabled.
 
@@ -227,6 +256,8 @@ The active tokens must be reviewed on a monthly basis. Export the log as a CSV a
 Personal Access Tokens will be granted for repo permissions with read and/or write access. Organization permissions will require explicit permission.
 
 ##### Private Keys for GitHub Apps
+
+Please review keys used for third-party apps and GitHub apps: https://github.com/organizations/DSACMS/settings/installations
 
 Please review keys used for third-party apps and GitHub apps: [https://github.com/organizations/DSACMS/settings/installations](https://github.com/organizations/DSACMS/settings/installations)
 
