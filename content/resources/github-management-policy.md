@@ -223,7 +223,6 @@ Two-factor authentication is required for everyone under the DSACMS organization
 [https://github.com/organizations/DSACMS/settings/security_products](https://github.com/organizations/DSACMS/settings/security_products)
 
 - All repositories use the GitHub-recommended code security configuration:
-  ![Code Security Configuration](../assets/githubmanagementpolicy/code_security_configurations.png)
   {% image_with_class "assets/resources/img/github-management-policy/code_security_configurations.png" "" "GitHub Code Security Configurations" %}
 
 - Currently, all public repositories under DSACMS use GitHub Advanced Security
