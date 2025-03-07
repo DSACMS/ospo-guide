@@ -1,0 +1,28 @@
+title: OSPO Guide
+description: >- # this means to ignore newlines
+  A central resource for Open Source at CMS
+
+host: https://dsacms.github.io/
+# TODO: Digital Analytics Program
+# dap:
+#   agency: GSA
+#   subagency: TTS
+
+# TODO: Google Analytics
+# ga:
+#   ua: G-94QF2Z1S0G
+
+# TODO: Search.gov configuration
+# 1. Create an account with Search.gov https://search.usa.gov/signup
+# 2. Add a new site.
+# 3. Add your site/affiliate name here.
+
+# TODO: Configure touchpoints
+# Touchpoints survey form data, if any. See: https://github.com/GSA/touchpoints/wiki/Delivery-Options
+# touchpoints:
+#   script: https://touchpoints.app.cloud.gov/touchpoints/7d891616.js
+#   button_id: touchpoints-form
+##########################################################################################
+# The values below here are more advanced and should only be
+# changed if you know what they do
+##########################################################################################

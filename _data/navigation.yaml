@@ -1,0 +1,14 @@
+# The primary navigation
+ospo:
+  - name: Overview
+    url: /
+  - name: Inbound
+    url: /inbound/
+  - name: Outbound
+    url: /outbound/
+  - name: Growing
+    url: /growing/
+  - name: Resources
+    url: /resources/
+  - name: About
+    url: /about/
