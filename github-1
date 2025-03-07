@@ -1,0 +1,5 @@
+<script>start("/Users/l9a1/Desktop/ospo-guide/.github/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("ISSUE_TEMPLATE","ISSUE_TEMPLATE",1,96,"96 B",1730759929,"11/4/24, 2:38:49 PM");</script>
+<script>addRow("workflows","workflows",1,224,"224 B",1741380599,"3/7/25, 12:49:59 PM");</script>
+<script>addRow("PULL_REQUEST_TEMPLATE.md","PULL_REQUEST_TEMPLATE.md",0,1463,"1.4 kB",1730759929,"11/4/24, 2:38:49 PM");</script>

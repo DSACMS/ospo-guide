@@ -1,0 +1,14 @@
+<section class="usa-prose grid-container section usa-section section--{{ section_slug }}" id="{{ section_slug }}">
+    <h2 class="section--title section--{{ section.name | downcase }}--title">{{ section.name }}</h2>
+    <div class="grid-row">
+      <div class="grid-col-8">
+        <div class="section--header usa-content">
+          <p class="section--subtitle">{{ section.description }}</p>
+          <p>{{ section.info }}</p>
+          <a href="{{ section.path | url }}" class="usa-link a-see-all">See all {{ section.name | downcase }} items </a>
+        </div>
+      </div>
+      <div class="grid-col-4 sections-listing"><h3>Content includes</h3>{% include "home/homepage-section-include.html" section_slug: section_slug %}</div>
+    </div>
+  </section>
+  
