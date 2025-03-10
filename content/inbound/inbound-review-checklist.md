@@ -36,7 +36,7 @@ This document is a draft and is subject to further revisions and updates. The co
 
 [Security Assessment](#security-assessment)
 
-[Additional Notes & Questions](#additional-notes--questions)
+[Additional Notes & Questions](#additional-notes-and-questions)
 
 [Sign off](#sign-off)
 
@@ -320,7 +320,7 @@ Overall Score:
 
 \*\*Insert scorecard report here\*\*
 
-## Additional Notes & Questions
+## Additional Notes and Questions
 
 \*Insert any notes or questions here\*
 
