@@ -36,6 +36,8 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+          BASEURL: /ospo-guide
 
       - name: Setup GitHub pages
         uses: actions/configure-pages@v5
@@ -43,7 +45,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./
+          path: ./_site
 
       - name: Deploy to GitHub pages
         uses: actions/deploy-pages@v4
