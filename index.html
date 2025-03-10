@@ -1,0 +1,34 @@
+---
+permalink: /
+layout: layouts/default
+title: OSPO Guide
+tags: ospo
+eleventyNavigation:
+  parent: ospo
+  key: ospo-home
+  order: 1
+  title: About this guide
+description: The one stop shop for everything open source at CMS
+eleventyExcludeFromCollections: true
+---
+
+<div class="usa-section intro-header">
+    <div class="grid-container">
+      <h1 class="visually-hidden">
+        {{ title }}
+      </h1>
+      <p class="usa-intro usa-intro--sections no-print">A collection of OSS resources created by the CMS Open Source Program Office!</p>
+    </div>
+  </div>
+  <div class="usa-section layout--sections">
+  {% for obj in guide_sections %}
+    {% comment %}
+      guide_sections is a hash, so the object in the iteration is a key/values array.
+      obj[0] is the key, which can be used as a slugified version of the section name.
+      obj[1] is the section values object.
+    {% endcomment %}
+    {% assign section_slug = obj[0] %}
+    {% assign section = obj[1] %}
+    {% include "home/homepage-section.html" section_slug: section_slug section: section %}
+  {% endfor %}
+  </div>
