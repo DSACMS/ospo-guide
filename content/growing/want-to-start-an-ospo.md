@@ -1,7 +1,7 @@
 ---
 title: Want to Start an OSPO
 description: 'Guide on starting an OSPO'
-permalink: /growing/want-to-start-an-ospo
+permalink: /growing/want-to-start-an-ospo/
 layout: layouts/page
 section: growing
 tags: ospo

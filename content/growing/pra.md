@@ -1,7 +1,7 @@
 ---
 title: Paperwork Reduction Act Federal Resources
 description: 'Growing'
-permalink: /growing/pra
+permalink: /growing/pra/
 layout: layouts/page
 section: growing
 tags: ospo

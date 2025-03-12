@@ -1,7 +1,7 @@
 ---
 title: Plain Language Federal Resources
 description: 'Growing'
-permalink: /growing/plain-language
+permalink: /growing/plain-language/
 layout: layouts/page
 section: growing
 tags: ospo

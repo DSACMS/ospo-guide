@@ -1,7 +1,7 @@
 ---
 title: Acceptable Licenses
 description: 'Acceptable Licenses'
-permalink: /inbound/acceptable-licenses
+permalink: /inbound/acceptable-licenses/
 layout: layouts/page
 section: inbound
 tags: ospo

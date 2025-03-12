@@ -1,7 +1,7 @@
 ---
 title: Outbound Checklists
 description: 'CMS OSPO Outbound Review Checklists'
-permalink: /outbound/outbound-checklists
+permalink: /outbound/outbound-checklists/
 layout: layouts/page
 section: outbound
 tags: ospo

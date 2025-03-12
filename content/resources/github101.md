@@ -1,7 +1,7 @@
 ---
 title: GitHub 101
 description: 'Basic Git Terminology and GitHub Workflow overview'
-permalink: /resources/github101
+permalink: /resources/github101/
 layout: layouts/page
 section: resources
 tags: ospo

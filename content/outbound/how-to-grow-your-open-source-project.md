@@ -1,7 +1,7 @@
 ---
 title: How to start and grow your open source project
 description: 'Guidance on growing your open source project'
-permalink: /outbound/how-to-grow-your-open-source-project
+permalink: /outbound/how-to-grow-your-open-source-project/
 layout: layouts/page
 section: outbound
 tags: ospo

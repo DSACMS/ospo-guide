@@ -1,7 +1,7 @@
 ---
 title: OSPO Reading List
 description: 'List of readings by the CMS OSPO'
-permalink: /growing/reading-list
+permalink: /growing/reading-list/
 layout: layouts/page
 section: growing
 tags: ospo
