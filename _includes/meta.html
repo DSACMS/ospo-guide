@@ -26,9 +26,9 @@
        ================================================== -->
 
   {% if seo_title %}
-    {% assign page_title = seo_title %}
+    {% assign page_title = seo_title | append : ' | ' %}
   {% else %}
-    {% assign page_title = title %}
+    {% assign page_title = title | append : ' | '  %}
   {% endif %}
 
   <title>{{page_title}}{{ site.title }} </title>
