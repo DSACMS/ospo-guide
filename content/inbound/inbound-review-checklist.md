@@ -320,7 +320,7 @@ Overall Score:
 
 \*\*Insert scorecard report here\*\*
 
-## Additional Notes and Questions
+## Additional Notes & Questions
 
 \*Insert any notes or questions here\*
 
