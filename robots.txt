@@ -1,4 +1,4 @@
-Sitemap: https://guides.18f.gov/sitemap.xml
+Sitemap: https://dsacms.github.io/ospo-guide/sitemap.xml
 
 User-agent: usasearch
 Allow: /
