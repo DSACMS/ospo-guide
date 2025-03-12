@@ -1,7 +1,7 @@
 ---
 title: OSPO Mind Map
 description: 'OSPO Mind map'
-permalink: /growing/ospo-mindmap
+permalink: /growing/ospo-mindmap/
 layout: layouts/page
 section: growing
 tags: ospo

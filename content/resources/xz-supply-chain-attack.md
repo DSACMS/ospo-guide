@@ -1,7 +1,7 @@
 ---
 title: CMS OSPO Report - CVE-2024-3094 Backdoor in XZ
 description: 'CMS OSPO Report on XZ Supply Chain Attack'
-permalink: /resources/xz-supply-chain-attack
+permalink: /resources/xz-supply-chain-attack/
 layout: layouts/page
 section: resources
 tags: ospo

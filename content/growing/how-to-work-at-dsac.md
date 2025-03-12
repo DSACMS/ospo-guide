@@ -1,7 +1,7 @@
 ---
 title: How to work at DSAC
 description: 'Guides to working at DSAC'
-permalink: /growing/how-to-work-at-dsac
+permalink: /growing/how-to-work-at-dsac/
 layout: layouts/page
 section: growing
 tags: ospo

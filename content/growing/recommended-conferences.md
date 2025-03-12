@@ -1,7 +1,7 @@
 ---
 title: Recommended Conferences
 description: 'List of recommended conferences by the CMS OSPO'
-permalink: /growing/recommended-conferences
+permalink: /growing/recommended-conferences/
 layout: layouts/page
 section: growing
 tags: ospo

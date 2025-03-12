@@ -1,7 +1,7 @@
 ---
 title: Release Guidelines
 description: 'Document on release guidelines'
-permalink: /outbound/release-guidelines
+permalink: /outbound/release-guidelines/
 layout: layouts/page
 section: outbound
 tags: ospo

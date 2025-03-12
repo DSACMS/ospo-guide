@@ -1,7 +1,7 @@
 ---
 title: Repository Templates & Linters
 description: 'Guidance on CMS OSPO Repository Templates & Linters'
-permalink: /outbound/repository-templates-and-linters
+permalink: /outbound/repository-templates-and-linters/
 layout: layouts/page
 section: outbound
 tags: ospo

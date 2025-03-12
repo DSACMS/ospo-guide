@@ -1,7 +1,7 @@
 ---
 title: 508 Training Federal Resources
 description: 'Growing'
-permalink: /growing/508-training
+permalink: /growing/508-training/
 layout: layouts/page
 section: growing
 tags: ospo

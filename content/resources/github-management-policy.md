@@ -1,7 +1,7 @@
 ---
 title: GitHub Management Policy
 description: 'Managing organizations and repositories using GitHub'
-permalink: /resources/github-management-policy
+permalink: /resources/github-management-policy/
 layout: layouts/page
 section: resources
 tags: ospo
