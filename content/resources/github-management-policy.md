@@ -175,7 +175,7 @@ Information required:
 
 ## Repository Metadata
 
-Every repository in DSACMS is required to have a code.json containing project metadata. For details on metadata requirements, creation, and maintenance, refer to [gov-codejson](https://github.com/DSACMS/gov-codejson).
+Every repository in DSACMS is required to have a code.json file containing project metadata. For details on metadata requirements, creation, and maintenance, refer to [gov-codejson](https://github.com/DSACMS/gov-codejson).
 
 ## Offboarding
 
