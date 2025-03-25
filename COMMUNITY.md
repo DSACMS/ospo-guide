@@ -66,7 +66,7 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> <!--CONTRIBUTOR COU
 
 We'd like to acknowledge the following individuals for their past contributions of this project:
 
-- [Aayat Ali](aayatsali)
+- [Aayat Ali](https://github.com/aayatsali) for setting up the foundation of the ospo-guide
 
 ## ospo-guide Open Source Community Guidelines
 
