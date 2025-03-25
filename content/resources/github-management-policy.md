@@ -27,6 +27,8 @@ sticky_sidenav: true
 - [Request an outside collaborator to be added to a repo](#request-an-outside-collaborator-to-be-added-to-a-repo)
 - [Request a third-party integration to be added to the repo](#request-a-third-party-integration-to-be-added-to-the-repo)
 
+##### [Repository Metadata](#repository-metadata)
+
 ##### [Offboarding](#offboarding)
 
 - [Monthly audit of membership](#monthly-audit-of-membership)
@@ -171,7 +173,11 @@ Information required:
 - Project’s [Maturity Model Tier](https://github.com/DSACMS/repo-scaffolder/blob/main/maturity-model-tiers.md)
 - Keys that will need to be created
 
-## GitHub Organization Management
+## Repository Metadata
+
+Every repository in DSACMS is required to have a code.json containing project metadata. For details on metadata requirements, creation, and maintenance, refer to [gov-codejson](https://github.com/DSACMS/gov-codejson).
+
+## Offboarding
 
 ### Monthly audit of membership
 
