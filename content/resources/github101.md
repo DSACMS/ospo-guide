@@ -105,7 +105,7 @@ _Taken from [GitHub Docs](https://docs.github.com/en/get-started/quickstart/hell
 
 1. Person 1 clones repository to their local machine
 
-2. Person 1 creates a new feature branch off of dev: `git checkout -b my-cool-new-feature`
+2. Person 1 creates a new feature branch off of dev: `git switch -c my-cool-new-feature`
 
 3. Person 1 makes changes of some kind to the files
 

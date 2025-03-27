@@ -98,8 +98,8 @@ The following steps outline the process to prepare a Release Candidate for a giv
 
    ```bash
    git fetch
-   git checkout origin/dev
-   git checkout -b release-0.5.0
+   git switch origin/dev
+   git switch -c release-0.5.0
    git push -u origin release-0.5.0
    ```
 
@@ -109,7 +109,7 @@ The following steps outline the process to prepare a Release Candidate for a giv
 
    ```bash
    git fetch
-   git checkout origin/release-0.5.0
+   git switch origin/release-0.5.0
    git tag 0.5.0-rc1
    git push --tags
    ```
@@ -136,7 +136,7 @@ For example, if the second Release Candidate for `0.5.0` is being prepared, afte
 
 ```bash
 git fetch
-git checkout origin/release-0.5.0
+git switch origin/release-0.5.0
 # more commits per OMF review
 git tag 0.5.0-rc2
 git push --tags
@@ -198,8 +198,8 @@ In rare cases, a hotfix for a prior release may be required out-of-phase with th
 
    ```bash
    git fetch
-   git checkout 0.3.2
-   git checkout -b 0.3.x
+   git switch 0.3.2
+   git switch -c 0.3.x
    git push -u origin 0.3.x
    ```
 
@@ -209,7 +209,7 @@ In rare cases, a hotfix for a prior release may be required out-of-phase with th
 
    ```bash
    git fetch
-   git checkout 0.3.x
+   git switch 0.3.x
    git tag 0.3.3
    git push --tags
    ```
