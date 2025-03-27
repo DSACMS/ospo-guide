@@ -1,4 +1,4 @@
-# CMS ospo-guide
+# CMS Open Source Program Office Guide
 
 ospo-guide is a collection of resources written by the CMS Open Source Program Office.
 https://dsacms.github.io/ospo-guide/
