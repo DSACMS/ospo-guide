@@ -20,16 +20,27 @@ sticky_sidenav: true
 
 ##### [GitHub Organization Access](#github-organization-access)
 
+###### [Setting up a Help Desk](#setting-up-a-help-desk-1)
+
+- [Help Desk Team](#help-desk-team)
+- [Help Desk Repository](#help-desk-repository-a-centralized-approach-for-managing-team-and-repository-creation-requests)
+- [Project Repository](#project-repository-a-distributed-approach-for-repository-management)
+
+###### [Help Desk Team & Repository Requests](#help-desk-team-and-repository-requests-1)
+
 - [Request a new team to be created for a Project](#request-a-new-team-to-be-created-for-a-project)
 - [Request access to a team as a member](#request-access-to-a-team-as-a-member)
 - [Request a new repo to be created](#request-a-new-repo-to-be-created)
+
+###### [Repository-Level Access Requests](#repository-level-access-requests-1)
+
 - [Request a new team to be added to a repo](#request-a-new-team-to-be-added-to-a-repo)
 - [Request an outside collaborator to be added to a repo](#request-an-outside-collaborator-to-be-added-to-a-repo)
 - [Request a third-party integration to be added to the repo](#request-a-third-party-integration-to-be-added-to-the-repo)
 
-##### [Repository Metadata](#repository-metadata)
+##### [Repository Metadata](#repository-metadata-1)
 
-##### [Offboarding](#offboarding)
+##### [GitHub Organization Management](#github-organization-management-1)
 
 - [Monthly audit of membership](#monthly-audit-of-membership)
 - [Review activity log](#review-activity-log)
@@ -63,9 +74,36 @@ sticky_sidenav: true
 
 ## GitHub Organization Access
 
-### Request a new team to be created for a Project
+### Setting up a Help Desk
 
-#### Step 1: Creating a Team with Project Maintainers - Maintainers Team
+A help desk serves as the center for GitHub Organization Access and Management.
+
+#### Help Desk Team
+
+The help desk team consists of organization members with the following roles and permissions below:
+
+- All-repository maintain: Grants maintenance access to all repositories in the organization
+- All-repository admin: Grants admin access to all repositories in the organization
+- CI/CD admin: Grants admin access to manage Actions policies, runners, runner groups, network configurations, secrets, variables, and usage metrics for an organization
+- Security manager: Grants the ability to manage security policies, security alerts, and security configurations for an organization and all its repositories
+
+See list of organization roles here: [https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/using-organization-roles](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/using-organization-roles)
+
+#### Help Desk Repository: A centralized approach for managing team and repository creation requests
+
+Requests for team/repository creation should be filed through a central repository managed by the Help Desk team. Project teams file an issue for the request under the repository. The help desk team is responsible for handling the request, working with the project team to ensure the task is completed and fulfills the needs of project teams.
+
+#### Project Repository: A distributed approach for repository management
+
+Requests for repository management should be filed through the project repository. Project teams file an issue under their repository, tagging the help desk team as the assignee. The help desk team is notified and will work with the project team to ensure repository and fulfill the needs of the project team.
+
+### Help Desk Team and Repository Requests
+
+Requests to create and grant access to teams & repositories must be filed under the OSPO help desk repository for organization owners and help desk individuals to grant and manage accordingly.
+
+#### Request a new team to be created for a Project
+
+##### Step 1: Creating a Team with Project Maintainers - Maintainers Team
 
 Project maintainers will be placed in their own separate team and serve as the main point of contact for coordinating team & repository management with the OSPO.
 Project maintainers will be placed in their own separate team and serve as the main point of contact for coordinating team & repository management with the OSPO.
@@ -77,7 +115,7 @@ Information required:
 - List of GitHub usernames to be added
 - Team visibility: visible or secret
 
-#### Step 2: Creating a Parent Team with All Project Members - Committers Team
+##### Step 2: Creating a Parent Team with All Project Members - Committers Team
 
 All project members will be under the **member role** where they have no administrative permissions on the team. Team visibility and notifications are enabled unless specified otherwise.
 
@@ -87,7 +125,7 @@ Information required:
 - List of GitHub usernames to be added
 - Team visibility: visible or secret
 
-#### (Optional) Step 3: Creating Child Teams
+##### (Optional) Step 3: Creating Child Teams
 
 [Child teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams#nested-teams) can be granted additional and more granular access to certain repositories. Examples of child teams can include code reviewers, developers under a repo domain, and project leads.
 
@@ -101,7 +139,7 @@ Information required:
   - Examples of team types: frontend team, backend team, reviewers
 - List of GitHub usernames to be added
 
-### Request access to a team as a member
+#### Request access to a team as a member
 
 The member will be under the **member role** where they have no administrative permissions on the team.
 
@@ -110,7 +148,7 @@ Information required:
 - GitHub username
 - Team name
 
-### Request a new repo to be created
+#### Request a new repo to be created
 
 If you are looking to migrate an existing repository hosted in a different organization into a new repository under DSACMS, the new repository will be created as private by default. In order for your repository to be released as public, please follow our [outbound review checklist](https://github.com/DSACMS/ospo-guide/blob/main/outbound/OUTBOUND_CHECKLISTS.md) for your project’s maturity tier.
 
@@ -137,7 +175,11 @@ Information required:
 - Repository Visibility: private or public
   - Include an assessment of benefits and risks of selecting this visibility
 
-### Request a new team to be added to a repo
+### Repository-Level Access Requests
+
+The Open Source Program Office is experimenting with a distributed-style approach of managing access requests. Requests to grant access to individuals and third-party integrations are filed under the repository for repository admins and organization owners to grant and manage accordingly.
+
+#### Request a new team to be added to a repo
 
 Maintainer teams have MAINTAIN access while committer teams have WRITE access. If you or other members want to be promoted to MAINTAIN access, please indicate this in the form. ADMIN access is only available to DSACMS organization owners for now. MAINTAINERS.md will be updated accordingly.
 Maintainer teams have MAINTAIN access while committer teams have WRITE access. If you or other members want to be promoted to MAINTAIN access, please indicate this in the form. ADMIN access is only available to DSACMS organization owners for now. MAINTAINERS.md will be updated accordingly.
@@ -149,7 +191,7 @@ Information required:
 - Repository name to be given access to
 - Reason for access
 
-### Request an outside collaborator to be added to a repo
+#### Request an outside collaborator to be added to a repo
 
 For individuals that are not members of the DSACMS GitHub organization, these outside collaborators can request access to a repository. Fill out this issue to file the request or make a pull request to the `MAINTAINERS.md` file, then a repository admin will grant access.
 
@@ -162,7 +204,7 @@ Information required:
   - Maintainers, Approvers, Reviewers
 - Any additional information
 
-### Request a third-party integration to be added to the repo
+#### Request a third-party integration to be added to the repo
 
 The DSACMS org uses the following third-party GitHub apps: SonarCloud. If your team would like to install and use an integration in your repository, please file a request by sending a slack message at #cms-ospo. We are open to adding more integrations to this list based on team needs.
 
@@ -177,7 +219,7 @@ Information required:
 
 Every repository in DSACMS is required to have a code.json file containing project metadata. For details on metadata requirements, creation, and maintenance, refer to [gov-codejson](https://github.com/DSACMS/gov-codejson).
 
-## Offboarding
+## GitHub Organization Management
 
 ### Monthly audit of membership
 
