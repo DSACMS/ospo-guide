@@ -1,9 +1,28 @@
-{% comment %}
-This appears at the top of the page letting the user know it's an
-official government website
+{% comment %} This appears at the top of the page letting the user know this is a work in progress
 {% endcomment %}
 
-<div class="page-landing-page layout-demo ">
+<!-- Feedback Banner -->
+<div class="feedback-banner">
+  <div class="bg-primary-lightest text-ink text-center padding-1">
+    <div class="grid-container">
+      <p class="usa-banner__header-text">
+        Work in progress. We welcome questions and suggestions —
+        <a
+          class="usa-link usa-link--external"
+          rel="noreferrer"
+          target="_blank"
+          href="https://github.com/DSACMS/ospo-guide/issues/new"
+          >give us feedback.</a
+        >
+      </p>
+    </div>
+  </div>
+</div>
+
+{% comment %} This appears at the top of the page letting the user know it's an official government
+website {% endcomment %}
+
+<!-- <div class="page-landing-page layout-demo ">
   <a class="usa-skipnav" href="#main-content">Skip to main content</a>
   <div class="usa-banner">
     <div class="usa-accordion">
@@ -71,4 +90,4 @@ This is a temporary include to render redirects from the original de-risking gui
   {% if tags[0] == 'derisking' and redirect-url %}
     {% include 'derisking/redirect_url.html' %}
   {% endif %}
-</div>
+</div> -->
