@@ -3,7 +3,7 @@ title: Building and Buying Custom Software
 description: 'Procurement'
 permalink: /guidance/procurement
 layout: layouts/page
-tags: guidance
+tags: codegov
 eleventyNavigation:
   parent: codegov-guidance
   key: codegov-guidance-procurement
