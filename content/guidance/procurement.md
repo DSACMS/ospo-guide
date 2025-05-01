@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: codegov-guidance
   key: codegov-guidance-procurement
   order: 2
-  title: Building and Buying Custom Software
+  title: How to procure software
 sidenav: true
 sticky_sidenav: true
 ---

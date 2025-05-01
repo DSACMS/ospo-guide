@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: codegov-guidance
   key: codegov-guidance-codeinventory
   order: 3
-  title: Creating your enterprise code inventory
+  title: How to inventory code
 sidenav: true
 sticky_sidenav: true
 ---
