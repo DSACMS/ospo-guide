@@ -4,31 +4,18 @@ layout: layouts/default
 title: Home
 tags: ospo
 eleventyNavigation:
-  parent: ospo
-  key: ospo-home
+  parent: codegov
+  key: codegov-home
   order: 1
   title: About this guide
-description: CMS Open Source Program Office Guide
+description: Sharing America's Code
 eleventyExcludeFromCollections: true
 ---
 
 <div class="usa-section intro-header">
-    <div class="grid-container">
-      <h1 class="visually-hidden">
-        {{ title }}
-      </h1>
-      <p class="usa-intro usa-intro--sections no-print">{{ description }}</p>
-    </div>
+  <div class="grid-container">
+    <h1 class="visually-hidden">{{ title }}</h1>
+    <p class="usa-intro usa-intro--sections no-print">{{ description }}</p>
   </div>
-  <div class="usa-section layout--sections">
-  {% for obj in guide_sections %}
-    {% comment %}
-      guide_sections is a hash, so the object in the iteration is a key/values array.
-      obj[0] is the key, which can be used as a slugified version of the section name.
-      obj[1] is the section values object.
-    {% endcomment %}
-    {% assign section_slug = obj[0] %}
-    {% assign section = obj[1] %}
-    {% include "home/homepage-section.html" section_slug: section_slug section: section %}
-  {% endfor %}
-  </div>
+</div>
+<div class="usa-section layout--sections"></div>
