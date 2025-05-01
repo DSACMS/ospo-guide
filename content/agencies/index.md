@@ -3,12 +3,12 @@ title: Agencies
 description: 'Agencies'
 permalink: /agencies/
 layout: layouts/page
-tags: agencies
-# eleventyNavigation:
-#   parent: ospo-inbound
-#   key: ospo-inbound-main
-#   order: 1
-#   title: Inbound
+tags: codegov
+eleventyNavigation:
+  parent: codegov-agencies
+  key: codegov-agencies-main
+  order: 1
+  title: Agencies
 sidenav: false
 sticky_sidenav: false
 ---

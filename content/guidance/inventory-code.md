@@ -3,7 +3,7 @@ title: Creating your enterprise code inventory
 description: 'Code Inventory'
 permalink: /guidance/code-inventory
 layout: layouts/page
-tags: guidance
+tags: codegov
 eleventyNavigation:
   parent: codegov-guidance
   key: codegov-guidance-codeinventory

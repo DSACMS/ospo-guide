@@ -3,7 +3,7 @@ title: Guidance
 description: 'Guidance'
 permalink: /guidance/
 layout: layouts/page
-tags: guidance
+tags: codegov
 eleventyNavigation:
   parent: codegov-guidance
   key: codegov-guidance-main
