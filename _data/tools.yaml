@@ -1,0 +1,12 @@
+code.json_web_form_generator:
+  name: code.json Web Form Generator
+  description: A step-by-step interactive web form for creating, generating, and downloading a valid code.json file.
+  link: https://dsacms.github.io/codejson-generator
+  link_type: tool
+  img: form-generator.svg
+  category: webform
+  tags:
+    - interactive
+    - browser
+    - SHARE IT Act
+    - metadata

@@ -10,5 +10,7 @@ ospo:
     url: /growing/
   - name: Resources
     url: /resources/
+  - name: Tools
+    url: /tools/
   - name: About
     url: /about/

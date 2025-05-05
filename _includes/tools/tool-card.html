@@ -1,0 +1,18 @@
+<div class="tool-card" id="{{ tool_slug }}">
+  <div class="tool-header">
+    {% assign img_link = "assets/resources/img/tools/" | append: tool.img %}
+    <!-- a href="{{ link | url }}"  -->
+    {% image_with_class img_link "Digital Service at CMS logo" %}
+    <div class="badge" aria-label="Category">{{ tool.category }}</div>
+  </div>
+  <div class="tool-content">
+    <h3>{{ tool.name }}</h3>
+    <p>{{ tool.description }}</p>
+    <div class="tool-tags" aria-label="Features">
+      {% for tag in tool.tags %}
+      <span class="tool-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    <a href="{{ tool.link }}" target="_blank" class="btn">Open Tool</a>
+  </div>
+</div>
