@@ -19,7 +19,7 @@ sticky_sidenav: true
       Utilities and tools to help generate, validate, and manage, and visualize repository metadata.
     </p>
   </div>
-  <div class="usa-section layout--sections">
+  <div class="tools-grid">
     {% for obj in tools %} {% comment %} tools is a hash, so the object in the iteration is a
     key/values array. obj[0] is the key, which can be used as a slugified version of the tool card
     name. obj[1] is the tool values object. {% endcomment %} {% assign tools_slug = obj[0] %} {%

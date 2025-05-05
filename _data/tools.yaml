@@ -6,7 +6,61 @@ code.json_web_form_generator:
   img: form-generator.svg
   category: webform
   tags:
-    - interactive
-    - browser
+    - Interactive
+    - Browser
     - SHARE IT Act
-    - metadata
+    - Metadata
+index_generator:
+  name: Index Generator
+  description: Python-based CLI tool that scans GitHub repositories for code.json files, and generates an index file for agency-wide reporting.
+  link: https://dsacms.github.io/index-generator-website/
+  link_type: tool
+  img: index-generator.svg
+  category: CLI
+  tags:
+    - Python
+    - Share IT Act
+    - Metadata
+    - Aggregation
+automated_generator:
+  name: Automated Generator
+  description: GitHub Action that automatically generates and updates code.json files. It can computes labor hours, detect languages, and maintain accurate metadata.
+  link: https://github.com/DSACMS/automated-codejson-generator
+  link_type: repository
+  img: auto-generator.svg
+  category: GitHub Action
+  tags:
+    - Automation
+    - CI/CD
+    - SHARE IT Act
+    - Metadata
+repo_scaffolder:
+  name: repo-scaffolder
+  description: Template generator for creating new repositories with all the necessary documentation and code.json files pre-configured according to standards.
+  link: https://github.com/DSACMS/repo-scaffolder
+  link_type: repository
+  img: repo-scaffolder.svg
+  category: CLI
+  tags:
+    - cookiecutter
+    - Templates
+metrics:
+  name: Metrics
+  description: Website to view statistics and data visualizations about open source projects at the repository or organization level.
+  link: https://dsacms.github.io/metrics/
+  link_type: tool
+  img: metrics.svg
+  category: Website
+  tags:
+    - Browser
+    - Data Visualization
+repolinter-actions:
+  name: Repolinter Actions
+  description: A Github Action that pre-populates documentation based repository maturity.
+  link: https://github.com/DSACMS/repolinter-actions
+  link_type: repository
+  img: repolinter.svg
+  category: Website
+  tags:
+    - Automation
+    - CI/CD
