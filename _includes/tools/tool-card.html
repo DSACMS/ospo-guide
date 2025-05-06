@@ -1,8 +1,7 @@
 <div class="tool-card" id="{{ tool_slug }}">
   <div class="tool-header">
-    {% assign img_link = "assets/resources/img/tools/" | append: tool.img %}
-    <!-- a href="{{ link | url }}"  -->
-    {% image_with_class img_link tool.name %}
+    {% assign img_link = "assets/resources/img/tools/" | append: tool.img %} {% image_with_class
+    img_link tool.name %}
     <div class="badge">{{ tool.category }}</div>
   </div>
   <div class="tool-content">
