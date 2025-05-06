@@ -6,9 +6,12 @@ Specific Colors
 $color-blue: #009ad0; // CMS secondary blue
 $color-green: #80ab40; // CMS green
 $color-gold: #f3ce3b; // CMS gold
-$color-red: #d76c35; // CMS orange
-$color-blue-dark: #015390; // CMS primary blue
+$color-orange: #d76c35; // CMS orange
+$color-dark-blue: #015390; // CMS primary blue
+$color-dark-red: #941f2e;   
+$color-magenta: #961d56;
 
+$color-white: #ffffff;
 $color-gray-light: #f1f1f1;
 $color-gray: #d6d7d9;
 $color-gray-dark: #323a45;
@@ -19,12 +22,12 @@ $color-discover: $color-blue;
 $color-discover-text: #0d7ea2; // $blue-cool-50v
 $color-make: $color-gold;
 $color-make-text: #947100; // $yellow-50v
-$color-validate: $color-red;
+$color-validate: $color-orange;
 $color-validate-text: #a86437; // $orange-50
 $color-decide: $color-green;
 $color-decide-text: #538200; // $green-50v
-$color-fundamentals: $color-blue-dark;
-$color-fundamentals-text: $color-blue-dark;
+$color-fundamentals: $color-dark-blue;
+$color-fundamentals-text: $color-dark-blue;
 
 // Custom font colors
 $color-body-dark: #1b1b1b;

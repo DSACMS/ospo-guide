@@ -11,7 +11,7 @@
   
 /* Card styles (shared between tools and features) */
 .tool-card, .feature-card {
-    background-color: var(--white);
+    background-color: $color-white;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -28,7 +28,7 @@
   
 .tool-header {
     height: 160px;
-    background-color: $color-blue-dark;
+    background-color: $color-dark-blue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +63,7 @@
 .tool-content h3 {
     font-size: 1.5rem;
     margin-bottom: 12px;
-    color: $color-blue-dark;
+    color: $color-dark-blue;
 }
   
 .tool-content p {
@@ -88,3 +88,30 @@
     padding: 4px 10px;
     border-radius: 16px;
 }
+
+ /* Buttons */
+ .btn {
+    display: inline-block;
+    background-color: $color-orange;
+    color: $color-white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: $color-dark-red;
+    color: $color-white;
+  }
+  
+  .btn-outline {
+    background-color: transparent;
+    border: 2px solid $color-white;
+    margin-left: 15px;
+  }
+  
+  .btn-outline:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
