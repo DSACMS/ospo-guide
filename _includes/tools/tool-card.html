@@ -13,6 +13,8 @@
       <span class="tool-tag">{{ tag }}</span>
       {% endfor %}
     </div>
-    <a href="{{ tool.link }}" target="_blank" class="btn">Open Tool</a>
+    <a href="{{ tool.link }}" target="_blank" class="btn">
+      {% if tool.link_type == "tool" %} Open Tool {% else %} View on GitHub {% endif %}
+    </a>
   </div>
 </div>
