@@ -15,7 +15,64 @@ eleventyExcludeFromCollections: true
 <div class="usa-section intro-header">
   <div class="grid-container">
     <h1 class="visually-hidden">{{ title }}</h1>
-    <p class="usa-intro usa-intro--sections no-print">{{ description }}</p>
+    <div class="usa-intro usa-intro--sections no-print">
+      <p>{{description}}</p>
+      <p class="subtitle">
+        Unlocking the tremendous potential of the Federal Government’s software.
+      </p>
+    </div>
   </div>
 </div>
-<div class="usa-section layout--sections"></div>
+<div>
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="explore-actions">
+        <h2>Developers</h2>
+        <p>
+          The Code.gov website is developed publicly on GitHub. Learn how to contribute here. Help
+          improve America's Code by exploring projects.
+        </p>
+        <a class="usa-button" id="developers" href="/agencies/">Explore projects</a>
+      </div>
+      <div class="explore-connect">
+        <h2>Connect with Us</h2>
+        <p>Have questions or feedback? Open an issue on our open source repository.</p>
+        <a class="usa-button" id="developers" href="https://github.com/DSACMS/code-gov">
+          View Repository
+        </a>
+      </div>
+      <div class="explore-agencies">
+        <h2>Agency Partners</h2>
+        <p>
+          Federal agency partners use Code.gov to share usable open source code, promote open source
+          projects, and track compliance with federal open source policy.
+        </p>
+        <a class="usa-button" id="developers" href="/guidance/">Agency Compliance</a>
+      </div>
+    </div>
+    <div class="grid-row">
+      <section>
+        <div class="bg-primary-lighter height-full">
+          <h2>About Code.gov</h2>
+          <p>
+            Code.gov is the federal government's platform for sharing America's open source software
+          </p>
+          <div class="goal">
+            <h3>Vision</h3>
+            <p>
+              Serve as the community leader in driving code reuse and open source development to
+              decrease code spend while increasing code quality
+            </p>
+          </div>
+          <div class="goal">
+            <h3>Mission</h3>
+            <p>
+              Our mission is to help agency partners and developers save money and increase quality
+              by promoting code reuse and educating and connecting the open source community
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>

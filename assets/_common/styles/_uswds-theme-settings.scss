@@ -36,7 +36,7 @@
   $theme-color-primary-dark: 'blue-70v',
   $theme-color-primary: $brand-color-medium,
   $theme-color-primary-light: 'blue-cool-40v',
-  $theme-color-primary-lighter: 'blue-cool-20v',
+  $theme-color-primary-lighter: $brand-color-lighter,
   $theme-color-primary-lightest: $brand-color-light,
 
   /*------------------------------------------------

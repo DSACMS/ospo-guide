@@ -3,6 +3,7 @@ styling for landing page only
 */
 
 .sections-listing {
+  padding: 10px;
     ul {
       padding-left: 0;
       list-style-type: none;
@@ -19,10 +20,31 @@ styling for landing page only
   }
   
   .usa-intro--sections {
-    font-size: 2.03rem;
-    font-weight: bold;
-    line-height: 1.3;
-    max-width: 44ex;
-    margin: 0;
+    padding-bottom: 1;
+    padding-top: 1;
+    text-align: center;
+
+    p {
+      font-size: 2.44rem;
+      margin: 0;
+    }
+    .subtitle {
+      font-size: 1.34rem;
+    }
   }
+ .grid-row {
+  display:flex;
+  flex-direction:row;
+  margin-bottom: 20px;
+ }
+
+ .explore-actions, .explore-connect, .explore-agencies {
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+ }
+
+ .bg-primary-lighter {
+  padding: 20px;
+ }
   
