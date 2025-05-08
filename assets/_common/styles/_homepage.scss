@@ -1,6 +1,5 @@
-/*
-styling for landing page only
-*/
+@use 'brand-colors' as *;
+/* styling for home page only */
 
 .sections-listing {
   padding: 10px;
@@ -35,13 +34,32 @@ styling for landing page only
  .grid-row {
   display:flex;
   flex-direction:row;
+  margin-top: 20px;
   margin-bottom: 20px;
+ }
+
+ #explore-row {
+  border-top: 3px solid rgba(28, 48, 74, 0.3);
+  border-bottom: 3px solid rgba(28, 48, 74, 0.3);
  }
 
  .explore-actions, .explore-connect, .explore-agencies {
   padding: 20px;
   max-width: 300px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  a {
+    margin-top: auto;
+    width: auto;
+  }
+ }
+
+ .explore-connect {
+  border-left: 3px solid rgba(28, 48, 74, 0.3);
+  border-right: 3px solid rgba(28, 48, 74, 0.3);
  }
 
  .bg-primary-lighter {

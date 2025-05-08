@@ -25,21 +25,19 @@ eleventyExcludeFromCollections: true
 </div>
 <div>
   <div class="grid-container">
-    <div class="grid-row">
+    <div class="grid-row" id="explore-row">
       <div class="explore-actions">
         <h2>Developers</h2>
         <p>
           The Code.gov website is developed publicly on GitHub. Learn how to contribute here. Help
           improve America's Code by exploring projects.
         </p>
-        <a class="usa-button" id="developers" href="/agencies/">Explore projects</a>
+        <a class="usa-button" href="/agencies/">Explore projects</a>
       </div>
       <div class="explore-connect">
         <h2>Connect with Us</h2>
         <p>Have questions or feedback? Open an issue on our open source repository.</p>
-        <a class="usa-button" id="developers" href="https://github.com/DSACMS/code-gov">
-          View Repository
-        </a>
+        <a class="usa-button" href="https://github.com/DSACMS/code-gov"> View Repository </a>
       </div>
       <div class="explore-agencies">
         <h2>Agency Partners</h2>
@@ -47,7 +45,7 @@ eleventyExcludeFromCollections: true
           Federal agency partners use Code.gov to share usable open source code, promote open source
           projects, and track compliance with federal open source policy.
         </p>
-        <a class="usa-button" id="developers" href="/guidance/">Agency Compliance</a>
+        <a class="usa-button" href="/guidance/">Agency Compliance</a>
       </div>
     </div>
     <div class="grid-row">
@@ -58,6 +56,7 @@ eleventyExcludeFromCollections: true
             Code.gov is the federal government's platform for sharing America's open source software
           </p>
           <div class="goal">
+            {% image_with_class "assets/resources/img/homepage/vision_icon_sm.png" "vision_icon_sm-img" "Vision icon" %}
             <h3>Vision</h3>
             <p>
               Serve as the community leader in driving code reuse and open source development to
@@ -65,6 +64,7 @@ eleventyExcludeFromCollections: true
             </p>
           </div>
           <div class="goal">
+            {% image_with_class "assets/resources/img/homepage/mission_icon_sm.png" "mission_icon_sm-img" "Mission icon" %}
             <h3>Mission</h3>
             <p>
               Our mission is to help agency partners and developers save money and increase quality
