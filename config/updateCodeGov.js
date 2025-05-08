@@ -51,4 +51,4 @@ async function updateCodeGov(isTesting = false) {
   }
 }
 
-updateCodeGov()
+updateCodeGov(isTesting = true)
