@@ -1,0 +1,305 @@
+{
+    "agency": "HHS",
+    "version": "1.0.0",
+    "measurementType": {
+      "method": "projects"
+    },
+    "releases": [
+      {
+        "organization": "Centers for Medicare & Medicaid Services",
+        "name": "open",
+        "description": "Repo Visualizations",
+        "longDescription": "First Iteration of Metrics Visualizations Site",
+        "status": "Archival",
+        "permissions": {
+          "license": [
+            {
+              "name": "CC0 1.0 Universal",
+              "URL": "https://github.com/DSACMS/open/blob/main/LICENSE.md"
+            }
+          ],
+          "usageType": "openSource",
+          "exemptionText": ""
+        },
+        "repositoryURL": "https://github.com/DSACMS/open",
+        "vcs": "git",
+        "laborHours": 3139,
+        "platforms": [
+          "web"
+        ],
+        "categories": [
+          "data-analytics",
+          "data-collection",
+          "data-visualization"
+        ],
+        "softwareType": "standalone/web",
+        "languages": [
+          "JavaScript",
+          "Liquid"
+        ],
+        "maintenance": "internal",
+        "date": {
+          "created": "2023-06-06T16:35:30Z",
+          "lastModified": "2025-02-11T21:18:36Z",
+          "metaDataLastUpdated": "2025-02-11T21:20:46.666Z"
+        },
+        "tags": [
+          "metrics",
+          "ospo",
+          "repository"
+        ],
+        "contact": {
+          "email": "opensource@cms.hhs.gov",
+          "name": "CMS/OA/DSAC"
+        },
+        "localisation": false,
+        "repositoryType": "",
+        "userInput": "No",
+        "fismaLevel": "Low",
+        "group": "CMS/OA/DSAC",
+        "subsetInHealthcare": "Operational",
+        "userType": "Government",
+        "repositoryHost": "Github.com",
+        "maturityModelTier": 2,
+        "projectType": "Website"
+      },
+      {
+        "organization": "Centers for Medicare & Medicaid Services",
+        "name": "dsacms.github.io",
+        "description": "Landing Page for DSACMS GitHub Organization",
+        "longDescription": "We're a group of civic-minded technologists transforming how the federal government delivers healthcare to the American people. The Digital Service at CMS (DSAC) consists of engineers, designers, and product managersâserving our country by building and maintaining the technology underpinning our national health care programs.",
+        "status": "Production",
+        "permissions": {
+          "license": [
+            {
+              "name": "CC0 1.0 Universal",
+              "URL": "https://github.com/DSACMS/dsacms.github.io/blob/main/LICENSE.md#license"
+            }
+          ],
+          "usageType": "openSource",
+          "exemptionText": ""
+        },
+        "repositoryURL": "https://github.com/DSACMS/dsacms.github.io",
+        "vcs": "git",
+        "laborHours": 2392,
+        "platforms": [
+          "web"
+        ],
+        "categories": [
+          "communications"
+        ],
+        "softwareType": "standalone/other",
+        "languages": [
+          "Shell"
+        ],
+        "maintenance": "internal",
+        "date": {
+          "created": "2023-06-06T17:27:47Z",
+          "lastModified": "2025-02-13T20:59:29Z",
+          "metaDataLastUpdated": "2025-02-13T21:01:14.296Z"
+        },
+        "tags": [
+          "repository",
+          "comms"
+        ],
+        "contact": {
+          "email": "opensource@cms.hhs.gov",
+          "name": "CMS Open Source Team"
+        },
+        "localisation": false,
+        "repositoryType": "data",
+        "userInput": false,
+        "fismaLevel": "low",
+        "group": "CMS/OA/DSAC",
+        "subsetInHealthcare": [
+          "operational"
+        ],
+        "userType": [
+          "government"
+        ],
+        "repositoryHost": "github.com/DSACMS",
+        "maturityModelTier": 2
+      },
+      {
+        "organization": "Centers for Medicare & Medicaid Services",
+        "name": "dedupliFHIR",
+        "description": "Prototype for basic deduplication and aggregation of eCQM data",
+        "longDescription": "A CLI bundled with an electron front-end that provides data-linkage and AI deduplication for reported ACO data at scale.",
+        "status": "Production",
+        "permissions": {
+          "license": [
+            {
+              "name": "CC0 1.0 Universal",
+              "URL": "https://github.com/DSACMS/dedupliFHIR/blob/main/LICENSE"
+            }
+          ],
+          "usageType": "openSource",
+          "exemptionText": ""
+        },
+        "repositoryURL": "https://github.com/DSACMS/dedupliFHIR",
+        "vcs": "git",
+        "laborHours": 4252,
+        "platforms": [
+          "windows",
+          "mac",
+          "linux"
+        ],
+        "categories": [
+          "data-analytics",
+          "application-development",
+          "data-collection"
+        ],
+        "softwareType": "standalone/desktop",
+        "languages": [
+          "Python",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Shell",
+          "Makefile"
+        ],
+        "maintenance": "internal",
+        "date": {
+          "created": "2023-06-22T17:08:19Z",
+          "lastModified": "2025-02-10T19:13:19Z",
+          "metaDataLastUpdated": "2025-02-10T19:14:29.970Z"
+        },
+        "tags": [
+          "AI",
+          "deduplication",
+          "data",
+          "ACA",
+          "FHIR"
+        ],
+        "contact": {
+          "email": "opensource@cms.hhs.gov",
+          "name": "CMS Open Source Team"
+        },
+        "localisation": false,
+        "repositoryType": "application",
+        "userInput": "Yes",
+        "fismaLevel": "Moderate",
+        "group": "CMS/OA/DSAC",
+        "subsetInHealthcare": "Operational",
+        "userType": "Providers",
+        "repositoryHost": "Github.com",
+        "maturityModelTier": "3",
+        "projectType": "Tools"
+      },
+      {
+        "organization": "Centers for Medicare & Medicaid Services",
+        "name": "opportunities",
+        "description": "Resource for Public Service Internship and Fellowship Opportunities",
+        "longDescription": "This page shares currently active opportunities for recurring fellowship and internships, related to data science or technology, for work in the U.S. Department of Health and Human Services (HHS). The people of HHS are essential to its vision of making data meaningfully usable and actively used across the Department. Fellowships and internships provide a unique opportunity to learn about government work and to contribute to HHSâ mission of enhancing the health and well-being of all Americans.",
+        "status": "Production",
+        "permissions": {
+          "license": [
+            {
+              "name": "CC0 1.0 Universal",
+              "URL": "https://github.com/DSACMS/opportunities/blob/main/LICENSE.md"
+            }
+          ],
+          "usageType": "openSource",
+          "exemptionText": ""
+        },
+        "repositoryURL": "https://github.com/DSACMS/opportunities",
+        "vcs": "git",
+        "laborHours": 1460,
+        "platforms": [
+          "web"
+        ],
+        "categories": [
+          "educational-content",
+          "talent-management"
+        ],
+        "softwareType": "standalone/web",
+        "languages": [
+          "HTML",
+          "CSS"
+        ],
+        "maintenance": "internal",
+        "date": {
+          "created": "2023-06-29T15:55:54Z",
+          "lastModified": "2025-02-12T02:50:47Z",
+          "metaDataLastUpdated": "2025-02-12T02:52:38.555Z"
+        },
+        "tags": [
+          "repository"
+        ],
+        "contact": {
+          "email": "opensource@cms.hhs.gov",
+          "name": "CMS/OA/DSAC"
+        },
+        "localisation": false,
+        "repositoryType": "website",
+        "userInput": false,
+        "fismaLevel": "low",
+        "group": "CMS/OA/DSAC",
+        "subsetInHealthcare": "Operational",
+        "userType": "Government",
+        "repositoryHost": "Github.com",
+        "maturityModelTier": 2,
+        "projectType": "Website"
+      },
+      {
+        "organization": "Centers for Medicare & Medicaid Services",
+        "name": "metrics",
+        "description": "Experimentations in Open Source Repository Metrics",
+        "longDescription": "The CMS Repository Metrics Website shows an overview of software development activity across open source projects within a specified organization. This webpage is meant to be used by developers and program managers interested in repository health within CMS open source projects.",
+        "status": "Production",
+        "permissions": {
+          "license": [
+            {
+              "name": "CC0 1.0 Universal",
+              "URL": "https://github.com/DSACMS/metrics/blob/main/LICENSE.md"
+            }
+          ],
+          "usageType": "openSource",
+          "exemptionText": ""
+        },
+        "repositoryURL": "https://github.com/DSACMS/metrics",
+        "vcs": "git",
+        "laborHours": 20475,
+        "platforms": [
+          "web"
+        ],
+        "categories": [
+          "data-visualization",
+          "data-analytics"
+        ],
+        "softwareType": "standalone/web",
+        "languages": [
+          "Liquid",
+          "JavaScript",
+          "CSS",
+          "Shell",
+          "Python"
+        ],
+        "maintenance": "internal",
+        "date": {
+          "created": "2023-07-18T14:10:58Z",
+          "lastModified": "2025-02-11T19:10:14Z",
+          "metaDataLastUpdated": "2025-02-11T19:20:16.212Z"
+        },
+        "tags": [
+          "metrics",
+          "ospo",
+          "repository"
+        ],
+        "contact": {
+          "email": "opensource@cms.hhs.gov",
+          "name": "CMS/OA/DSAC"
+        },
+        "localisation": false,
+        "repositoryType": "website",
+        "userInput": "No",
+        "fismaLevel": "Low",
+        "group": "CMS/OA/DSAC",
+        "subsetInHealthcare": "Operational",
+        "userType": "Government",
+        "repositoryHost": "Github.com",
+        "maturityModelTier": 3,
+        "projectType": "Website"
+      }
+    ]
+  }

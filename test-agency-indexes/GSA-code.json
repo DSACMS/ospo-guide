@@ -1,0 +1,305 @@
+{
+    "agency": "GSA",
+    "version": "1.0.0",
+    "measurementType": {
+      "method": "projects"
+    },
+    "releases": [
+      {
+        "organization": "GSA Technology Transformation Services",
+        "name": "uswds",
+        "description": "The U.S. Web Design System",
+        "longDescription": "A design system for the federal government that helps agencies create consistent, professional, and trustworthy digital services for the American public.",
+        "status": "Production",
+        "permissions": {
+          "license": [
+            {
+              "name": "MIT License",
+              "URL": "https://github.com/uswds/uswds/blob/develop/LICENSE.md"
+            }
+          ],
+          "usageType": "openSource",
+          "exemptionText": ""
+        },
+        "repositoryURL": "https://github.com/uswds/uswds",
+        "vcs": "git",
+        "laborHours": 22540,
+        "platforms": [
+          "web"
+        ],
+        "categories": [
+          "front-end-development",
+          "design",
+          "accessibility"
+        ],
+        "softwareType": "standalone/web",
+        "languages": [
+          "JavaScript",
+          "SCSS",
+          "HTML"
+        ],
+        "maintenance": "internal",
+        "date": {
+          "created": "2015-09-28T18:12:32Z",
+          "lastModified": "2025-04-15T16:45:21Z",
+          "metaDataLastUpdated": "2025-04-15T16:48:36.123Z"
+        },
+        "tags": [
+          "design-system",
+          "federal",
+          "accessibility"
+        ],
+        "contact": {
+          "email": "uswds@gsa.gov",
+          "name": "U.S. Web Design System Team"
+        },
+        "localisation": true,
+        "repositoryType": "framework",
+        "userInput": "No",
+        "fismaLevel": "Low",
+        "group": "GSA/TTS",
+        "subsetInGovernment": "Operational",
+        "userType": "Government",
+        "repositoryHost": "Github.com",
+        "maturityModelTier": 4,
+        "projectType": "Framework"
+      },
+      {
+        "organization": "GSA Technology Transformation Services",
+        "name": "search-gov",
+        "description": "Search.gov powers federal agency search boxes",
+        "longDescription": "Search.gov is a government-wide service that provides search functionality for federal websites. It helps agencies provide more accurate search results to public users and eliminates the need to build and maintain their own search infrastructure.",
+        "status": "Production",
+        "permissions": {
+          "license": [
+            {
+              "name": "Creative Commons Zero v1.0 Universal",
+              "URL": "https://github.com/GSA/search-gov/blob/main/LICENSE.md"
+            }
+          ],
+          "usageType": "openSource",
+          "exemptionText": ""
+        },
+        "repositoryURL": "https://github.com/GSA/search-gov",
+        "vcs": "git",
+        "laborHours": 18320,
+        "platforms": [
+          "web"
+        ],
+        "categories": [
+          "search",
+          "application-development"
+        ],
+        "softwareType": "standalone/web",
+        "languages": [
+          "Ruby",
+          "JavaScript",
+          "CSS",
+          "HTML"
+        ],
+        "maintenance": "internal",
+        "date": {
+          "created": "2017-12-08T17:18:22Z",
+          "lastModified": "2025-03-28T14:12:18Z",
+          "metaDataLastUpdated": "2025-03-28T14:15:45.897Z"
+        },
+        "tags": [
+          "search",
+          "government",
+          "federalist"
+        ],
+        "contact": {
+          "email": "search@gsa.gov",
+          "name": "Search.gov Team"
+        },
+        "localisation": true,
+        "repositoryType": "application",
+        "userInput": "Yes",
+        "fismaLevel": "Moderate",
+        "group": "GSA/TTS",
+        "subsetInGovernment": "Service",
+        "userType": "Government",
+        "repositoryHost": "Github.com",
+        "maturityModelTier": 4,
+        "projectType": "Service"
+      },
+      {
+        "organization": "GSA 18F",
+        "name": "federalist",
+        "description": "Cloud-based government publishing made easy",
+        "longDescription": "Federalist is a publishing platform for federal government websites. It enables agencies to focus on creating useful content while providing a smooth path to launching a live, compliant website with no technical development needed on the agency's side.",
+        "status": "Production",
+        "permissions": {
+          "license": [
+            {
+              "name": "CC0 1.0 Universal",
+              "URL": "https://github.com/18F/federalist/blob/main/LICENSE.md"
+            }
+          ],
+          "usageType": "openSource",
+          "exemptionText": ""
+        },
+        "repositoryURL": "https://github.com/18F/federalist",
+        "vcs": "git",
+        "laborHours": 15840,
+        "platforms": [
+          "web"
+        ],
+        "categories": [
+          "web-publishing",
+          "content-management",
+          "cloud-hosting"
+        ],
+        "softwareType": "standalone/web",
+        "languages": [
+          "JavaScript",
+          "Node.js",
+          "React"
+        ],
+        "maintenance": "internal",
+        "date": {
+          "created": "2015-04-16T21:34:51Z",
+          "lastModified": "2025-04-12T18:29:36Z",
+          "metaDataLastUpdated": "2025-04-12T18:32:14.329Z"
+        },
+        "tags": [
+          "publishing",
+          "static-sites",
+          "government"
+        ],
+        "contact": {
+          "email": "federalist-support@gsa.gov",
+          "name": "Federalist Team"
+        },
+        "localisation": false,
+        "repositoryType": "application",
+        "userInput": "Yes",
+        "fismaLevel": "Moderate",
+        "group": "GSA/18F",
+        "subsetInGovernment": "Service",
+        "userType": "Government",
+        "repositoryHost": "Github.com",
+        "maturityModelTier": 4,
+        "projectType": "Service"
+      },
+      {
+        "organization": "GSA Technology Transformation Services",
+        "name": "code-gov-front-end",
+        "description": "Website for the federal government's code sharing platform",
+        "longDescription": "The frontend for Code.gov, the federal government's code sharing platform to enable sharing and improvement of government code. This site helps agencies share open source code and comply with federal policy on code reuse.",
+        "status": "Production",
+        "permissions": {
+          "license": [
+            {
+              "name": "MIT License",
+              "URL": "https://github.com/GSA/code-gov-front-end/blob/master/LICENSE.md"
+            }
+          ],
+          "usageType": "openSource",
+          "exemptionText": ""
+        },
+        "repositoryURL": "https://github.com/GSA/code-gov-front-end",
+        "vcs": "git",
+        "laborHours": 8760,
+        "platforms": [
+          "web"
+        ],
+        "categories": [
+          "code-sharing",
+          "open-source-management"
+        ],
+        "softwareType": "standalone/web",
+        "languages": [
+          "JavaScript",
+          "React",
+          "SCSS",
+          "HTML"
+        ],
+        "maintenance": "internal",
+        "date": {
+          "created": "2018-12-19T15:36:12Z",
+          "lastModified": "2025-04-02T20:15:18Z",
+          "metaDataLastUpdated": "2025-04-02T20:18:42.555Z"
+        },
+        "tags": [
+          "code-gov",
+          "open-source",
+          "federal-source-code-policy"
+        ],
+        "contact": {
+          "email": "code@gsa.gov",
+          "name": "Code.gov Team"
+        },
+        "localisation": false,
+        "repositoryType": "website",
+        "userInput": "No",
+        "fismaLevel": "Low",
+        "group": "GSA/TTS",
+        "subsetInGovernment": "Operational",
+        "userType": "Government",
+        "repositoryHost": "Github.com",
+        "maturityModelTier": 3,
+        "projectType": "Website"
+      },
+      {
+        "organization": "GSA Office of CIO",
+        "name": "grace-ansible",
+        "description": "GSA Reusable Ansible Components and Extensions",
+        "longDescription": "GRACE Ansible is a collection of reusable Ansible code components developed by GSA for managing cloud infrastructure. It enables automation of infrastructure deployment and configuration across different environments while following security best practices.",
+        "status": "Production",
+        "permissions": {
+          "license": [
+            {
+              "name": "CC0 1.0 Universal",
+              "URL": "https://github.com/GSA/grace-ansible/blob/main/LICENSE.md"
+            }
+          ],
+          "usageType": "openSource",
+          "exemptionText": ""
+        },
+        "repositoryURL": "https://github.com/GSA/grace-ansible",
+        "vcs": "git",
+        "laborHours": 6240,
+        "platforms": [
+          "linux",
+          "cloud"
+        ],
+        "categories": [
+          "devops",
+          "infrastructure-as-code",
+          "configuration-management"
+        ],
+        "softwareType": "standalone/other",
+        "languages": [
+          "YAML",
+          "Python",
+          "Shell"
+        ],
+        "maintenance": "internal",
+        "date": {
+          "created": "2019-02-27T18:24:46Z",
+          "lastModified": "2025-03-18T16:42:37Z",
+          "metaDataLastUpdated": "2025-03-18T16:45:14.888Z"
+        },
+        "tags": [
+          "ansible",
+          "cloud",
+          "automation"
+        ],
+        "contact": {
+          "email": "grace-support@gsa.gov",
+          "name": "GRACE Team"
+        },
+        "localisation": false,
+        "repositoryType": "tools",
+        "userInput": "No",
+        "fismaLevel": "Low",
+        "group": "GSA/OCIO",
+        "subsetInGovernment": "Infrastructure",
+        "userType": "Government",
+        "repositoryHost": "Github.com",
+        "maturityModelTier": 3,
+        "projectType": "Tools"
+      }
+    ]
+  }

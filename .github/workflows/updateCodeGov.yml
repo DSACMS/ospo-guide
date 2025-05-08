@@ -1,0 +1,40 @@
+name: Update CodeGov
+on:
+  workflow_dispatch:
+  schedule:
+    # first day of every month
+    - cron: '0 0 1 * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-code-gov:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Update CodeGov.json
+        run: node config/updateCodeGov.js
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+      
+      - name: Commit and push changes
+        run: |
+          git add ../codegov.json
+          git diff --staged --quiet || git commit -m "Auto-update JSON file"
+          git push
