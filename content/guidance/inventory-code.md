@@ -32,14 +32,15 @@ sticky_sidenav: true
   Agencies should make the "code.json" available in the root folder of their website (e.g., https://www.agency.gov/code.json). Code.gov will then retrieve these JSON files daily and compile them.
 </p>
 
-## [Metadata Schema version 2.0.0](#metadataschema)
+## Metadata Schema version 2.0.0
 <p>
   The schema fields and definitions are listed below.
   <span class="text-accent-cool-dark" aria-hidden="true">The schema fields marked in blue are optional but recommended as they provide additional, helpful information.</span>
   Here is <a href="https://github.com/GSA/code-gov-data/blob/master/schemas/schema-2.0.0.json">version 2.0.0 of the metadata schema file in JSON format</a>
   with parent/child relationships.
 </p>
-### [Agency code.json file location and contents:](#filelocationandcontents)
+
+### Agency code.json file location and contents:
 <ul>
   <li><code>code.json</code> must live in the root directory of your agency’s website.</li>
   <li>
@@ -47,7 +48,7 @@ sticky_sidenav: true
   </li>
 </ul>
 
-## [Source Code Considerations for AI R&amp;D Models](#data-assets-ai")
+## Source Code Considerations for AI R&amp;D Models
   <p>
     Consistent with the
     <a href="https://bidenwhitehouse.archives.gov/briefing-room/presidential-actions/2025/01/14/executive-order-on-advancing-united-states-leadership-in-artificial-intelligence-infrastructure/">Executive Order on Maintaining American Leadership in Artificial Intelligence (EO 13859)</a>, agencies are directed to improve source code inventory documentation (i.e., agency code.json) to enable discovery and usability of source code AI models.
@@ -162,7 +163,7 @@ sticky_sidenav: true
     </tbody>
   </table>
 
-## [Example code.json file](#how-to-inventory-b)
+## Example code.json file
 <p>
   Here are some
   <a href="https://github.com/GSA/code-gov/blob/master/docs/metadata_examples.md">good metadata examples</a>
@@ -172,4 +173,3 @@ sticky_sidenav: true
   You can find previous schema revisions in
   <a href="https://github.com/GSA/code-gov-data/blob/master/CHANGELOG.md">our changelog</a>.
 </p>
-</div></div>
