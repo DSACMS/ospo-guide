@@ -101,4 +101,4 @@ For more information, visit https://go.cms.gov/ospo.
 - [When 150M people depend on your code: Open source and government with Remy DeCausemaker](https://www.youtube.com/watch?v=kvM_DA9lk_Y)
 - [The power and responsibility of open source at CMS.](https://www.youtube.com/watch?v=I-8wy4H0Vy4)
 
-Link to our presentations: https://www.github.com/DSACMS/decks
+Link to presentations: [https://www.github.com/DSACMS/decks](https://www.github.com/DSACMS/decks)
