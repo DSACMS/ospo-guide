@@ -37,5 +37,5 @@ jobs:
         run: |
           git pull
           git add codegov.json
-          git diff --staged --quiet || git commit -m "Auto-update JSON file"
+          git diff --staged --quiet || git commit -m "updated codegov.json file with latest index additions"
           git push
