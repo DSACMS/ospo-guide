@@ -1,6 +1,7 @@
 <div class="tool-card" id="{{ tool_slug }}">
   <div class="tool-header">
-    {% assign img_name = tool.repositoryType | append: ".svg" %}
+    {% assign img_name_lower = tool.repositoryType | downcase %}
+    {% assign img_name = img_name_lower | append: ".svg" %}
     {% assign img_link = "assets/resources/img/tools/" | append: img_name %} {% image_with_class
     img_link tool.name %}
     <div class="badge">{{ tool.repositoryType }}</div>
