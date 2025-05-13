@@ -43,6 +43,10 @@ def main():
         )
 
         agency_dir = os.path.join(AGENCY_CODEJSON_DIR, args.agency)
+        try:
+            os.mkdir(agency_dir)
+        except FileExistsError:
+            print(f"File already exists: {agency_dir}")
 
         for org in args.orgs.split(","):
             org = org.strip()
