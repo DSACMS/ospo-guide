@@ -2,15 +2,16 @@
 /*
    Styling for tools page only
 */
-  
+
 .tools-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
-  
+
 /* Card styles (shared between tools and features) */
-.tool-card, .feature-card {
+.tool-card,
+.feature-card {
     background-color: $color-white;
     border-radius: 8px;
     overflow: hidden;
@@ -20,12 +21,13 @@
     display: flex;
     flex-direction: column;
 }
-  
-.tool-card:hover, .feature-card:hover {
+
+.tool-card:hover,
+.feature-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
-  
+
 .tool-header {
     height: 160px;
     background-color: $color-dark-blue;
@@ -35,12 +37,12 @@
     position: relative;
     overflow: hidden;
 }
-  
+
 .tool-header img {
     max-width: 70%;
     max-height: 70%;
 }
-  
+
 .tool-header .badge {
     position: absolute;
     top: 16px;
@@ -52,20 +54,21 @@
     padding: 6px 12px;
     border-radius: 20px;
 }
-  
-.tool-content, .feature-content {
+
+.tool-content,
+.feature-content {
     padding: 24px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
-  
+
 .tool-content h3 {
     font-size: 1.5rem;
     margin-bottom: 12px;
     color: $color-dark-blue;
 }
-  
+
 .tool-content p {
     color: $color-gray-dark;
     margin-bottom: 20px;
@@ -73,14 +76,14 @@
     font-size: 1rem;
     line-height: 1.6;
 }
-  
+
 .tool-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     margin-bottom: 16px;
 }
-  
+
 .tool-tag {
     background-color: $color-gray-light;
     color: $color-gray-dark;
@@ -89,8 +92,8 @@
     border-radius: 16px;
 }
 
- /* Buttons */
- .btn {
+/* Buttons */
+.btn {
     display: inline-block;
     background-color: #c1561f;
     color: $color-white;
@@ -99,19 +102,29 @@
     text-decoration: none;
     font-weight: 600;
     transition: background-color 0.3s;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background-color: $color-dark-red;
     color: $color-white;
-  }
-  
-  .btn-outline {
+}
+
+.btn-outline {
+    margin-top: 4px;
     background-color: transparent;
-    border: 2px solid $color-white;
-    margin-left: 15px;
-  }
-  
-  .btn-outline:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-  }
+    border: 3px solid $color-dark-blue;
+    color: $color-dark-blue;
+}
+
+.btn-outline:hover {
+    background-color: rgba(1, 83, 144, 0.1);
+    color: $color-dark-blue;
+}
+
+a.btn:visited {
+    color: $color-white;
+}
+
+a.btn-outline:visited {
+    color: $color-dark-blue;
+}

@@ -1,8 +1,8 @@
 <div class="tool-card" id="{{ tool_slug }}">
   <div class="tool-header">
-    {% assign img_link = "assets/resources/img/tools/" | append: tool.img %} {% image_with_class
-    img_link tool.name %}
-    <div class="badge">{{ tool.category }}</div>
+    {% assign img_link = "assets/resources/img/tools/" | append: "repo-scaffolder.svg" %} {% image_with_class
+    "assets/resources/img/tools/repo-scaffolder.svg" tool.name %}
+    <div class="badge">{{ tool.repositoryType }}</div>
   </div>
   <div class="tool-content">
     <h3>{{ tool.name }}</h3>
@@ -12,8 +12,7 @@
       <span class="tool-tag">{{ tag }}</span>
       {% endfor %}
     </div>
-    <a href="{{ tool.link }}" target="_blank" class="btn">
-      {% if tool.link_type == "tool" %} Open Tool {% else %} View on GitHub {% endif %}
-    </a>
+        <a href="{{ tool.projectURL }}" target="_blank" class="btn">Open tool</a>
+    <a href="{{ tool.repositoryURL }}" target="_blank" class="btn btn-outline">View on GitHub</a>
   </div>
 </div>
