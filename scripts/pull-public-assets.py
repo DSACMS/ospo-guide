@@ -37,7 +37,7 @@ def main():
 
                 indexGen.save_organization_files(org, agency_dir)
 
-            indexGen.save_index(os.path.join(agency_dir, agency, "_index.json"))
+            indexGen.save_index(os.path.join(agency_dir, agency + "_index.json"))
             print(f"\nIndexing complete. Results saved to {agency_dir}")
         
     except Exception as e:
