@@ -25,6 +25,12 @@ def main():
             )
 
             agency_dir = os.path.join(AGENCY_CODEJSON_DIR, agency)
+
+            try:
+                os.mkdir(AGENCY_CODEJSON_DIR)
+            except FileExistsError:
+                print(f"File already exists: {AGENCY_CODEJSON_DIR}")
+
             try:
                 os.mkdir(agency_dir)
             except FileExistsError:
