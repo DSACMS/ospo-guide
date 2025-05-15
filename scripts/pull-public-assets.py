@@ -12,7 +12,7 @@ def main():
     with open('codegov.json','r') as file:
         codegovDict = json.load(file)
 
-    github_key = os.getenv("GITHUB_KEY")
+    github_key = os.getenv("GITHUB_TOKEN")
 
     try:
         for agency in codegovDict.keys():
