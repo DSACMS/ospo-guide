@@ -30,7 +30,6 @@ Agencies should make the `code.json` available in the root folder of their websi
 ## Metadata Schema version 2.0.0
 
 The schema fields and definitions are listed below.
-<span class="text-accent-cool-dark" aria-hidden="true">The schema fields marked in blue are optional but recommended as they provide additional, helpful information.</span>
 Here is <a href="https://github.com/GSA/code-gov-data/blob/master/schemas/schema-2.0.0.json">version 2.0.0 of the metadata schema file in JSON format</a>
 with parent/child relationships.
 
