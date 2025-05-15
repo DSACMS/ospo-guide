@@ -32,7 +32,7 @@ The purpose of Step 1 is to ensure that your agency – not just your acquisitio
 
 Further, Step 1 is meant to ensure that agencies do market research to discover what Federal and non-Federal solutions are already available before buying or building software.
 
-### <em>Things to consider during</em> Step 1:
+### Things to consider during Step 1:
 
 Consult your agency's mission statement to broaden your strategy beyond the immediate project requirements.
 
