@@ -37,7 +37,7 @@ jobs:
       - name: Build project
         run: npm run build
         env:
-          BASEURL: /ospo-guide
+          BASEURL: /code-gov
 
       - name: Setup GitHub pages
         uses: actions/configure-pages@v5
