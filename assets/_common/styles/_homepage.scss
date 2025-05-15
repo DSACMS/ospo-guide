@@ -3,49 +3,54 @@
 
 .sections-listing {
   padding: 10px;
-    ul {
-      padding-left: 0;
-      list-style-type: none;
-    }
-  }
-  
-  .visually-hidden {
-    position: absolute !important;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
-  }
-  
-  .usa-intro--sections {
-    padding-bottom: 1;
-    padding-top: 1;
-    text-align: center;
 
-    p {
-      font-size: 2.44rem;
-      margin: 0;
-    }
-    .subtitle {
-      font-size: 1.34rem;
-    }
+  ul {
+    padding-left: 0;
+    list-style-type: none;
   }
- .grid-row {
-  display:flex;
-  flex-direction:row;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.usa-intro--sections {
+  padding-bottom: 1;
+  padding-top: 1;
+  text-align: center;
+
+  p {
+    font-size: 2.44rem;
+    margin: 0;
+  }
+
+  .subtitle {
+    font-size: 1.34rem;
+  }
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
   margin-top: 20px;
   margin-bottom: 20px;
- }
+}
 
- #explore-row {
+#explore-row {
   border-top: 3px solid rgba(28, 48, 74, 0.3);
   border-bottom: 3px solid rgba(28, 48, 74, 0.3);
- }
+}
 
- .explore-actions, .explore-connect, .explore-agencies {
+.explore-actions,
+.explore-connect,
+.explore-agencies {
   padding: 20px;
-  max-width: 300px;
+  max-width: 320px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -55,14 +60,23 @@
     margin-top: auto;
     width: auto;
   }
- }
+}
 
- .explore-connect {
+.explore-connect {
   border-left: 3px solid rgba(28, 48, 74, 0.3);
   border-right: 3px solid rgba(28, 48, 74, 0.3);
- }
+}
 
- .bg-primary-lighter {
+.bg-primary-lighter {
   padding: 20px;
- }
-  
+}
+
+.goal-container {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    object-fit: contain;
+    margin-right: 20px;
+  }
+}
