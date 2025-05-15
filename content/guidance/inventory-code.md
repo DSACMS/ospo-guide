@@ -13,32 +13,26 @@ sidenav: true
 sticky_sidenav: true
 ---
 
-# Creating your enterprise code inventory
-## Overview
-<p>
-  Section
-  <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m_16_21.pdf" target="_blank" rel="noopener noreferrer">7.2</a>
-  and <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m_16_21.pdf" target="_blank" rel="noopener noreferrer">7.3</a> of the Source Code Policy require agencies to provide an inventory of their 'custom-developed code' to support government-wide reuse and make Federal open source code easier to find.
-</p>
-<p>
-  Using these inventories, <!--TODO: Fix this URL to be Code.gov after new CNAME is pointed--><a href="https://dsacms.github.io/code-gov/">Code.gov</a> will provide a platform to search federally funded open source software and software available for government-wide reuse.
-</p>
+# Overview
+
+Section
+  <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m_16_21.pdf" target="_blank">7.2</a>
+  and <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m_16_21.pdf" target="_blank">7.3</a> of the Source Code Policy require agencies to provide an inventory of their 'custom-developed code' to support government-wide reuse and make Federal open source code easier to find.
+
+Using these inventories, <!--TODO: Fix this URL to be Code.gov after new CNAME is pointed--><a href="https://dsacms.github.io/code-gov/">Code.gov</a> will provide a platform to search federally funded open source software and software available for government-wide reuse.
 
 ## Publishing Your Agency's Inventory
-<p>
-  Agencies are required to publish their inventories using a standard metadata schema - a JSON file that they'll make available on their agency websites. Agencies are strongly encouraged to use version 2.0.0 of the schema, which is described below. This version includes revisions that make your inventory much more useful and intuitive.
-</p>
-<p>
-  Agencies should make the "code.json" available in the root folder of their website (e.g., https://www.agency.gov/code.json). Code.gov will then retrieve these JSON files daily and compile them.
-</p>
+
+Agencies are required to publish their inventories using a standard metadata schema - a JSON file that they'll make available on their agency websites. Agencies are strongly encouraged to use version 2.0.0 of the schema, which is described below. This version includes revisions that make your inventory much more useful and intuitive.
+
+Agencies should make the `code.json` available in the root folder of their website (e.g., https://www.agency.gov/code.json). Code.gov will then retrieve these JSON files daily and compile them.
 
 ## Metadata Schema version 2.0.0
-<p>
-  The schema fields and definitions are listed below.
-  <span class="text-accent-cool-dark" aria-hidden="true">The schema fields marked in blue are optional but recommended as they provide additional, helpful information.</span>
-  Here is <a href="https://github.com/GSA/code-gov-data/blob/master/schemas/schema-2.0.0.json">version 2.0.0 of the metadata schema file in JSON format</a>
-  with parent/child relationships.
-</p>
+
+The schema fields and definitions are listed below.
+<span class="text-accent-cool-dark" aria-hidden="true">The schema fields marked in blue are optional but recommended as they provide additional, helpful information.</span>
+Here is <a href="https://github.com/GSA/code-gov-data/blob/master/schemas/schema-2.0.0.json">version 2.0.0 of the metadata schema file in JSON format</a>
+with parent/child relationships.
 
 ### Agency code.json file location and contents:
 <ul>
@@ -49,10 +43,9 @@ sticky_sidenav: true
 </ul>
 
 ## Source Code Considerations for AI R&amp;D Models
-  <p>
-    Consistent with the
-    <a href="https://bidenwhitehouse.archives.gov/briefing-room/presidential-actions/2025/01/14/executive-order-on-advancing-united-states-leadership-in-artificial-intelligence-infrastructure/">Executive Order on Maintaining American Leadership in Artificial Intelligence (EO 13859)</a>, agencies are directed to improve source code inventory documentation (i.e., agency code.json) to enable discovery and usability of source code AI models.
-  </p>
+Consistent with the 
+<a href="https://bidenwhitehouse.archives.gov/briefing-room/presidential-actions/2025/01/14/executive-order-on-advancing-united-states-leadership-in-artificial-intelligence-infrastructure/">Executive Order on Maintaining American Leadership in Artificial Intelligence (EO 13859)</a>, agencies are directed to improve source code inventory documentation (i.e., agency code.json) to enable discovery and usability of source code AI models. 
+
   <table>
     <thead>
       <tr>
@@ -106,7 +99,7 @@ sticky_sidenav: true
       </tr>
       <tr>
         <th scope="row"><span style="white-space: nowrap;">AI R&amp;D Guidance</span></th>
-        <td>Be sure to identify and include domain experts and their contact information who can discuss the model with interested AI researchers. If not the same as the domain expert, Agencies shall also identify an expert and their contact information who can discuss restrictions or controls on the model.</td>
+        <td>Be sure to identify and include domain experts and their contact information who can discuss the model with interested AI researchers. If not the same as the domain expert, Agencies shall also identify an expert and their contact information who can discuss restrictions or controls on the model.</td> 
       </tr>
     </tbody>
   </table>
@@ -164,12 +157,7 @@ sticky_sidenav: true
   </table>
 
 ## Example code.json file
-<p>
-  Here are some
-  <a href="https://github.com/GSA/code-gov/blob/master/docs/metadata_examples.md">good metadata examples</a>
-  for reference when creating your agency code.json file.
-</p>
-<p>
-  You can find previous schema revisions in
-  <a href="https://github.com/GSA/code-gov-data/blob/master/CHANGELOG.md">our changelog</a>.
-</p>
+
+Here are some [good metadata examples](https://github.com/GSA/code-gov/blob/master/docs/metadata_examples.md) for reference when creating your agency code.json file.
+
+You can find previous schema revisions in [our changelog](https://github.com/GSA/code-gov-data/blob/master/CHANGELOG.md)

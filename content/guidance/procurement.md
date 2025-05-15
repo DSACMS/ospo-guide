@@ -13,9 +13,6 @@ sidenav: true
 sticky_sidenav: true
 ---
 
-
-# Building and Buying Custom Software
-
 <a target="_blank" href="https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf">Section 3.1</a> of the Source Code Policy requires that:
 
 > In meeting their software needs, covered agencies must conduct [a] three-step analysis […] intended to leverage existing solutions – consistent with principles of category management and shared services – and suitable commercial solutions, while mitigating unnecessary spending on custom-developed software solutions.
@@ -37,11 +34,11 @@ Further, Step 1 is meant to ensure that agencies do market research to discover 
 
 ### <em>Things to consider during</em> Step 1:
 
-<p>
-    Consult your agency's mission statement to broaden your strategy beyond the immediate project requirements.
-    As required in the policy, also consider relevant "external public initiatives and interagency initiatives such as Cross-Agency Priority Goals" for the same reason.
-    Review OFPP memorandum M-16-12 "Improving the Acquisition and Management of Common Information Technology: Software Licensing" and consult with your agency's appointed Software Manager.
-</p>
+Consult your agency's mission statement to broaden your strategy beyond the immediate project requirements.
+
+As required in the policy, also consider relevant "external public initiatives and interagency initiatives such as Cross-Agency Priority Goals" for the same reason.
+
+Review OFPP memorandum M-16-12 "Improving the Acquisition and Management of Common Information Technology: Software Licensing" and consult with your agency's appointed Software Manager.
 
 ## Step 2: Consider Existing Commercial Solutions
 
@@ -51,11 +48,11 @@ As with Step 1, the purpose of Step 2 is to develop your agency's strategic view
 
 ### Things to consider during Step 2:
 
-<p>Open Source Software may meet the definition of "commercial computer software" and may also be included in a commercial solution in accordance with FAR 2.101(b). For example, Open Source Software that "[h]as been offered for sale, lease, or license to the general public" may be considered "commercial" for purposes of a federal acquisition. Be sure to consult your agency's policy regarding Open Source Software acquisitions.
+Open Source Software may meet the definition of "commercial computer software" and may also be included in a commercial solution in accordance with FAR 2.101(b). For example, Open Source Software that "[h]as been offered for sale, lease, or license to the general public" may be considered "commercial" for purposes of a federal acquisition. Be sure to consult your agency's policy regarding Open Source Software acquisitions.
 
 It is important to apply category management principles, which give preference to best-in-class solutions, in your analysis.
 
-Agencies must use <a target="_blank" href="https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf">Category Management Policy 16-1</a> for this analysis.</p>
+Agencies must use <a target="_blank" href="https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf">Category Management Policy 16-1</a> for this analysis.
 
 ## Step 3: Consider Custom Development
 
@@ -106,18 +103,21 @@ If an agency intends to publish software as open source, it should not include A
 ### Other considerations
 #### Identify all deliverables and asserted restrictions
 
-<p> For commercial data/software, the contractor needs to provide a copy of the proposed commercial license agreement to the contracting officer prior to contracting;</p>
+For commercial data/software, the contractor needs to provide a copy of the proposed commercial license agreement to the contracting officer prior to contracting;
 
-<p>For noncommercial data/software, the contractor needs to identify prior to contracting, often in proposals, the data that will be delivered with restrictions (FAR 27.404-3b; DFARS 252.227-7017);</p>
+For noncommercial data/software, the contractor needs to identify prior to contracting, often in proposals, the data that will be delivered with restrictions (FAR 27.404-3b; DFARS 252.227-7017);
 
-<p>The solicitation and contract must specify delivery of the data package and source code. The agency should include additional data requirements clauses in the FAR to permit flexibility in ordering additional deliverables.</p>
+The solicitation and contract must specify delivery of the data package and source code. The agency should include additional data requirements clauses in the FAR to permit flexibility in ordering additional deliverables.
 
 #### Make sure that your contractor holds to the software and data rights requirements, and require the contractor to provide all licenses for software dependencies as part of the deliverables
 
-<p>Ensure that all deliverables are appropriately marked with the applicable restrictive legends;</p>
-<p>If contractor omits restrictive markings, data or software delivered without restrictive markings, the Government is deemed to have received unlimited rights in the deliverable (the Government may allow the contractor to correct the error according to certain procedures);</p>
-<p>If delivery is made with restrictive markings that are not authorized by the contract, the marking is characterized as nonconforming (contract contains procedure for correcting nonconforming markings);</p>
-<p>Agencies should also require delivery of the source code and other relevant materials and associated documents, which is specified in the contract requirements.</p>
+Ensure that all deliverables are appropriately marked with the applicable restrictive legends;
+
+If contractor omits restrictive markings, data or software delivered without restrictive markings, the Government is deemed to have received unlimited rights in the deliverable (the Government may allow the contractor to correct the error according to certain procedures);
+
+If delivery is made with restrictive markings that are not authorized by the contract, the marking is characterized as nonconforming (contract contains procedure for correcting nonconforming markings);
+
+Agencies should also require delivery of the source code and other relevant materials and associated documents, which is specified in the contract requirements.
 
 #### Hybrid solutions
 
