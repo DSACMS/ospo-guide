@@ -1,7 +1,7 @@
 ---
 title: About
 description: 'About'
-permalink: /about
+permalink: /about/
 layout: layouts/page
 tags: codegov
 eleventyNavigation:
@@ -9,8 +9,8 @@ eleventyNavigation:
   key: codegov-about-main
   order: 1
   title: About
-sidenav: true
-sticky_sidenav: true
+sidenav: false
+sticky_sidenav: false
 ---
 
 # Code.gov Program
