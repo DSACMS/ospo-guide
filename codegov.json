@@ -1,6 +1,7 @@
 {
   "GSA": {
     "agency": "GSA",
+    "orgs": ["uswds","GSA","18F"],
     "version": "1.0.0",
     "measurementType": {
       "method": "projects"
@@ -306,6 +307,7 @@
   },
   "HHS": {
     "agency": "HHS",
+    "orgs": ["DSACMS"],
     "version": "1.0.0",
     "measurementType": {
       "method": "projects"

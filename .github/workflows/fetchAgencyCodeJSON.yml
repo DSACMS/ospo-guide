@@ -1,0 +1,43 @@
+name: fetchAgencyCodeJSON
+
+on:
+    schedule:
+            # Run mondays at 7:15 am
+            - cron: "15 7 * * 0"
+    workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+    update:
+        permissions: write-all
+        name: update
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-python@v5
+              with: 
+                python-version: '3.13'
+            - name: cache pip
+              uses: actions/cache@v4
+              with: 
+                path: ~/.cache/pip
+                key: ${{ runner.os }}-pip-${{ hashFiles('scripts/requirements.txt') }}
+                restore-keys: |
+                  ${{ runner.os }}-pip-
+            - run: pip install -r scripts/requirements.txt
+            - run: python scripts/pull-public-assets.py
+            - run: |
+                git config user.name 'GitHub Actions'
+                git config user.email 'actions@users.noreply.github.com'
+                git pull
+                git add -A
+                timestamp=$(date -u)
+                git commit -m "update codejson data: ${timestamp}" || exit 0
+            - name: Push to ${{ github.ref_name }}
+              uses: CasperWA/push-protected@v2
+              with:
+                branch: ${{ github.ref_name }}
