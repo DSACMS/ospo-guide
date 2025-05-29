@@ -64,5 +64,7 @@ module.exports = async function () {
     console.log(e, 'error message');
   }
 
+  console.log(tools, "checking tools!");
+
   return tools;
 };
