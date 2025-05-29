@@ -55,6 +55,7 @@ module.exports = async function () {
       }
       catch (e) {
         console.warn(`Failed to fetch ${repo}, skipping...`);
+        console.warn(e, 'error message');
       }
     });
 
