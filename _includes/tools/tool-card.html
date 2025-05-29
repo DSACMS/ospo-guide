@@ -1,0 +1,20 @@
+<div class="tool-card" id="{{ tool_slug }}">
+  <div class="tool-header">
+    {% assign img_name_lower = tool.repositoryType | downcase %}
+    {% assign img_name = img_name_lower | append: ".svg" %}
+    {% assign img_link = "assets/resources/img/tools/" | append: img_name %} {% image_with_class
+    img_link tool.name %}
+    <div class="badge">{{ tool.repositoryType }}</div>
+  </div>
+  <div class="tool-content">
+    <h3>{{ tool.name }}</h3>
+    <p>{{ tool.description }}</p>
+    <div class="tool-tags">
+      {% for tag in tool.tags %}
+      <span class="tool-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+      <a href="{{ tool.projectURL }}" target="_blank" class="btn">Open tool</a>
+      <a href="{{ tool.repositoryURL }}" target="_blank" class="btn btn-outline">View on GitHub</a>
+  </div>
+</div>
