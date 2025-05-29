@@ -17,7 +17,7 @@ module.exports = async function () {
         type: 'json',
         fetchOptions: {
           headers: {
-            'Authorization': `token ${process.env.GITHUB_TOKEN}`,
+            'Authorization': `token ${process.env.GH_API_TOKEN}`,
             'Accept': 'application/vnd.github+json'
           }
         }
@@ -36,7 +36,7 @@ module.exports = async function () {
             type: 'json',
             fetchOptions: {
               headers: {
-                'Authorization': `token ${process.env.GITHUB_TOKEN}`,
+                'Authorization': `token ${process.env.GH_API_TOKEN}`,
                 'Accept': 'application/vnd.github+json'
               }
             }
