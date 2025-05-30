@@ -8,7 +8,7 @@ tags: ospo
 eleventyNavigation:
   parent: ospo-outbound
   key: ospo-outbound-releaseguidelines
-  order: 5
+  order: 6
   title: Release Guidelines
 sidenav: true
 sticky_sidenav: true

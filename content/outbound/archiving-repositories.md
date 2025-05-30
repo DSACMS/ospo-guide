@@ -8,7 +8,7 @@ tags: ospo
 eleventyNavigation:
   parent: ospo-outbound
   key: ospo-outbound-archivingrepositories
-  order: 7
+  order: 8
   title: Archiving Repositories
 sidenav: true
 sticky_sidenav: true
