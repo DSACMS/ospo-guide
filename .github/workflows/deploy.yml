@@ -33,12 +33,24 @@ jobs:
 
       - name: Install dependencies
         run: npm ci --prefer-offline --no-audit
+      
+      - name: 11ty Cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: 11ty-cache
 
       - name: Build project
         run: npm run build
         env:
           BASEURL: /ospo-guide
           GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
+      
+      - name: Save 11ty Cache
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: 11ty-cache
 
       - name: Setup GitHub pages
         uses: actions/configure-pages@v5
