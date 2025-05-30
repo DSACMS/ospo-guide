@@ -24,7 +24,7 @@ Our maturity model framework is designed to evaluate and categorize open source 
 - [Tier 3](https://github.com/DSACMS/repo-scaffolder/blob/main/tier3/README.md): Working in Public
 - [Tier 4](https://github.com/DSACMS/repo-scaffolder/blob/main/tier4/README.md): Community Governance
 
-Learn more at:
+Learn more:
 - [maturity-model-tiers.md](https://github.com/DSACMS/repo-scaffolder/blob/main/maturity-model-tiers.md)
 - [Identify your project's maturity model tier](https://github.com/DSACMS/repo-scaffolder?tab=readme-ov-file#need-help-picking-a-maturity-tier)
 - [Get started on your repository using repo-scaffolder](https://dsacms.github.io/repo-scaffolder)
