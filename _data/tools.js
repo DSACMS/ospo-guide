@@ -54,8 +54,7 @@ module.exports = async function () {
         }
       }
       catch (e) {
-        console.warn(`Failed to fetch ${repo}, skipping...`);
-        console.warn(e, 'error message');
+        console.warn(`No code.json file in ${repo}, skipping...`);
       }
     });
 
@@ -63,8 +62,6 @@ module.exports = async function () {
     console.log(`Unable to fetch repositories from ${orgName}`);
     console.log(e, 'error message');
   }
-
-  console.log(tools, "checking tools!");
 
   return tools;
 };
