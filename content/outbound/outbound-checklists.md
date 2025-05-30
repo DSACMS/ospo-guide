@@ -8,7 +8,7 @@ tags: ospo
 eleventyNavigation:
   parent: ospo-outbound
   key: ospo-outbound-outboundchecklists
-  order: 4
+  order: 5
   title: Outbound Checklists
 sidenav: true
 sticky_sidenav: true
