@@ -1,15 +1,15 @@
 ---
-title: Risk Acceptance and Excemption Criteria of Open Sourcing
-description: 'Guidance on risk acceptance and exception criteria for your repository'
-permalink: /outbound/exception-criteria/
+title: Risk Acceptance and Exemption Criteria of Open Sourcing
+description: 'Guidance on risk acceptance and exeption criteria for your repository'
+permalink: /outbound/exeption-criteria/
 layout: layouts/page
 section: outbound
 tags: ospo
 eleventyNavigation:
   parent: ospo-outbound
-  key: ospo-outbound-excemptioncriteria
+  key: ospo-outbound-exemptioncriteria
   order: 10
-  title: Risk Acceptance and Excemption Criteria of Open Sourcing
+  title: Risk Acceptance and Exeption Criteria of Open Sourcing
 sidenav: true
 sticky_sidenav: true
 ---
