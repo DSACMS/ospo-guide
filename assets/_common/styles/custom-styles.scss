@@ -237,3 +237,22 @@ h2.heading-md {
     vertical-align: middle;
   }
 }
+
+/* Task checklists */
+.contains-task-list {
+  padding-left: 0;
+  margin-left: 0;
+
+  li {
+    list-style: none;
+    margin-left: 0;
+
+    &::marker {
+      content: none;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 0.5em;
+    }
+  }
+}

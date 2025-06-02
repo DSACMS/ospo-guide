@@ -3,6 +3,7 @@ const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it');
+const markdownItTaskLists = require('markdown-it-task-lists');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItFootnote = require('markdown-it-footnote');
@@ -115,7 +116,7 @@ module.exports = function (config) {
   }).use(markdownItAnchor, {
     permalink: headingLinks,
     slugify: config.getFilter('slugify'),
-  }).use(markdownItAttrs).use(markdownItFootnote);
+  }).use(markdownItAttrs).use(markdownItFootnote).use(markdownItTaskLists);
   config.setLibrary('md', markdownLibrary);
 
   // Override Footnote opener

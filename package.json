@@ -64,7 +64,8 @@
     "esbuild": "^0.24.0",
     "esbuild-sass-plugin": "^3.3.1",
     "luxon": "^2.3.1",
-    "markdown-it-footnote": "^3.0.3"
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-task-lists": "^2.1.1"
   },
   "mocha": {
     "timeout": 15000
