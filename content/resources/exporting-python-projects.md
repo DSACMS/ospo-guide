@@ -1,3 +1,19 @@
+---
+title: Packaging Python Projects
+description: 'Guidelines for publishing python projects as packages'
+permalink: /resources/packaging/
+layout: layouts/page
+section: resources
+tags: ospo
+eleventyNavigation:
+  parent: ospo-resources
+  key: ospo-resources-packaging
+  order: 3
+  title: Packaging Python Projects
+sidenav: true
+sticky_sidenav: true
+---
+
 # Packaging and Publishing Python Libraries
 
 This guide is intended to guide Python developers in how to design their code to be easily packaged and published to PyPi with the help of Poetry. Firstly, this guide assumes that you have already set up your project and have been developing it with the help of Poetry. 
@@ -15,11 +31,11 @@ my-project-src-code/
 	example.py
 ```
 
-How your library package will work is that whenever someone installs the library they will import ‘my-project’ and they can import anything that is present in the \_\_init\_\_.py file. Therefore, it is important to import everything that you want to be present in the library inside the \_\_init\_\_.py file. 
+How your library package will work is that whenever someone installs the library they will import ‘my-project’ and they can import anything that is present in the `\_\_init\_\_.py` file. Therefore, it is important to import everything that you want to be present in the library inside the `\_\_init\_\_.py` file. 
 
 ### Exporting to PyPi
 
-First, if you do not already have a PyPi account make sure that you create one. It is highly recommended that you also use an authenticator app such as google authenticator or an equivalent two factor authentication method.   
+First, if you do not already have a PyPi account make sure that you create one. It is highly recommended that you also use an authenticator app such as Google authenticator or an equivalent two factor authentication method.   
 
 Secondly, once you have a PyPi account and have made sure that it is secure and configured to your liking you can generate an API key for publishing. Then you can click on your username in the top right corner and navigate to ‘Account settings.’ 
 
