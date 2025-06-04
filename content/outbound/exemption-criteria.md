@@ -8,7 +8,7 @@ tags: ospo
 eleventyNavigation:
   parent: ospo-outbound
   key: ospo-outbound-exemptioncriteria
-  order: 10
+  order: 7
   title: Risk Acceptance and Exeption Criteria of Open Sourcing
 sidenav: true
 sticky_sidenav: true
