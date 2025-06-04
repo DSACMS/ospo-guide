@@ -8,7 +8,7 @@ tags: ospo
 eleventyNavigation:
   parent: ospo-outbound
   key: ospo-outbound-howtogrowosproject
-  order: 7
+  order: 8
   title: How to start and grow your open source project
 sidenav: true
 sticky_sidenav: true
