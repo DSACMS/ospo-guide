@@ -1,7 +1,7 @@
 {
   "name": "ospo-guide",
   "description": "Open Source Program Office Guide for CMS.gov",
-  "longDescription": "Source of truth for all processes that take place within the Open Source Program Office.",
+  "longDescription": "A comprehensive guide offering resources, best practices, and processes that take place within the CMS Open Source Program Office.",
   "status": "Production",
   "permissions": {
     "license": [
