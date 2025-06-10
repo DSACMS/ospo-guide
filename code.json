@@ -15,13 +15,13 @@
   },
   "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/ospo-guide",
-  "projectURL": "",
+  "projectURL": "https://dsacms.github.io/ospo-guide/",
   "repositoryHost": "github.com/DSACMS",
-  "repositoryVisibility": "",
+  "repositoryVisibility": "public",
   "vcs": "git",
   "laborHours": 5187,
   "reuseFrequency": {
-    "forks": 0,
+    "forks": 3,
     "clones": 0
   },
   "platforms": [
@@ -49,7 +49,8 @@
   "tags": [
     "OSPO",
     "guide",
-    "documentation"
+    "documentation",
+    "featured"
   ],
   "contact": {
     "email": "opensource@cms.hhs.gov",
@@ -65,7 +66,7 @@
   "group": "CMS/OA/DSAC",
   "projects": [],
   "systems": [],
-  "upstream": "",
+  "upstream": "https://github.com/DSACMS/metrics/network/dependencies",
   "subsetInHealthcare": [
     "Operational"
   ],
