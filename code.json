@@ -15,30 +15,62 @@
   },
   "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/ospo-guide",
+  "projectURL": "",
+  "repositoryHost": "github.com/DSACMS",
+  "repositoryVisibility": "",
   "vcs": "git",
-  "laborHours": 2992,
-  "platforms": ["web"],
-  "categories": ["knowledge-management", "document-management"],
+  "laborHours": 5187,
+  "reuseFrequency": {
+    "forks": 0,
+    "clones": 0
+  },
+  "platforms": [
+    "web"
+  ],
+  "categories": [
+    "knowledge-management",
+    "document-management"
+  ],
   "softwareType": "standalone/web",
-  "languages": ["Markdown"],
+  "languages": [
+    "HTML",
+    "JavaScript",
+    "SCSS",
+    "Shell",
+    "Nunjucks"
+  ],
   "maintenance": "internal",
+  "contractNumber": "",
   "date": {
     "created": "2024-04-03T20:47:21Z",
-    "lastModified": "2025-02-11T17:21:41Z",
-    "metaDataLastUpdated": "2025-02-11T17:22:34.291Z"
+    "lastModified": "2025-06-04T19:28:45Z",
+    "metaDataLastUpdated": "2025-06-10T15:52:04.409Z"
   },
-  "tags": ["OSPO", "guide", "documentation"],
+  "tags": [
+    "OSPO",
+    "guide",
+    "documentation"
+  ],
   "contact": {
     "email": "opensource@cms.hhs.gov",
     "name": "CMS Open Source Team"
   },
+  "feedbackMechanisms": [
+    "https://github.com/DSACMS/ospo-guide/issues"
+  ],
   "localisation": false,
   "repositoryType": "standards",
   "userInput": false,
   "fismaLevel": "Low",
   "group": "CMS/OA/DSAC",
-  "subsetInHealthcare": ["Operational"],
-  "userType": ["Government"],
-  "repositoryHost": "github.com/DSACMS",
+  "projects": [],
+  "systems": [],
+  "upstream": "",
+  "subsetInHealthcare": [
+    "Operational"
+  ],
+  "userType": [
+    "Government"
+  ],
   "maturityModelTier": 2
 }
