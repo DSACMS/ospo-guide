@@ -1,5 +1,6 @@
 require('dotenv').config();
 const fetch = require('@11ty/eleventy-fetch');
+const { AssetCache } = require('@11ty/eleventy-fetch');
 
 module.exports = async function () {
   const tools = {};
@@ -7,6 +8,14 @@ module.exports = async function () {
   const orgName = 'DSACMS';
   const perPage = 100;
   const page = 1;
+
+  // Check cache
+  let asset = new AssetCache(`tools_${orgName}`);
+
+  if (asset.isCacheValid('1d')) {
+    console.log("checking");
+    return asset.getCachedValue();
+  }
 
   try {
     // Fetch repositories
@@ -46,11 +55,13 @@ module.exports = async function () {
         // Decode code.json file
         const decodedContent = Buffer.from(json.content, 'base64').toString('utf-8');
         const codejson = JSON.parse(decodedContent);
+        const tags = codejson.tags;
 
         // Add code.json object to data
         // Filter by status: only add tools in beta, production, or to be released
-        if (['Production', 'Beta', 'Release Candidate'].includes(codejson.status)) {
+        if (['production', 'beta', 'release candidate'].includes(codejson.status.toLowerCase()) && tags.includes("featured")) {
           tools[repo] = codejson;
+          console.log("repo added: ", repo);
         }
       }
       catch (e) {
