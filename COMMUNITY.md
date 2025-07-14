@@ -85,17 +85,17 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/DinneK">
-                    <img src="https://avatars.githubusercontent.com/u/63877492?v=4" width="100;" alt="DinneK"/>
-                    <br />
-                    <sub><b>Dinne Kopelevich</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/decause-gov">
                     <img src="https://avatars.githubusercontent.com/u/107957201?v=4" width="100;" alt="decause-gov"/>
                     <br />
                     <sub><b>decause-gov</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/DinneK">
+                    <img src="https://avatars.githubusercontent.com/u/63877492?v=4" width="100;" alt="DinneK"/>
+                    <br />
+                    <sub><b>Dinne Kopelevich</b></sub>
                 </a>
             </td>
             <td align="center">
