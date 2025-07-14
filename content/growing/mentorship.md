@@ -59,7 +59,7 @@ Team rituals such as Sprint Planning and Sprint Reporting provide a structural f
 
 ### Employ Just Enough Structure
 
-It is very tempting, in private, but especially within the public sector, to focus on the process above the progress. "Things move slow" is a stereotype that we often hear about the public sector, but I have seen things that moved incredibly quickly when the urgent opportunities are matched with key strategies. Structure will serve your team as you scale and grow, and investing in a well groomed well stocked backlog provides ready-made guidance about work that can be done now, and provide strategic insights for the future, as new members familiarize themselves with the types of work and tasks your team is and will be tackling.
+It is very tempting, in private, but especially within the public sector, to focus on the process above the progress. "Things move slow" is a stereotype that we often hear about the public sector, but we have seen things that moved incredibly quickly when the urgent opportunities are matched with key strategies. Structure will serve your team as you scale and grow, and investing in a well groomed well stocked backlog provides ready-made guidance about work that can be done now, and provide strategic insights for the future, as new members familiarize themselves with the types of work and tasks your team is and will be tackling.
 
 ### Iterate over Smaller Timeboxes (Sprints)
 
