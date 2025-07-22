@@ -41,8 +41,11 @@ Data about data, or, data that describes other data. A key example would be the 
 ### Open Source Software (OSS)
 Software that can be accessed, used, modified, and shared by anyone. OSS is often distributed under licenses that comply with the definition of “Open Source” provided by the Open Source Initiative (https://opensource.org/osd) and/or that meet the definition of “Free Software” provided by the Free Software Foundation (https://www.gnu.org/philosophy/free-sw.html).
 
-### Publiccode.yml
+### [Publiccode.yml](https://yml.publiccode.tools/)
 A metadata file used by National and International Governmental Organizations to document and share public software developed or acquired by a Public Administration. 
+
+### Repository
+Also known as “repo” A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
 
 ### Repository Scaffolder
 Repository Scaffolder or repo-scaffolder for short is a suite of tools that helps projects create source code repositories that are compliant with Federal standards and guidelines and industry best practices.
