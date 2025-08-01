@@ -14,7 +14,7 @@ sidenav: true
 sticky_sidenav: true
 subnav:
   - text: Packaging Python Projects
-    href: '/resources/packaging/exporting-python-projects'
+    href: '/resources/packaging/exporting-python-projects/'
   - text: Creating GitHub Repo Templates
     href: '/resources/packaging/github-repo-template-guide/'
   - text: Packaging JavaScript Projects
