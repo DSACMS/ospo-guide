@@ -1,10 +1,11 @@
 <ul class="usa-list">
     {% for section_page in collections.ospo %}
-    {% if section_page.data.section == section_slug %}
-      <li>
-        <a href="{{ section_page.data.permalink | url }}" class="usa-link">{{ section_page.data.eleventyNavigation.title }}</a>
-      </li>
+    {% assign main-level-key = section_page.data.tags | append: "-" | append : section_slug %}
+    {% if section_page.data.section == section_slug and section_page.data.eleventyNavigation.parent == main-level-key %}
+    <li>
+        <a href="{{ section_page.data.permalink | url }}"
+            class="usa-link">{{ section_page.data.eleventyNavigation.title }}</a>
+    </li>
     {% endif %}
     {% endfor %}
-    </ul>
-    
+</ul>
