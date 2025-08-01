@@ -1,14 +1,14 @@
 ---
 title: Packaging Python Projects
 description: 'Guidelines for publishing python projects as packages'
-permalink: /resources/packaging/
+permalink: /resources/packaging/exporting-python-projects/
 layout: layouts/page
 section: resources
 tags: ospo
 eleventyNavigation:
-  parent: ospo-resources
-  key: ospo-resources-packaging
-  order: 3
+  parent: ospo-resources-packaging
+  key: ospo-resources-packaging-exporting
+  order: 1
   title: Packaging Python Projects
 sidenav: true
 sticky_sidenav: true
