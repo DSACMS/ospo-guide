@@ -16,7 +16,7 @@ subnav:
   - text: Packaging Python Projects
     href: '/resources/packaging/exporting-python-projects'
   - text: Creating GitHub Repo Templates
-    href: '/resources/packaging/gitHub-repo-template-guide/'
+    href: '/resources/packaging/github-repo-template-guide/'
   - text: Packaging JavaScript Projects
     href: '/resources/packaging/npm-packaging-guidelines/'
 ---
