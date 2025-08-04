@@ -108,13 +108,6 @@ module.exports = function (config) {
     return filterTagList([...tagSet]);
   });
 
-  // Add guides as collections
-  config.addCollection('packagingGuides', function (collectionApi) {
-    return collectionApi
-      .getFilteredByGlob('content/resources/packaging/*.md')
-      .filter(item => !item.inputPath.endsWith('index.md'));
-  });
-
   // Customize Markdown library and settings
   let markdownLibrary = markdownIt({
     html: true,
