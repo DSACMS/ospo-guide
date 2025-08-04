@@ -1,4 +1,4 @@
-{% comment %} 
+{% comment %}
 The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
 _layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages
 {% endcomment %}
@@ -7,32 +7,34 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
   <nav class="{% if sticky_sidenav %} position-sticky top-1 {% endif%} ">
     <ul class="usa-sidenav">
       {% if eleventyNavigation.parent %}
-        {% assign links = collections.all | eleventyNavigation: eleventyNavigation.parent %}
+      {% assign links = collections.all | eleventyNavigation: eleventyNavigation.parent %}
       {% else %}
-        {% assign links = collections[eleventyNavigation.key] | eleventyNavigation %}
+      {% assign links = collections[eleventyNavigation.key] | eleventyNavigation %}
       {% endif %}
       {% for link in links %}
-        {% assign _current = false %}
-        {% if link.url == page.url %}
-          {% assign _current = true %}
+      {% assign _current = false %}
+      {% if link.url == page.url %}
+      {% assign _current = true %}
+      {% endif %}
+      <li class="usa-sidenav__item">
+        <a href="{{ link.url | url }}" {% if _current %} class="usa-current" {% endif %}>
+          {{ link.title }}
+        </a>
+        {% if subnav and _current %}
+        {% for heading in subnav %}
+        <ul class="usa-sidenav__sublist">
+          <li class="usa-sidenav__item border-0">
+            {% if my_string[0] == "#" %}
+            <a href="{{ heading.href }}"> {{ heading.text }} </a>
+            {% else %}
+            <a href="{{ heading.href | url }}"> {{ heading.text }} </a>
+            {% endif %}
+          </li>
+        </ul>
+        {% endfor %}
         {% endif %}
-        <li class="usa-sidenav__item">
-          <a href="{{ link.url | url }}"
-             {% if _current %} class="usa-current" {% endif %}
-          >
-           {{ link.title }}
-          </a>
-          {% if subnav and _current %}
-            {% for heading in subnav %}
-            <ul class="usa-sidenav__sublist">
-              <li class="usa-sidenav__item border-0">
-                <a href="{{ heading.href }}"> {{ heading.text }} </a>
-              </li>
-            </ul>
-            {% endfor %}
-          {% endif %}
-        </li>
-    {% endfor %}
+      </li>
+      {% endfor %}
     </ul>
   </nav>
 </aside>
