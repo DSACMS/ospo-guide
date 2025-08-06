@@ -24,13 +24,10 @@ console.log(subnav | log)
 
 ### Below are guides related to packaging and publishing projects:
 
-<ul style="list-style: none; padding-left: 0;">
+<ul class="packaging-list-style">
   {% for guide in subnav %}
-    <li style="margin-bottom: 0.5rem;">
-        <a href="{{ guide.href | url }}" id="packaging-style"
-          style="text-decoration: none; font-size: 1.2rem; font-weight: 500;
-          color: #046b99; padding: 1.5%"
-        >
+    <li>
+        <a href="{{ guide.href | url }}" id="packaging-style">
           {{ guide.text }}
         </a>
     </li>
