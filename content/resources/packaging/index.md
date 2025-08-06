@@ -20,7 +20,6 @@ subnav:
   - text: Packaging JavaScript Projects
     href: '/resources/packaging/npm-packaging-guidelines/'
 ---
-console.log(subnav | log)
 
 ### Below are guides related to packaging and publishing projects:
 
