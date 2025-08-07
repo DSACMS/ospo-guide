@@ -23,20 +23,12 @@ subnav:
 
 ### Below are guides related to packaging and publishing projects:
 
-<ul style="list-style: none; padding-left: 0;">
-{% for guide in collections.packagingGuides %}
+<ul class="packaging-list-style">
+  {% for guide in subnav %}
     <li>
-        <style>
-            #packaging-style:hover {
-                background-color: #f1f1f1;
-            }
-        </style>
-        <a href="{{ guide.url }}" id="packaging-style"
-          style="text-decoration: none; font-size: 1.2rem; font-weight: 600;
-          color: #046b99; padding: 1.5%"
-        >
-          {{ guide.data.title }}
+        <a href="{{ guide.href | url }}" id="packaging-style">
+          {{ guide.text }}
         </a>
     </li>
-{% endfor %}
+  {% endfor %}
 </ul>

@@ -84,7 +84,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
 // usa-section overrides
 .hero .section__heading--white {
   color: color('white');
@@ -255,4 +254,22 @@ h2.heading-md {
       margin-right: 0.5em;
     }
   }
+}
+
+#packaging-style {
+  color: #046b99;
+  font-size: 1.2rem; 
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-left: -5%;
+  padding: 1.5%;
+  text-decoration: none;
+}
+
+#packaging-style:hover {
+  background-color: #f1f1f1;
+}
+
+.packaging-list-style {
+  list-style: none; 
 }
