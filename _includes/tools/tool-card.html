@@ -11,10 +11,12 @@
     <p>{{ tool.description }}</p>
     <div class="tool-tags">
       {% for tag in tool.tags %}
+      {% unless tag == "featured" %}
       <span class="tool-tag">{{ tag }}</span>
+      {% endunless %}
       {% endfor %}
     </div>
-      <a href="{{ tool.projectURL }}" target="_blank" class="btn">Open tool</a>
-      <a href="{{ tool.repositoryURL }}" target="_blank" class="btn btn-outline">View on GitHub</a>
+    <a href="{{ tool.projectURL }}" target="_blank" class="btn">Open tool</a>
+    <a href="{{ tool.repositoryURL }}" target="_blank" class="btn btn-outline">View on GitHub</a>
   </div>
 </div>
