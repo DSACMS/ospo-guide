@@ -8,7 +8,7 @@ tags: ospo
 eleventyNavigation:
   parent: ospo-resources
   key: ospo-resources-userstories
-  order: 5
+  order: 6
   title: User Story Writing 101
 sidenav: true
 sticky_sidenav: true
