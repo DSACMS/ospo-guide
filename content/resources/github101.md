@@ -18,7 +18,7 @@ sticky_sidenav: true
 
 1. [Git Terminology](#git-terminology)
 2. [GitHub Workflow: Making Changes to your Repository](#github-workflow-making-changes-to-your-repository)
-3. [CMS-Specific GitHub Resources](#github-workflow-making-changes-to-your-repository)
+3. [CMS-Specific GitHub Resources](#resources)
 
 ## Git Terminology
 
@@ -123,7 +123,9 @@ _Taken from [GitHub Docs](https://docs.github.com/en/get-started/quickstart/hell
 
 10. The team will then review the resulting pull request and merge dev into main once they are satisfied with the state of `dev`
 
-## CMS Specific GitHub Resources
+## Resources
+
+### CMS Specific GitHub Resources
 
 Instructions on accessing CMS Cloud GitHubs (CMSGov & OIT-Enterprise):
 [https://cloud.cms.gov/accessing-cms-cloud-github](https://cloud.cms.gov/accessing-cms-cloud-github)
@@ -133,3 +135,7 @@ Instructions on managing CMS Cloud GitHub repositories. Find guidance on creatin
 
 List of Repositories on CMS Cloud Github:
 [https://cloud.cms.gov/cms-cloud-github-repository-list](https://cloud.cms.gov/cms-cloud-github-repository-list)
+
+### GitHub Resources
+GitHub Secret Scanning:
+[https://security.cms.gov/posts/github-secret-scanning-enhancing-security-ars-compliance-and-zero-trust](https://security.cms.gov/posts/github-secret-scanning-enhancing-security-ars-compliance-and-zero-trust)

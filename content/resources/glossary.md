@@ -8,7 +8,7 @@ tags: ospo
 eleventyNavigation:
   parent: ospo-resources
   key: ospo-resources-glossary
-  order: 7
+  order: 8
   title: Glossary
 sidenav: true
 sticky_sidenav: true

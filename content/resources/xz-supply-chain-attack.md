@@ -8,7 +8,7 @@ tags: ospo
 eleventyNavigation:
   parent: ospo-resources
   key: ospo-resources-xz
-  order: 4
+  order: 5
   title: XZ Supply Chain Attack
 sidenav: true
 sticky_sidenav: true

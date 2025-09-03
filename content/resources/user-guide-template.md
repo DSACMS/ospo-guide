@@ -8,7 +8,7 @@ tags: ospo
 eleventyNavigation:
   parent: ospo-resources
   key: ospo-resources-userguide
-  order: 6
+  order: 7
   title: User Guide Template
 sidenav: true
 sticky_sidenav: true
