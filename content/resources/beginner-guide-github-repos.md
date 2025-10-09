@@ -138,6 +138,6 @@ Once you are comfortable creating repositories, you can use **repository templat
 
 Each **maturity model tier** requires specific file and documentation, such as project information, security policies, licensing details, and contributing guidelines. These ensure transparency, collaboration, and long-term sustainability.
 
-To get started, use the tools provided in [repo-scaffolder](https://dsacms.github.io/repo-scaffolder/#repo-to-project) site to create a new project from a template.
+ To get started, use the tools provided in [repo-scaffolder](https://dsacms.github.io/repo-scaffolder/#repo-to-project) site to create a new project from a template.
 
-Additional guidance is available here, [repo-scaffolder](https://github.com/DSACMS/repo-scaffolder?tab=readme-ov-file#2-set-up-your-repository) GitHub - Learn how to generate a new repository using the correct tier.
+ Additional guidance is available here, [repo-scaffolder](https://github.com/DSACMS/repo-scaffolder?tab=readme-ov-file#2-set-up-your-repository) GitHub - Learn how to generate a new repository using the correct tier.
