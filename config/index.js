@@ -33,13 +33,17 @@ async function imageWithClassShortcode(
   src,
   cls,
   alt,
+  evergreen = "true",
+  lastChecked = ""
 ) {
   const url = await imageUrl(src);
-  return `<img src="${url}" class="${cls}" alt="${alt}" loading="lazy" decoding="async">`;
+  const evergreenAttr = evergreen === "false" ? `data-evergreen="false"` : "";
+  const lastCheckedAttr = lastChecked ? `data-last-checked=${lastChecked}` : "";
+  return `<img src="${url}" class="${cls}" alt="${alt}" ${evergreenAttr} ${lastCheckedAttr} loading="lazy" decoding="async">`;
 }
 
-async function imageShortcode(src, alt) {
-  return await imageWithClassShortcode(src, '', alt);
+async function imageShortcode(src, alt, evergreen, lastChecked) {
+  return await imageWithClassShortcode(src, '', alt, evergreen, lastChecked);
 }
 
 module.exports = {

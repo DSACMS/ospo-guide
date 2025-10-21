@@ -33,27 +33,18 @@ This guide is an optional companion to repo-scaffolder. If you’ve never used G
 1. Go to [GitHub.com](https://github.com) and log in.   
     - You will need a GitHub account  
 2. Click the **\+** button (top right) → **New repository**. 
-<img src="/assets/_common/_img/add-repo-button-screenshot.png"
-    alt="Add a repo button"
-    width="1090"
-    data-evergreen="false"
-    data-last-checked="2025-10-08" />
+{% image_with_class 
+    "assets/_common/_img/add-repo-button-screenshot.png" "instructional-image" "Add a repo button" "false" "2025-10-08" %}
 
 3. Give your repository a name (for example: `my-project`).  
 4. Choose **Public**.
-<img src="/assets/_common/_img/public-button-screenshot.png"
-    alt="Public button"
-    width="1090"
-    data-evergreen="false"
-    data-last-checked="2025-10-08" />
+{% image_with_class 
+    "assets/_common/_img/public-button-screenshot.png" "instructional-image" "Public button" "false" "2025-10-08" %}
 
 5. (Optional) Check **Add a README file**.  
 6. Click **Create repository**.
-<img src="/assets/_common/_img/create-repo-button-screenshot.png"
-    alt="Create a repo button"
-    width="1090"
-    data-evergreen="false"
-    data-last-checked="2025-10-08" />
+{% image_with_class 
+    "assets/_common/_img/create-repo-button-screenshot.png" "instructional-image" "Create a repo button" "false" "2025-10-08" %}
 
 Your repo now exists on GitHub\! 
 
