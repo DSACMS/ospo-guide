@@ -2,23 +2,23 @@
   "name": "ospo-guide",
   "version": "",
   "description": "Open Source Program Office Guide for CMS.gov",
-  "longDescription": "A comprehensive guide offering resources, best practices, and processes that take place within the CMS Open Source Program Office.",
+  "longDescription": "A comprehensive guide offering resources, best practices, and processes in open source software development that take place within the CMS Open Source Program Office.",
   "status": "Production",
   "permissions": {
-    "license": [
+    "licenses": [
       {
-        "name": "CC0 1.0 Universal",
+        "name": "CC0-1.0",
         "URL": "https://github.com/DSACMS/ospo-guide/blob/main/LICENSE"
       }
     ],
-    "usageType": "openSource",
+    "usageType": ["openSource"],
     "exemptionText": ""
   },
   "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/ospo-guide",
   "repositoryHost": "github.com/DSACMS",
   "repositoryVisibility": "public",
-  "homepageURL": "",
+  "homepageURL": "https://dsacms.github.io/ospo-guide/",
   "downloadURL": "",
   "disclaimerURL": "",
   "disclaimerText": "",
@@ -67,15 +67,15 @@
   "localisation": false,
   "repositoryType": "standards",
   "userInput": false,
-  "fismaLevel": "Low",
+  "fismaLevel": "low",
   "group": "CMS/OA/DSAC",
   "projects": [],
   "systems": [],
   "subsetInHealthcare": [
-    "Operational"
+    "operational"
   ],
   "userType": [
-    "Government"
+    "government"
   ],
   "maturityModelTier": 2
 }
