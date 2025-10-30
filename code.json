@@ -1,27 +1,31 @@
 {
   "name": "ospo-guide",
+  "version": "",
   "description": "Open Source Program Office Guide for CMS.gov",
-  "longDescription": "A comprehensive guide offering resources, best practices, and processes that take place within the CMS Open Source Program Office.",
+  "longDescription": "A comprehensive guide offering resources, best practices, and processes in open source software development that take place within the CMS Open Source Program Office.",
   "status": "Production",
   "permissions": {
-    "license": [
+    "licenses": [
       {
-        "name": "CC0 1.0 Universal",
+        "name": "CC0-1.0",
         "URL": "https://github.com/DSACMS/ospo-guide/blob/main/LICENSE"
       }
     ],
-    "usageType": "openSource",
+    "usageType": ["openSource"],
     "exemptionText": ""
   },
   "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/ospo-guide",
-  "projectURL": "https://dsacms.github.io/ospo-guide/",
   "repositoryHost": "github.com/DSACMS",
   "repositoryVisibility": "public",
+  "homepageURL": "https://dsacms.github.io/ospo-guide/",
+  "downloadURL": "",
+  "disclaimerURL": "",
+  "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 5187,
+  "laborHours": 5342,
   "reuseFrequency": {
-    "forks": 3,
+    "forks": 5,
     "clones": 0
   },
   "platforms": [
@@ -40,38 +44,38 @@
     "Nunjucks"
   ],
   "maintenance": "internal",
-  "contractNumber": "",
+  "contractNumber": [],
+  "SBOM": "https://github.com/DSACMS/ospo-guide/network/dependencies",
+  "relatedCode": [],
+  "reusedCode": [],
+  "partners": [],
   "date": {
     "created": "2024-04-03T20:47:21Z",
-    "lastModified": "2025-06-04T19:28:45Z",
-    "metaDataLastUpdated": "2025-06-10T15:52:04.409Z"
+    "lastModified": "2025-10-23T04:11:41Z",
+    "metadataLastUpdated": "2025-10-30T21:01:19.203Z"
   },
   "tags": [
-    "OSPO",
     "guide",
-    "documentation",
-    "featured"
+    "ospo"
   ],
   "contact": {
     "email": "opensource@cms.hhs.gov",
     "name": "CMS Open Source Team"
   },
-  "feedbackMechanisms": [
-    "https://github.com/DSACMS/ospo-guide/issues"
-  ],
+  "feedbackMechanism": "https://github.com/DSACMS/ospo-guide/issues",
+  "AIUseCaseID": "0",
   "localisation": false,
   "repositoryType": "standards",
   "userInput": false,
-  "fismaLevel": "Low",
+  "fismaLevel": "low",
   "group": "CMS/OA/DSAC",
   "projects": [],
   "systems": [],
-  "upstream": "https://github.com/DSACMS/metrics/network/dependencies",
   "subsetInHealthcare": [
-    "Operational"
+    "operational"
   ],
   "userType": [
-    "Government"
+    "government"
   ],
   "maturityModelTier": 2
 }
