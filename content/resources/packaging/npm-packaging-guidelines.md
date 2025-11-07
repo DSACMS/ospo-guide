@@ -1,6 +1,6 @@
 ---
 title: Packaging JavaScript Projects
-description: 'Guidelines for publishing python projects as packages'
+description: 'Guidelines for publishing JavaScript projects as packages'
 permalink: /resources/packaging/npm-packaging-guidelines/
 layout: layouts/page
 section: resources
