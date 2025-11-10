@@ -1,0 +1,43 @@
+name: Evergreen Image Tag Check
+
+on:
+  schedule:
+    - cron: "0 0 1 1 *"
+  workflow_dispatch:
+    inputs:
+      threshold_months:
+        description: "Sets how many months before an image is considered outdated"
+        required: false
+        default: "12"
+        type: choice
+        options:
+          - "6"
+          - "12"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-evergreen:
+    name: Check Evergreen Image Dates
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+                
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Octokit dependency
+        run: npm install @octokit/action
+
+      - name: Run evergreen check
+        run: node .github/scripts/check-evergreen.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          THRESHOLD_MONTHS: ${{ inputs.threshold_months || '12' }}
+          ISSUE_LABELS: evergreen-review, maintenance, content-check

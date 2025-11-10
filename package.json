@@ -58,9 +58,11 @@
   "dependencies": {
     "@11ty/eleventy-fetch": "^5.1.0",
     "@11ty/eleventy-img": "^3.1.8",
+    "@octokit/action": "^8.0.4",
+    "@octokit/rest": "^22.0.1",
     "@uswds/uswds": "3.9.0",
     "autoprefixer": "^10.4.20",
-    "dotenv": "^16.5.0",
+    "dotenv": "^16.6.1",
     "esbuild": "^0.24.0",
     "esbuild-sass-plugin": "^3.3.1",
     "luxon": "^2.3.1",
