@@ -33,12 +33,12 @@ async function imageWithClassShortcode(
   src,
   cls,
   alt,
-  evergreen = "true",
-  lastChecked = ""
+  evergreen = 'true',
+  lastChecked = ''
 ) {
   const url = await imageUrl(src);
-  const evergreenAttr = evergreen === "false" ? `data-evergreen="false"` : "";
-  const lastCheckedAttr = lastChecked ? `data-last-checked=${lastChecked}` : "";
+  const evergreenAttr = evergreen === 'false' ? 'data-evergreen="false"' : '';
+  const lastCheckedAttr = lastChecked ? `data-last-checked=${lastChecked}` : '';
   return `<img src="${url}" class="${cls}" alt="${alt}" ${evergreenAttr} ${lastCheckedAttr} loading="lazy" decoding="async">`;
 }
 
