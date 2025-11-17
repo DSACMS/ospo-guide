@@ -26,7 +26,7 @@ subnav:
 <ul class="packaging-list-style">
   {% for guide in subnav %}
     <li>
-        <a href="{{ guide.href | url }}" id="packaging-style">
+        <a class="packaging-style" href="{{ guide.href | url }}" >
           {{ guide.text }}
         </a>
     </li>
