@@ -128,11 +128,11 @@ a.usa-button--accent {
 }
 
 // De-risking guide
-.first_page>h1 {
+.first_page > h1 {
   @include u-font('sans', '3xl');
 }
 
-.first_page>h2 {
+.first_page > h2 {
   @include u-font('sans', '2xl');
   border-top: 1px solid color('primary-dark');
   padding-top: units(1.5);
@@ -183,8 +183,8 @@ h2.heading-md {
   background-color: color('primary-darker');
 }
 
-.guide-checklist+ul,
-.key-questions+ul {
+.guide-checklist + ul,
+.key-questions + ul {
   background-color: color('blue-5');
   margin-top: 0;
   padding-top: units(1);
@@ -192,21 +192,21 @@ h2.heading-md {
   padding-bottom: units(1);
 }
 
-.guide-checklist+ul li,
-.key-questions+ul li {
+.guide-checklist + ul li,
+.key-questions + ul li {
   margin-bottom: units(1);
 }
 
-.guide-checklist+ul,
-.guide-checklist+ul ul,
-.guide-checklist--single+ul {
+.guide-checklist + ul,
+.guide-checklist + ul ul,
+.guide-checklist--single + ul {
   list-style: none;
   margin-left: 0;
   padding-left: units(1);
 }
 
-.guide-checklist+ul li,
-.guide-checklist--single+ul li {
+.guide-checklist + ul li,
+.guide-checklist--single + ul li {
   padding-left: $bullet-spacing;
   text-indent: (-1 * $bullet-spacing);
 
