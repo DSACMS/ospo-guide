@@ -69,8 +69,6 @@ app/
  └── rollup.config.mjs
 ```
 
-### 
-
 ### **Phase 2: Template Preparation**
 
 #### **Step 4: Create Template Documentation**

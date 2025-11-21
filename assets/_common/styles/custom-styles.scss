@@ -1,5 +1,5 @@
 @use '../../_common/styles/brand-colors' as *;
-@use 'uswds-core' as * ;
+@use 'uswds-core' as *;
 
 $bullet-spacing: 1.25rem;
 
@@ -10,7 +10,7 @@ a[href*="/TODO/"] {
   background-color: color('gold-10v') !important;
   padding: 0 units(0.5);
 
-  &:after  {
+  &:after {
     content: ' [link TBD]';
   }
 
@@ -18,6 +18,7 @@ a[href*="/TODO/"] {
     color: color('blue-80v') !important;
   }
 }
+
 .todo-link.usa-link--external:after,
 a[href*="/TODO/"].usa-link--external:after {
   background-color: inherit;
@@ -29,7 +30,12 @@ a[href*="/TODO/"].usa-link--external:after {
 }
 
 // Set heading colors
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: color('primary-darker');
 }
 
@@ -62,16 +68,22 @@ h1, h2, h3, h4, h5, h6 {
     word-wrap: break-word;
   }
 
-  h2, h3, h4, h5, h6 {
-      // prevent orphans and use balance if pretty is not available
-      text-wrap: balance;
-      text-wrap: pretty;
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    // prevent orphans and use balance if pretty is not available
+    text-wrap: balance;
+    text-wrap: pretty;
   }
 
   h2 {
     margin-top: units(5);
+
     &.page-title {
       margin-top: units(0);
+
       &.derisking {
         padding-top: units(1);
         border-top: 1px solid #1C304A;
@@ -158,7 +170,7 @@ h2.heading-md {
 /* checklists and key questions */
 .guide-checklist,
 .key-questions {
-  @include u-font('sans','md');
+  @include u-font('sans', 'md');
   color: color('white');
   padding: units(1);
 }
@@ -174,7 +186,7 @@ h2.heading-md {
 .guide-checklist + ul,
 .key-questions + ul {
   background-color: color('blue-5');
-  margin-top:0;
+  margin-top: 0;
   padding-top: units(1);
   padding-right: units(2);
   padding-bottom: units(1);
@@ -256,9 +268,9 @@ h2.heading-md {
   }
 }
 
-#packaging-style {
+.packaging-style {
   color: #046b99;
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
   margin-left: -5%;
@@ -266,12 +278,12 @@ h2.heading-md {
   text-decoration: none;
 }
 
-#packaging-style:hover {
+.packaging-style:hover {
   background-color: #f1f1f1;
 }
 
 .packaging-list-style {
-  list-style: none; 
+  list-style: none;
 }
 
 .tooltip {
