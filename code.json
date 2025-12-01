@@ -11,7 +11,9 @@
         "URL": "https://github.com/DSACMS/ospo-guide/blob/main/LICENSE"
       }
     ],
-    "usageType": ["openSource"],
+    "usageType": [
+      "openSource"
+    ],
     "exemptionText": ""
   },
   "organization": "Centers for Medicare & Medicaid Services",
@@ -23,7 +25,7 @@
   "disclaimerURL": "",
   "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 5342,
+  "laborHours": 5536,
   "reuseFrequency": {
     "forks": 5,
     "clones": 0
@@ -51,8 +53,8 @@
   "partners": [],
   "date": {
     "created": "2024-04-03T20:47:21Z",
-    "lastModified": "2025-10-23T04:11:41Z",
-    "metadataLastUpdated": "2025-10-30T21:01:19.203Z"
+    "lastModified": "2025-11-21T20:15:51Z",
+    "metadataLastUpdated": "2025-12-01T02:02:34.617Z"
   },
   "tags": [
     "guide",
