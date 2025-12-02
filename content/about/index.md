@@ -114,7 +114,7 @@ For more information, visit [https://go.cms.gov/ospo](https://go.cms.gov/ospo).
  
 ##### 2022
 - [Open Source and the Digital Service at CMS.gov, All Things Open 2022 w/Melissa Eggleston](https://www.youtube.com/watch?v=Q0EJIevZS0I)
-    - Also presented at: [Linux Foundation Member Summit Deck](/decks/lfms-2022.pdf) hosted at [https://static.sched.com/hosted_files/lfms22/0c/lfms-2022.pdf](https://static.sched.com/hosted_files/lfms22/0c/lfms-2022.pdf)
+    - Also presented at: [Linux Foundation Member Summit Deck](https://static.sched.com/hosted_files/lfms22/0c/lfms-2022.pdf)
 
 #### Podcasts & Interviews
 - [Celebrating 100 episodes of CHAOSScast! (Podcast)](https://podcast.chaoss.community/100)
