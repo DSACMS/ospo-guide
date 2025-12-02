@@ -47,12 +47,19 @@ The [CMS Technical Reference Architecture](https://dsacms.github.io/ospo-guide/a
 An open source program office (OSPO) serves as the center of competency for an organization's open source operations and structure. It is responsible for defining and implementing strategies and policies to guide these efforts. The function of the CMS OSPO is: 
 > “Establish and maintain guidance, policies, practices, and talent pipelines that advance equity, build trust, and amplify impact across CMS, HHS, and Federal Open Source Ecosystems by working and sharing openly.” 
 
-For more information, visit https://go.cms.gov/ospo.
+For more information, visit [https://go.cms.gov/ospo](https://go.cms.gov/ospo).
 
 
 ### Conferences, Events, & Awards
 
 #### CMS OSPO in the News
+##### 2025
+- [Sharing is Caring: How CMS is Leading on Federal Open Source Requirements: A FormFest 2025 Profile](https://digitalgovernmenthub.org/publications/sharing-is-caring-how-cms-is-leading-on-federal-open-source-requirements-a-formfest-2025-profile/)
+- [GovCIO: Fed Efficiency Drive Includes Code-Sharing Law](https://govciomedia.com/fed-efficiency-drive-includes-code-sharing-law-metahumans/)
+- [GovCIO: New SHARE IT Act Mandates Federal Code Sharing to Cut Software Costs](https://govciomedia.com/new-share-it-act-mandates-federal-code-sharing-to-cut-software-costs/)
+- [FedScoop: Meet the Winners of the 2025 FedScoop50](https://fedscoop.com/fedscoop50/winners/)
+
+##### 2024
 - [Health IT Leaders Receive Flywheel Awards from GovCIO Media & Research](https://govciomedia.com/health-it-leaders-receive-flywheel-awards-from-govcio-media-research/)
 - [Feds Prioritize Open-Source Software Security Initiatives](https://govciomedia.com/feds-prioritize-open-source-so-ftware-security-initiatives/)
 - [Nava Open-Source Summit: Modernizing Government with Code](https://ospo.gwu.edu/nava-open-source-summit-modernizing-government-code)
@@ -68,6 +75,8 @@ For more information, visit https://go.cms.gov/ospo.
 - [Biden-⁠Harris Administration Releases End of Year Report on Open-Source Software Security and Memory Safe Programming Languages](https://www.whitehouse.gov/wp-content/uploads/2023/09/OS3I-RFI-Final-09232023.pdf)
 - [US Digital Response Case Study: How One Federal Agency Worked to Release Open Source Software Responsibly](https://www.usdigitalresponse.org/resources/cms-open-source-software)
 - [Managing Federal CHAOSS at CMS.gov - CHAOSScast](https://podcast.chaoss.community/81)
+
+##### 2023
 - [Inside CMS’ Groundbreaking Open Source Program Office](https://www.youtube.com/watch?v=34LQnyB3ydQ)
 - [OSPOs in Highly Regulated Environments Panel Discussion @ Open Source Summit EU 2023](https://osseu2023.sched.com/event/1OGeo/panel-discussion-ospos-transition-paths-for-regulated-environments-ana-jimenez-santamaria-linux-foundation-maurice-hendriks-city-of-amsterdam-nico-rikken-alliander-clare-dillon-innersourcecommons-thomas-steenbergen-epam?iframe=no&w=100%&sidebar=yes&bg=no)
 - [Innersource Summit 2023: Innersource to Open Source Journey in Government](https://innersourcecommons.org/events/isc-2023/)
@@ -75,10 +84,20 @@ For more information, visit https://go.cms.gov/ospo.
 - [Repodiving into Open Source at CMS.gov](https://www.youtube.com/watch?v=AypgQch2Qpk)
 - TODOGroup OSPOlogy September 2023 Meeting
 - OSPOs for Good Summit 2023 @ United Nations Headquarters NYC
+
+##### 2022
 - [Open Source and the Digital Service at CMS.gov - All Things Open 2022](https://www.youtube.com/watch?v=Q0EJIevZS0I)
 
 
 #### External Talks
+##### 2025
+- [FormFest: Forming an Open Source Culture in Federal Agencies](https://www.youtube.com/watch?v=J8iSJEEsysM)
+- [DEFCon: CMS.gov OSPO One Year Later: Launching the Agency's First Bug Bounty](https://aicyberchallenge.com/def-con-33/)
+- GovCIO Federal IT Efficiency Summit
+- Code For America Summit: Open Source & CMS: Making a Bigger Impact
+- [Program Keynote of Open Source Conference at The George Washington University OSCON](https://ospo.gwu.edu/sites/g/files/zaxdzs6701/files/2025-03/gw_oscon_program.pdf)
+
+##### 2024
 - [DSAC Lightning Talk @ Nava OSS Summit 2024](https://youtu.be/XGGcH8JnQns?si=Q3YiEFPxx5FyQxJ3)
 - [Open Source in Government: Raising the Floor and Ceiling as an Early-Career Software Engineer @ Grace Hopper Conference 2024](https://ghc.anitab.org/session-catalog/?search=open%20source#/session/1717218938114001YRXT)
 - [Open Source Summit: Advancing IT Solutions in Federal Health and Beyond](https://www.navapbc.com/events/open-source-summit-federal-health)
@@ -88,10 +107,14 @@ For more information, visit https://go.cms.gov/ospo.
 - [Repository Cohorts: Poster Session @ PyCon May 2024](https://us.pycon.org/2024/speaker/profile/195/)
 - [Repository Cohorts: How OSPOs Can Programmatically Categorize All Their Repositories](https://www.youtube.com/watch?v=FpVNSAj9eDg)
 - [Establishing a Repository Baseline Talk @ Open Source Summit North America 2024](https://youtu.be/v0aaVBicOjI?si=WHE6nLg2BEe7NWY5)
-- [Open Source and the Digital Service at CMS.gov, All Things Open 2022 w/ Melissa Eggelston](https://www.youtube.com/watch?v=Q0EJIevZS0I)
-    - Also presented at: Linux Foundation Member Summit Deck hosted at https://static.sched.com/hosted_files/lfms22/0c/lfms-2022.pdf
-- [TODOGroup.org Monthly Meetup: OSPOs & Transition Paths for Highly Regulated Environments](https://www.youtube.com/watch?v=2QopYZbo3EQ)
+
+##### 2023
 - [Open Source Summit EU 2023: OSPOs & Transition Paths for Regulated Environments](https://www.youtube.com/watch?v=kIMNgGfwvMA)
+- [TODOGroup.org Monthly Meetup: OSPOs & Transition Paths for Highly Regulated Environments](https://www.youtube.com/watch?v=2QopYZbo3EQ)
+ 
+##### 2022
+- [Open Source and the Digital Service at CMS.gov, All Things Open 2022 w/Melissa Eggleston](https://www.youtube.com/watch?v=Q0EJIevZS0I)
+    - Also presented at: [Linux Foundation Member Summit Deck](/decks/lfms-2022.pdf) hosted at [https://static.sched.com/hosted_files/lfms22/0c/lfms-2022.pdf](https://static.sched.com/hosted_files/lfms22/0c/lfms-2022.pdf)
 
 #### Podcasts & Interviews
 - [Celebrating 100 episodes of CHAOSScast! (Podcast)](https://podcast.chaoss.community/100)
