@@ -106,7 +106,6 @@ Requests to create and grant access to teams & repositories must be filed under 
 ##### Step 1: Creating a Team with Project Maintainers - Maintainers Team
 
 Project maintainers will be placed in their own separate team and serve as the main point of contact for coordinating team & repository management with the OSPO.
-Project maintainers will be placed in their own separate team and serve as the main point of contact for coordinating team & repository management with the OSPO.
 
 Information required:
 
@@ -150,9 +149,13 @@ Information required:
 
 #### Request a new repo to be created
 
-If you are looking to migrate an existing repository hosted in a different organization into a new repository under DSACMS, the new repository will be created as private by default. In order for your repository to be released as public, please follow our [outbound review checklist](https://github.com/DSACMS/ospo-guide/blob/main/outbound/OUTBOUND_CHECKLISTS.md) for your project’s maturity tier.
+If you are looking to migrate an existing repository hosted in a different organization into a new repository under DSACMS, the new repository will be created as private by default. In order for your repository to be released as public, please follow our [outbound review checklist](https://dsacms.github.io/ospo-guide/outbound/outbound-checklists/) for your project’s maturity tier.
 
-If you are looking to create a completely new repository, your repository can be created as private or public. Based on the maturity model tier selected, a collection of [markdown templates](https://github.com/DSACMS/ospo-guide/blob/main/outbound/REPOSITORY_TEMPLATES_AND_LINTERS.md) will be included as part of our repository hygiene standards. GitHub security features such as Dependabot and secret scanning will be enabled.
+If you are looking to create a completely new repository, your repository can be created as private or public. Based on the maturity model tier selected, a collection of [markdown templates](https://dsacms.github.io/ospo-guide/outbound/repository-templates-and-linters/) will be included as part of our repository hygiene standards. GitHub security features such as Dependabot and secret scanning will be enabled.
+
+For more information on repository creation using templates, visit:
+- [Creating GitHub repositories guide](https://dsacms.github.io/ospo-guide/resources/beginner-guide-github-repos/)
+- [repo-scaffolder](https://dsacms.github.io/repo-scaffolder/)
 
 Information required:
 
