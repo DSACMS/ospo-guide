@@ -46,12 +46,12 @@ module.exports = async function () {
         // Decode code.json file
         const decodedContent = Buffer.from(json.content, 'base64').toString('utf-8');
         const codejson = JSON.parse(decodedContent);
-        const tags = codejson.tags;
+        const { status, tags } = codejson;
 
         // Add code.json object to data
         // Filter by tags: only add featured
         // Filter by status: only add tools in beta, production, or to be released
-        if (tags.includes("featured") && ['Production', 'Beta', 'Release Candidate'].includes(codejson.status)) {
+        if (tags.includes('featured') && ['Production', 'Beta', 'Release Candidate'].includes(status)) {
           tools[repo] = codejson;
         }
       }
