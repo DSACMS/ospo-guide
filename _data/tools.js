@@ -26,7 +26,7 @@ module.exports = async function () {
     // Extract all repository names
     const repoNames = repoJson.map(repo => repo.name);
 
-    repoNames.forEach(async (repo) => {
+    await Promise.all(repoNames.map(async (repo) => {
       try {
         // Fetch code.json file from repository
         const json = await fetch(
@@ -46,22 +46,23 @@ module.exports = async function () {
         // Decode code.json file
         const decodedContent = Buffer.from(json.content, 'base64').toString('utf-8');
         const codejson = JSON.parse(decodedContent);
+        const tags = codejson.tags;
 
         // Add code.json object to data
+        // Filter by tags: only add featured
         // Filter by status: only add tools in beta, production, or to be released
-        if (['Production', 'Beta', 'Release Candidate'].includes(codejson.status)) {
+        if (tags.includes("featured") && ['Production', 'Beta', 'Release Candidate'].includes(codejson.status)) {
           tools[repo] = codejson;
         }
       }
       catch (e) {
         console.warn(`No code.json file in ${repo}, skipping...`);
       }
-    });
+    }));
 
   } catch (e) {
     console.log(`Unable to fetch repositories from ${orgName}`);
     console.log(e, 'error message');
   }
-
   return tools;
 };
