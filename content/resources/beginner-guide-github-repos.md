@@ -131,4 +131,6 @@ Each **maturity model tier** requires specific file and documentation, such as p
 
  To get started, use the tools provided in [repo-scaffolder](https://dsacms.github.io/repo-scaffolder/#repo-to-project) site to create a new project from a template.
 
- Additional guidance is available here, [repo-scaffolder](https://github.com/DSACMS/repo-scaffolder?tab=readme-ov-file#2-set-up-your-repository) GitHub - Learn how to generate a new repository using the correct tier.
+Repository Templates are found here:
+- [github.com/DSACMS](https://github.com/DSACMS/repo-scaffolder?tab=readme-ov-file#2-set-up-your-repository)
+- [github.cms.gov](https://github.cms.gov/ospo?q=&type=template&language=&sort=name)
