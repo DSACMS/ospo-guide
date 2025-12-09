@@ -148,10 +148,11 @@ module.exports = function (config) {
     // Check for external URLs. External means any site that is not a federal .gov url
     // This check can't detect state/local .gov domains. Those will need to be
     // manually adjusted
-    const baseURL = new URL('https://guides.18f.gov/');
+    const baseURL = new URL('https://dsacms.github.io/');
     const hrefValue = token.attrGet('href');
 
-    if (!(new URL(hrefValue, baseURL).hostname.endsWith(".gov"))) {
+    // TODO: Update to .gov domain when site uses a gov domain
+    if (!(new URL(hrefValue, baseURL).hostname.endsWith(".io"))) {
       // Add the external link class if it hasn't been added yet
       if (!(token.attrGet('class')) || !(token.attrGet('class').includes('usa-link--external'))) {
         token.attrJoin('class', 'usa-link usa-link--external');

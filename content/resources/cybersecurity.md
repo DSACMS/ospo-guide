@@ -1,7 +1,7 @@
 ---
 title: Cybersecurity at CMS
 description: 'Cybersecurity at CMS resources'
-permalink: /resources/cybersecurity
+permalink: /resources/cybersecurity/
 layout: layouts/page
 section: resources
 tags: ospo
