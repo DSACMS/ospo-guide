@@ -58,7 +58,8 @@
   },
   "tags": [
     "guide",
-    "ospo"
+    "ospo",
+    "featured"
   ],
   "contact": {
     "email": "opensource@cms.hhs.gov",
@@ -71,7 +72,7 @@
   "userInput": false,
   "fismaLevel": "low",
   "group": "CMS/OA/DSAC",
-  "projects": [],
+  "projects": ["ospo"],
   "systems": [],
   "subsetInHealthcare": [
     "operational"
