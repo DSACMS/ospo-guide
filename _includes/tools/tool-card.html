@@ -14,8 +14,8 @@
       <span class="tool-tag">{{ tag }}</span>
       {% endfor %}
     </div>
-    {% if tool.projectURL != "" %}
-    <a href="{{ tool.projectURL }}" target="_blank" class="btn">Open tool</a>
+    {% if tool.homepageURL != "" %}
+    <a href="{{ tool.homepageURL }}" target="_blank" class="btn">Open tool</a>
     {% endif %}
     <a href="{{ tool.repositoryURL }}" target="_blank" class="btn btn-outline">View on GitHub</a>
   </div>
