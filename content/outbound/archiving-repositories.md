@@ -29,20 +29,29 @@ _Based on TODOgroup's guide: <br /> [https://github.com/todogroup/guides/blob/ma
 
 # Repository Archival Checklist
 
-## Review Metadata
+## For all tiers 
+
+### Review Metadata
 
 In **code.json**:
 
-1. Change **status** to **archival**.
-2. Review all fields to ensure project metadata is correct and accurate.
+- [ ] Change **status** to **archival**.
+- [ ] Add **archived** to **tags**.
+- [ ] Review all fields to ensure project metadata is correct and accurate.
 
-## Review Repository
+Enabling `archived` mode in the [automated-codejson-generator GitHub Action](https://github.com/DSACMS/automated-codejson-generator) handles this work.
+
+### Review Repository
 
 Repository Documentation can provide explicit statements about the status of a project or community. Communicating clearly, whether the project is active or inactive, is important.
 
-Repository Issues and pull requests serve as a type of record of the decision making processes of a project, and can provide visibility into project history and intended or recommended future development. Deleting them outright is not recommended.
+#### Update Repository Documentation
+- [ ] Clearly state at the top the README that the project has been deprecated and will no longer be updated. If possible, suggest alternate projects that provide similar functionality.
+  - Sample Text:
+    > "This project is now archived and no longer actively maintained. It has been archived to retain its contents for reference. Feel free to explore and fork the repository, but please note that updates or support will not be provided."
 
-### Issues
+#### Issues
+Repository Issues serve as a type of record of the decision making processes of a project, and can provide visibility into project history and intended or recommended future development. Deleting them outright is not recommended.
 
 - [ ] Review all issues.
   - [ ] Close fixed issues
@@ -50,36 +59,48 @@ Repository Issues and pull requests serve as a type of record of the decision ma
   - [ ] Label issues
   - [ ] Close issues as `won't fix` where applicable
 
-### Pull-requests
+#### Repository Access
+- [ ] Review committer access
 
+#### Perform a lightweight security review
+- [ ] Review for secrets, keys, PII
+
+### Other
+- [ ] Delete inactive branches
+
+## For Tiers 2-4
+
+### Review Repository
+
+#### Pull Requests
+Repository Pull Requests serve as a type of record of the decision making processes of a project, and can provide visibility into project history and intended or recommended future development. Deleting them outright is not recommended.
 - [ ] Review all pull requests.
   - [ ] Merge PRs that have no conflicts and pass all tests
   - [ ] Test and merge any Dependabot PRs that don't fail tests
   - [ ] Comment on any open PRs
   - [ ] Close any `'won't fix` PRs where applicable
 
-### Update Repository Documentation
-
-- [ ] Update README.md to include a note about archival
-  - Sample Text:
-    > "This project is now archived and no longer actively maintained. It has been archived to retain its contents for reference. Feel free to explore and fork the repository, but please note that updates or support will not be provided."
-
-### Development
-
-- [ ] Review [code quality](https://github.com/DSACMS/repo-scaffolder/blob/main/tier3/checklist.md#code-review)
-- [ ] Review [commit history](https://github.com/DSACMS/repo-scaffolder/blob/main/tier3/checklist.md#review-commit-history)
-- [ ] Resolve code scanning and security alerts (e.g. Dependabot, CodeQL)
-- [ ] Review releases and tags (if applicable, Maturity Model Tier3+)
+#### Documentation
+- [ ] If distributed via package managers (e.g., npm, PyPI, RubyGems): update with a deprecation warning that clearly states that the project is no longer being maintained or updated.
 - [ ] Review project board
   - [ ] Apply an "archived" label to all columns or cards as necessary
   - [ ] Complete or close any open milestones
 - [ ] Review wiki
   - [ ] Add a clear notice to home page about archival status
   - [ ] Check each page for completeness. Mark them as incomplete if necessary
-- [ ] Review committer access
-- [ ] CHANGELOG.md
-  - [ ] Ensure this file outlines completed work and the project's final state
-- [ ] Delete inactive branches
+
+#### Communications
+- [ ] Review project communication channels
+  - [ ] Slack, mailing lists, forums, social media, and any other channels used for communication within the project.
+  - [ ] Marketing and other internal teams should also be notified.
+- [ ] Known users of the project should also be notified.
+
+#### Outbounding
+- [ ] Review [code quality](https://github.com/DSACMS/repo-scaffolder/blob/main/tier3/checklist.md#code-review)
+- [ ] Review [commit history](https://github.com/DSACMS/repo-scaffolder/blob/main/tier3/checklist.md#review-commit-history)
+- [ ] Resolve code scanning and security alerts (e.g. Dependabot, CodeQL)
+- [ ] Ensure CHANGELOG.md outlines completed work and the project's final state
+- [ ] Review releases and tags (if applicable, Maturity Model Tier3+)
 
 ## Archiving a repository on DSACMS GitHub
 
