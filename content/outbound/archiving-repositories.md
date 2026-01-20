@@ -1,6 +1,6 @@
 ---
 title: Archiving Repositories
-description: 'Guidance on archiving repositories'
+description: Guidance on archiving repositories
 permalink: /outbound/archiving-repositories/
 layout: layouts/page
 section: outbound

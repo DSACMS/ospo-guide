@@ -1,6 +1,6 @@
 ---
 title: Maturity Models
-description: 'CMS OSPO Maturity Model Framework'
+description: CMS OSPO Maturity Model Framework
 permalink: /outbound/maturity-models/
 layout: layouts/page
 section: outbound

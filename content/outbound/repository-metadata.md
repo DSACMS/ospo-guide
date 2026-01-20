@@ -1,6 +1,6 @@
 ---
 title: Repository Metadata
-description: 'Collecting repository metadata using code.json'
+description: Collecting repository metadata using code.json
 permalink: /outbound/repository-metadata/
 layout: layouts/page
 section: outbound

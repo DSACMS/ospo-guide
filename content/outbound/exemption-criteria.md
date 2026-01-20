@@ -1,6 +1,6 @@
 ---
 title: Risk Acceptance and Exemption Criteria of Open Sourcing
-description: 'Guidance on risk acceptance and exeption criteria for your repository'
+description: Guidance on risk acceptance and exemption criteria for your repository
 permalink: /outbound/exemption-criteria/
 layout: layouts/page
 section: outbound

@@ -1,6 +1,6 @@
 ---
 title: Digital Presentation 508 Checklist
-description: 'Checklist to 508 a digital presentation'
+description: Checklist to 508 a digital presentation
 permalink: /outbound/508-checklist/
 layout: layouts/page
 section: outbound
