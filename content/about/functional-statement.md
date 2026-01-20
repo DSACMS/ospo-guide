@@ -1,5 +1,6 @@
 ---
 title: CMS OSPO Functional Statement
+description: Functional Statement of the CMS Open Source Program Office
 permalink: /about/functional-statement/
 layout: layouts/page
 tags: ospo
