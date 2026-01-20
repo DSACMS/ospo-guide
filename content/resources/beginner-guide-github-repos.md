@@ -1,6 +1,6 @@
 ---
 title: Beginner Guide to Creating GitHub Repos
-description: 'A glossary of definitions for frequently asked words and phrases'
+description: A glossary of definitions for frequently asked words and phrases
 permalink: /resources/beginner-guide-github-repos/
 layout: layouts/page
 section: resources

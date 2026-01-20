@@ -1,6 +1,6 @@
 ---
 title: User Guide Template
-description: 'DSAC User Guide Template'
+description: DSAC User Guide Template
 permalink: /resources/user-guide-template/
 layout: layouts/page
 section: resources

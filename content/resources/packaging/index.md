@@ -1,6 +1,6 @@
 ---
 title: Packaging Guides
-description: 'Packaging Guides'
+description: A set of guides on creating software packages
 permalink: /resources/packaging/
 layout: layouts/page
 section: resources

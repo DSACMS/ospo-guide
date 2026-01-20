@@ -1,6 +1,6 @@
 ---
 title: User Story Writing 101
-description: 'Intro to writing user stories'
+description: Guide on writing user stories
 permalink: /resources/user-stories-101/
 layout: layouts/page
 section: resources

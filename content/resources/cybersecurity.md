@@ -1,6 +1,6 @@
 ---
 title: Cybersecurity at CMS
-description: 'Cybersecurity at CMS resources'
+description: Resources for Cybersecurity at CMS
 permalink: /resources/cybersecurity/
 layout: layouts/page
 section: resources

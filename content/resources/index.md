@@ -1,6 +1,6 @@
 ---
 title: Resources
-description: 'Resources'
+description: Find resources on developer training (GitHub), case studies, user research, and more.
 permalink: /resources/
 layout: layouts/page
 tags: ospo
