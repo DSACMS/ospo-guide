@@ -1,6 +1,6 @@
 ---
 title: OSPO Reading List
-description: 'List of readings by the CMS OSPO'
+description: List of readings curated by the CMS OSPO
 permalink: /growing/reading-list/
 layout: layouts/page
 section: growing

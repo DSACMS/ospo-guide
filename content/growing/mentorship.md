@@ -1,6 +1,6 @@
 ---
 title: Mentorship
-description: 'General approach of mentorship and support of the CMS OSPO'
+description: General approach of mentorship and support of the CMS OSPO
 permalink: /growing/mentorship/
 layout: layouts/page
 section: growing

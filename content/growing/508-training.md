@@ -1,6 +1,6 @@
 ---
 title: 508 Training Federal Resources
-description: 'Growing'
+description: Resources and training on Section 508
 permalink: /growing/508-training/
 layout: layouts/page
 section: growing

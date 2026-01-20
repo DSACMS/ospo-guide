@@ -1,6 +1,6 @@
 ---
 title: Early Career Talent Pipeline
-description: 'Information on CMS OSPO Early Career Talent Pipeline'
+description: Information on CMS OSPO Early Career Talent Pipeline
 permalink: /growing/early-career-talent-pipeline/
 layout: layouts/page
 section: growing
