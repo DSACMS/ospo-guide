@@ -1,6 +1,6 @@
 ---
 title: Inbound Review Checklist
-description: 'The review process to approve open source software to be used in the agency.'
+description: The review process to approve open source software to be used in CMS
 permalink: /inbound/inbound-review-checklist/
 layout: layouts/page
 section: inbound

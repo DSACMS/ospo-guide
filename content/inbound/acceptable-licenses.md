@@ -1,6 +1,6 @@
 ---
 title: Acceptable Licenses
-description: 'Acceptable Licenses'
+description: Acceptable licenses for use in CMS projects
 permalink: /inbound/acceptable-licenses/
 layout: layouts/page
 section: inbound
