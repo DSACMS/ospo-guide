@@ -1,6 +1,6 @@
 ---
 title: Plain Language Federal Resources
-description: 'Growing'
+description: Resources and training on Plain Language
 permalink: /growing/plain-language/
 layout: layouts/page
 section: growing

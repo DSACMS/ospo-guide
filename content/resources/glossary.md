@@ -1,6 +1,6 @@
 ---
 title: Glossary
-description: 'A glossary of definitions for frequently asked words and phrases'
+description: A glossary of definitions for frequently asked words and phrases
 permalink: /resources/glossary/
 layout: layouts/page
 section: resources

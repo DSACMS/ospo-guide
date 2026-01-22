@@ -1,6 +1,6 @@
 ---
 title: Growing
-description: 'Growing'
+description: Learn about initiatives to grow OSPOs (conferences & speaking, talent pipelines) and federal policies that guide our work
 permalink: /growing/
 layout: layouts/page
 tags: ospo

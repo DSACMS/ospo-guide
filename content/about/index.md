@@ -1,6 +1,6 @@
 ---
 title: About the CMS Open Source Program Office
-description: 'Learn more about open source at CMS'
+description: Learn more about Open Source at CMS
 permalink: /about/
 layout: layouts/page
 tags: ospo

@@ -1,6 +1,6 @@
 ---
 title: Using Bulk_extractor
-description: 'Guide on using Bulk_Extractor for secret scanning'
+description: Guide on using Bulk_Extractor for secret scanning
 permalink: /outbound/bulk_extractor/
 layout: layouts/page
 section: outbound

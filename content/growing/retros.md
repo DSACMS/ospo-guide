@@ -1,6 +1,6 @@
 ---
 title: Retrospectives
-description: 'Retro models used in the CMS OSPO'
+description: Retro models used in the CMS OSPO
 permalink: /growing/retros/
 layout: layouts/page
 section: growing

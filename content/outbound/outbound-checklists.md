@@ -1,6 +1,6 @@
 ---
 title: Outbound Checklists
-description: 'CMS OSPO Outbound Review Checklists'
+description: CMS OSPO Outbound Review Checklists
 permalink: /outbound/outbound-checklists/
 layout: layouts/page
 section: outbound

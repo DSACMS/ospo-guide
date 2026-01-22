@@ -1,6 +1,6 @@
 ---
 title: Recommended Conferences
-description: 'List of recommended conferences by the CMS OSPO'
+description: List of conferences recommended by the CMS OSPO
 permalink: /growing/recommended-conferences/
 layout: layouts/page
 section: growing

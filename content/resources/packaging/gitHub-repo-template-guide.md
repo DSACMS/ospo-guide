@@ -1,6 +1,6 @@
 ---
 title: Creating GitHub Repo Templates
-description: 'Guidelines for publishing JavaScript projects as packages'
+description: Guidelines for publishing JavaScript projects as packages
 permalink: /resources/packaging/github-repo-template-guide/
 layout: layouts/page
 section: resources

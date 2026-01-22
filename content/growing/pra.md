@@ -1,6 +1,6 @@
 ---
 title: Paperwork Reduction Act Federal Resources
-description: 'Growing'
+description: Resources and training on the Paperwork Reduction Act
 permalink: /growing/pra/
 layout: layouts/page
 section: growing

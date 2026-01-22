@@ -1,6 +1,6 @@
 ---
 title: Packaging Python Projects
-description: 'Guidelines for publishing python projects as packages'
+description: Guidelines for publishing python projects as packages
 permalink: /resources/packaging/exporting-python-projects/
 layout: layouts/page
 section: resources

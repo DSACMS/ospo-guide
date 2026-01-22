@@ -1,6 +1,6 @@
 ---
 title: Creating Git Submodules
-description: 'Guidelines for Git Submodules'
+description: Guidelines for Git Submodules
 permalink: /resources/packaging/git-submodule-guide/
 layout: layouts/page
 section: resources

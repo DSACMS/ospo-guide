@@ -1,6 +1,6 @@
 ---
 title: How to work at DSAC
-description: 'Guides to working at DSAC'
+description: Guides to working at the Digital Service at CMS
 permalink: /growing/how-to-work-at-dsac/
 layout: layouts/page
 section: growing

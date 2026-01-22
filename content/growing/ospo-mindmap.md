@@ -1,6 +1,6 @@
 ---
 title: OSPO Mind Map
-description: 'OSPO Mind map'
+description: OSPO Mindmap
 permalink: /growing/ospo-mindmap/
 layout: layouts/page
 section: growing

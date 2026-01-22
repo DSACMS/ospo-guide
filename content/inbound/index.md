@@ -1,6 +1,6 @@
 ---
 title: Inbound
-description: 'Inbounding'
+description: Learn about managing open-source dependencies by enforcing compliance, mitigating security risks, and aligning with organizational policies to ensure responsible OSS usage while maximizing its benefits.
 permalink: /inbound/
 layout: layouts/page
 tags: ospo

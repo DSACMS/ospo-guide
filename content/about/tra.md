@@ -1,6 +1,6 @@
 ---
 title: CMS' Technical Reference Architecture (TRA)
-description: 'CMS Technical Reference Architecture (TRA)'
+description: The CMS Technical Reference Architecture articulates the technical architecture of all Centers for Medicare & Medicaid Services (CMS) processing environments
 permalink: /about/tra/
 layout: layouts/page
 section: about
