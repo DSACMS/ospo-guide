@@ -261,7 +261,7 @@ This guide is hosted in the CMS OSPO Guide repository located here. To contribut
 3. **Merge**: Once approved, your contributions will be merged and become part of the official handbook\!
 
 **Maintainers**  
-This handbook is maintained by the DSAC engineering community with core maintainers being [@natalialuzuriaga](www.github.com/natalialuzuriaga) & [@spopelka-dsac](www.github.com/spopelka-dsac). 
+This handbook is maintained by the DSAC engineering community with core maintainers being [@natalialuzuriaga](https://github.com/natalialuzuriaga) & [@spopelka-dsac](https://github.com/spopelka-dsac). 
 
 **Contact**  
 For any questions:
