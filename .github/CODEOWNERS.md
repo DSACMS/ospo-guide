@@ -2,11 +2,11 @@
 
 <!-- TODO: Who are the points of contact in your project who are responsible/accountable for the project? This can often be an engineering or design manager or leader, who may or may not be the primary maintainers of the project. List them by GitHub Username-->
 
-- @natalialuzuriaga
-- @decause-gov
-- @IsaacMilarky
-- @DinneK
-- @sachin-panayil
+- [@natalialuzuriaga](https://github.com/natalialuzuriaga)
+- [@decause-gov](https://github.com/decause-gov)
+- [@IsaacMilarky](https://github.com/IsaacMilarky)
+- [@DinneK](https://github.com/DinneK)
+- [@sachin-panayil](https://github.com/sachin-panayil)
 
 ## Repo Domains
 
@@ -33,13 +33,13 @@ To set up GitHub teams:
 -->
 
 /content:
-- @natalialuzuriaga
-- @decause-gov
-- @IsaacMilarky
-- @DinneK
-- @sachin-panayil
+- [@natalialuzuriaga](https://github.com/natalialuzuriaga)
+- [@decause-gov](https://github.com/decause-gov)
+- [@IsaacMilarky](https://github.com/IsaacMilarky)
+- [@DinneK](https://github.com/DinneK)
+- [@sachin-panayil](https://github.com/sachin-panayil)
 
 
 DSAC Engineering Handbook:
-- @eng-handbook-maintainers
-- @eng-handbook
+- [@eng-handbook-maintainers](https://github.com/orgs/DSACMS/teams/eng-handbook-maintainers)
+- [@eng-handbook-approvers](https://github.com/orgs/DSACMS/teams/eng-handbook-approvers)

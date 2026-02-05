@@ -24,25 +24,25 @@ The members of ospo-guide community are responsible for guiding its development,
 
 ### Maintainers:
 
-- @natalialuzuriaga
-- @decause-gov
+- [@natalialuzuriaga](https://github.com/natalialuzuriaga)
+- [@decause-gov](https://github.com/decause-gov)
 
 _For DSAC Engineering Handbook_
-- @eng-handbook-maintainers
+- [@eng-handbook-maintainers](https://github.com/orgs/DSACMS/teams/eng-handbook-maintainers)
 
 ### Approvers:
 
-- @natalialuzuriaga
-- @decause-gov
+- [@natalialuzuriaga](https://github.com/natalialuzuriaga)
+- [@decause-gov](https://github.com/decause-gov)
 
 _For DSAC Engineering Handbook_
-- @eng-handbook-approvers
+- [@eng-handbook-approvers](https://github.com/orgs/DSACMS/teams/eng-handbook-approvers)
 
 ### Reviewers:
 
-- @IsaacMilarky
-- @DinneK
-- @sachin-panayil
+- [@IsaacMilarky](https://github.com/IsaacMilarky)
+- [@DinneK](https://github.com/DinneK)
+- [@sachin-panayil](https://github.com/sachin-panayil)
 
 | Roles      | Responsibilities                               | Requirements                                                                      | Defined by                                                |
 | ---------- | :--------------------------------------------- | :-------------------------------------------------------------------------------- | :-------------------------------------------------------- |
