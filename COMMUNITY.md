@@ -14,10 +14,7 @@ ospo-guide is supported by a dedicated team of individuals fulfilling various ro
 | Software Engineer | Dinne Kopelevich  | OSPO, Digital Service at CMS, US Digital Corps |
 | Software Engineer | Sachin Panayil    | OSPO, Digital Service at CMS, US Digital Corps |
 
-<!-- TODO: A CODEOWNERS.md file is available in .github to define individuals responsible for specific parts of the codebase. Provide a reference to this file if used:
-
 See [CODEOWNERS.md](.github/CODEOWNERS.md) for a list of those responsible for the code and documentation in this repository.
--->
 
 See [Community Guidelines](#ospo-guide-open-source-community-guidelines) on principles and guidelines for participating in this open source project.
 
@@ -27,19 +24,25 @@ The members of ospo-guide community are responsible for guiding its development,
 
 ### Maintainers:
 
-- @natalialuzuriaga
-- @decause-gov
+- [@natalialuzuriaga](https://github.com/natalialuzuriaga)
+- [@decause-gov](https://github.com/decause-gov)
+
+_For DSAC Engineering Handbook_
+- [@eng-handbook-maintainers](https://github.com/orgs/DSACMS/teams/eng-handbook-maintainers)
 
 ### Approvers:
 
-- @natalialuzuriaga
-- @decause-gov
+- [@natalialuzuriaga](https://github.com/natalialuzuriaga)
+- [@decause-gov](https://github.com/decause-gov)
+
+_For DSAC Engineering Handbook_
+- [@eng-handbook-approvers](https://github.com/orgs/DSACMS/teams/eng-handbook-approvers)
 
 ### Reviewers:
 
-- @IsaacMilarky
-- @DinneK
-- @sachin-panayil
+- [@IsaacMilarky](https://github.com/IsaacMilarky)
+- [@DinneK](https://github.com/DinneK)
+- [@sachin-panayil](https://github.com/sachin-panayil)
 
 | Roles      | Responsibilities                               | Requirements                                                                      | Defined by                                                |
 | ---------- | :--------------------------------------------- | :-------------------------------------------------------------------------------- | :-------------------------------------------------------- |
