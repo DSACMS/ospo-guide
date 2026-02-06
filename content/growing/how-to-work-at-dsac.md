@@ -16,7 +16,7 @@ sticky_sidenav: true
 
 ## DSAC Engineering Handbook
 
-This handbook serves as a guide for DSAC engineers, providing resources on CMS’ technology ecosystem, tools, and processes across DSAC and CMS teams. We crafted this document with an underlying goal: what does every DSAC engineer need to know to successfully work with technology at CMS?
+This handbook serves as a guide for DSAC engineers, providing resources on CMS’ technology ecosystem, tools, and processes across DSAC and CMS teams! We crafted this document with an underlying goal: what does every DSAC engineer need to know to successfully work with technology at CMS?
 
 Last updated: Feb 5, 2026
 
