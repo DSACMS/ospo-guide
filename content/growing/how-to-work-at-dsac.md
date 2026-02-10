@@ -122,15 +122,21 @@ Visit: [cms.chat.gov](http://cms.chat.gov) and login using your EUA credentials
 
 `HHS ChatGPT` is an AI chatbot provided by HHS best used to assist with the following tasks: governance and policy discussions, OA/FISMA analysis, dashboard and metrics design, and complex problem-solving. It is strong at structured thinking, reasoning through tradeoffs, and providing context across systems.
 
-*Be mindful of inputting sensitive data/PII/PHI in this platform as it is not protected – CMS Chat is best for this.
+_Be mindful of inputting sensitive data/PII/PHI in this platform as it is not protected – CMS Chat is best for this._
 
-Visit: [chatgpt.com](http://chatgpt.com) and login using your CMS email address
+Visit: [go.hhs.gov/chatgpt](https://go.hhs.gov/chatgpt) and login using your CMS email address
 
 `HHS Claude` is another chatbot provided by HHS. It has more Claude platform functionality than CMS Chat (e.g. projects, teams). It is most suitable for generating clear writing and working with large amounts of text whether it be drafting, summarizing, editing, and reviewing documents. 
 
-*Be mindful of inputting sensitive data/PII/PHI in this platform as it is not protected  – CMS Chat is best for this.
+_Be mindful of inputting sensitive data/PII/PHI in this platform as it is not protected  – CMS Chat is best for this._
 
-Visit: [chatgpt.com](http://chatgpt.com) and login using your CMS email address
+Visit: [go.hhs.gov/claudeai](https://go.hhs.gov/claudeai) and login using your CMS email address
+
+`HHS Gemini` is the third AI chatbot provided by HHS. It is best for real-time research with direct Google search integration for up-to-date information, analyzing massive documents or multimedia files, and deep integration with Google's ecosystem.
+
+_Be mindful of inputting sensitive data/PII/PHI in this platform as it is not protected  – CMS Chat is best for this._
+
+Visit: [go.hhs.gov/gemini](https://go.hhs.gov/gemini) and login using your CMS email address
 
 ### Want a personal assistant on Google Workspace?
 `Gemini` functionality is accessible through the CMS Google Pilot Workspace such as prompt-drive image generation in Google Drive and text editing in Google Docs.
