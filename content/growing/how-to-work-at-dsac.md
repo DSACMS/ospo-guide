@@ -130,7 +130,7 @@ Visit: [chatgpt.com](http://chatgpt.com) and login using your CMS email address
 
 *Be mindful of inputting sensitive data/PII/PHI in this platform as it is not protected  – CMS Chat is best for this.
 
-Visit: [chatgpt.com](http://chatgpt.com) and login using your CMS email address
+Visit: [claude.hhs.gov](https://claude.hhs.gov) and login using your CMS email address
 
 ### Want a personal assistant on Google Workspace?
 `Gemini` functionality is accessible through the CMS Google Pilot Workspace such as prompt-drive image generation in Google Drive and text editing in Google Docs.
