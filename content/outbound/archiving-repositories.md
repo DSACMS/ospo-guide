@@ -27,7 +27,10 @@ _Based on TODOgroup's guide: <br /> [https://github.com/todogroup/guides/blob/ma
 - Project performance metrics (e.g. participation, usage, adoption, updates) are declining based on your latest user data
 - Maintenance status has changed (e.g. code is no longer being patched or updated by the community to resolve vulnerabilities)
 
-# Repository Archival Checklist
+# Repository Archival Checklists
+To prepare a repository for archival, complete the tasks below to perform a thorough review of the repository.
+
+_A complete list of all tasks described below are complied in checklists found [here](https://github.com/DSACMS/repo-sunsetter/tree/main/checklists)._
 
 ## For all tiers 
 
@@ -46,7 +49,7 @@ Enabling `archived` mode in the [automated-codejson-generator GitHub Action](htt
 Repository Documentation can provide explicit statements about the status of a project or community. Communicating clearly, whether the project is active or inactive, is important.
 
 #### Update Repository Documentation
-- [ ] Clearly state at the top the README that the project has been deprecated and will no longer be updated. If possible, suggest alternate projects that provide similar functionality.
+- [ ] Clearly state at the top of the README that the project has been deprecated and will no longer be updated. If possible, suggest alternate projects that provide similar functionality.
   - Sample Text:
     > "This project is now archived and no longer actively maintained. It has been archived to retain its contents for reference. Feel free to explore and fork the repository, but please note that updates or support will not be provided."
 
@@ -63,7 +66,9 @@ Repository Issues serve as a type of record of the decision making processes of 
 - [ ] Review committer access
 
 #### Perform a lightweight security review
-- [ ] Review for secrets, keys, PII
+- [ ] Review repository for secrets and keys
+- [ ] Check for any Personal Identifiable Information (PII)
+- Remove or redact any sensitive information found
 
 ### Other
 - [ ] Delete inactive branches
@@ -101,6 +106,11 @@ Repository Pull Requests serve as a type of record of the decision making proces
 - [ ] Resolve code scanning and security alerts (e.g. Dependabot, CodeQL)
 - [ ] Ensure CHANGELOG.md outlines completed work and the project's final state
 - [ ] Review releases and tags (if applicable, Maturity Model Tier3+)
+
+## repo-sunsetter
+repo-sunsetter is a GitHub Action developed by the OSPO to prepare repositories for archival. It implements the work described above by filing an issue with the archival review checklist as well as automating README documentation & metadata updates.
+
+For more information on using this action, visit the [repo-sunsetter repository](https://github.com/DSACMS/repo-sunsetter).
 
 ## Archiving a repository on DSACMS GitHub
 
