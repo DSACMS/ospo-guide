@@ -108,9 +108,12 @@ Repository Pull Requests serve as a type of record of the decision making proces
 - [ ] Review releases and tags (if applicable, Maturity Model Tier3+)
 
 ## repo-sunsetter
-repo-sunsetter is a GitHub Action developed by the OSPO to prepare repositories for archival. It implements the work described above by filing an issue with the archival review checklist as well as automating README documentation & metadata updates.
+repo-sunsetter is a repository-level GitHub Action developed by the OSPO to prepare repositories for archival. It implements the work described above by:
+1. Adds an archival notice to the README.md to inform users about the state of the repository
+2. Updates project metadata by marking project as archived in code.json
+3. Files an issue containing the archival checklist based on the repository's maturity model tier.
 
-For more information on using this action, visit the [repo-sunsetter repository](https://github.com/DSACMS/repo-sunsetter).
+For more information on using this action for your team's / organization's repository, visit the [repo-sunsetter repository](https://github.com/DSACMS/repo-sunsetter).
 
 ## Archiving a repository on DSACMS GitHub
 
