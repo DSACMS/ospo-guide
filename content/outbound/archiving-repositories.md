@@ -138,3 +138,6 @@ Submit a request to the [CMS Web Help Service Desk:](https://jira.cms.gov/servic
 
 Submit a request to the [CMS Enterprise Agile Tools Service Desk:](https://jiraent.cms.gov/servicedesk/customer/portal/4)
 [https://jiraent.cms.gov/servicedesk/customer/portal/4/create/183](https://jiraent.cms.gov/servicedesk/customer/portal/4/create/183)
+
+## Resources
+[Practitioner Guide: Getting Started with Sunsetting an Open Source Project by CHAOSS](https://chaoss.community/practitioner-guide-sunset/)
