@@ -68,7 +68,7 @@ Repository Issues serve as a type of record of the decision making processes of 
 #### Perform a lightweight security review
 - [ ] Review repository for secrets and keys
 - [ ] Check for any Personal Identifiable Information (PII)
-- Remove or redact any sensitive information found
+- [ ] Remove or redact any sensitive information found
 
 ### Other
 - [ ] Delete inactive branches
