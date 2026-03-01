@@ -25,9 +25,9 @@
   "disclaimerURL": "",
   "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 5536,
+  "laborHours": 5610,
   "reuseFrequency": {
-    "forks": 5,
+    "forks": 7,
     "clones": 0
   },
   "platforms": [
@@ -53,13 +53,13 @@
   "partners": [],
   "date": {
     "created": "2024-04-03T20:47:21Z",
-    "lastModified": "2025-11-21T20:15:51Z",
-    "metadataLastUpdated": "2025-12-01T02:02:34.617Z"
+    "lastModified": "2026-02-27T15:22:51Z",
+    "metadataLastUpdated": "2026-03-01T02:33:08.887Z"
   },
   "tags": [
+    "featured",
     "guide",
-    "ospo",
-    "featured"
+    "ospo"
   ],
   "contact": {
     "email": "opensource@cms.hhs.gov",
@@ -72,7 +72,9 @@
   "userInput": false,
   "fismaLevel": "low",
   "group": "CMS/OA/DSAC",
-  "projects": ["ospo"],
+  "projects": [
+    "ospo"
+  ],
   "systems": [],
   "subsetInHealthcare": [
     "operational"
