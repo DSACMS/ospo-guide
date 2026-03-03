@@ -116,7 +116,7 @@ Visit: [https://aiworkspace.cms.gov](https://aiworkspace.cms.gov)
 
 ### Want a personal assistant?
 
-`CMS Chat` is a Claude chatbot developed by OIT with connections to CMS-specific knowledge sources to answer questions and assist with various tasks. It has the ability to process all PII, PHI, CUI as well as integrate with CMS Jira, Confluence, and CMS OneDrive/SharePoint.
+`CMS Chat` is a chatbot developed by OIT with connections to CMS-specific knowledge sources to answer questions and assist with various tasks. It has the ability to process all PII, PHI, CUI as well as integrate with CMS Jira, Confluence, and CMS OneDrive/SharePoint.
 
 Visit: [cms.chat.gov](http://cms.chat.gov) and login using your EUA credentials
 
@@ -125,12 +125,6 @@ Visit: [cms.chat.gov](http://cms.chat.gov) and login using your EUA credentials
 _Be mindful of inputting sensitive data/PII/PHI in this platform as it is not protected – CMS Chat is best for this._
 
 Visit: [go.hhs.gov/chatgpt](https://go.hhs.gov/chatgpt) and login using your CMS email address
-
-`HHS Claude` is another chatbot provided by HHS. It has more Claude platform functionality than CMS Chat (e.g. projects, teams). It is most suitable for generating clear writing and working with large amounts of text whether it be drafting, summarizing, editing, and reviewing documents. 
-
-_Be mindful of inputting sensitive data/PII/PHI in this platform as it is not protected  – CMS Chat is best for this._
-
-Visit: [go.hhs.gov/claudeai](https://go.hhs.gov/claudeai) and login using your CMS email address
 
 `HHS Gemini` is the third AI chatbot provided by HHS. It is best for real-time research with direct Google search integration for up-to-date information, analyzing massive documents or multimedia files, and deep integration with Google's ecosystem.
 
