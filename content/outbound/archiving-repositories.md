@@ -113,7 +113,7 @@ repo-sunsetter is a repository-level GitHub Action developed by the OSPO to prep
 2. Updates project metadata by marking project as archived in code.json
 3. Files an issue containing the archival checklist based on the repository's maturity model tier.
 
-For more information on using this action for your team's / organization's repository, visit the [repo-sunsetter repository](https://github.com/DSACMS/repo-sunsetter).
+For more information on using this action for your team's / organization's repository, visit the [repo-sunsetter GitHub Actions Marketplace page](https://github.com/marketplace/actions/repo-sunsetter).
 
 ## Archiving a repository on DSACMS GitHub
 
