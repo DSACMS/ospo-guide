@@ -45,8 +45,7 @@ jobs:
         env:
           BASEURL: /ospo-guide
           GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
-          ELEVENTY_ENV: production
-          production: true
+          NODE_ENV: production
       
       - name: Save 11ty Cache
         uses: actions/cache/save@v4
