@@ -42,6 +42,8 @@ Be sure to configure the following for the account of usage:
 - Enable 2FA
 - Set your commit email to your CMS email address for government work
 
+For instructions on setting up your GitHub profile to access CMS organizations, visit the [DSAC Onboarding Document](https://docs.google.com/document/d/1Yf2A9vU0yDLxq6uhOFcWVdksrad-B0NrVUlT2RgqTUc/edit?tab=t.0#heading=h.6zxrn2zh9vt2).
+
 ### CMS GitHubs
 
 There are various GitHub instances and organizations actively used at CMS.
