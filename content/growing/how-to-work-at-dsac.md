@@ -29,6 +29,21 @@ To set up your local system and obtain access to all tools and environments, fol
 
 ## Development Practices
 
+### GitHub Profile
+When working at DSAC, you have two primary options for your GitHub account:
+1. Use your existing GitHub profile
+  - Maintains your contribution history and profile
+  - Your personal and government work will be associated in the same profile
+2. Create a new GitHub account for DSAC and government-specific work
+  - Dedicated identity for CMS & government specific work
+- Clear separation between personal and professional work
+
+Be sure to configure the following for the account of usage:
+- Enable 2FA
+- Set your commit email to your CMS email address for government work
+
+For instructions on setting up your GitHub profile to access CMS organizations, visit the [DSAC Onboarding Document](https://docs.google.com/document/d/1Yf2A9vU0yDLxq6uhOFcWVdksrad-B0NrVUlT2RgqTUc/edit?tab=t.0#heading=h.6zxrn2zh9vt2).
+
 ### CMS GitHubs
 
 There are various GitHub instances and organizations actively used at CMS.
