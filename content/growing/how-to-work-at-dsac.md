@@ -197,9 +197,6 @@ The OSPO’s GitHub Action workflows include security checks and scans:
 - Secret Scanning using [gitleaks.yml](https://github.com/DSACMS/repo-scaffolder/blob/main/tier3/%7B%7Bcookiecutter.project_slug%7D%7D/.github/workflows/gitleaks.yml)  
 - [Github’s CodeQL](https://codeql.github.com/docs/codeql-overview/about-codeql/)
 
-> [!NOTE]
-> There are license requirements for the gitleaks GitHub action. More details can be found [here.](https://dsacms.github.io/ospo-guide/resources/gitleaks-action-license/)
-
 ## Communities
 
 ### DSAC Eng CoP
