@@ -33,10 +33,10 @@ The Maturity Model Ladder Guide seeks to capture the ways repositories grow on t
 
 | Growing to Tier X | Must Have / Mandatory | Nice to have / Recommended |
 | :---- | :---- | :---- |
-| Tier 1 | Documentation: README, CONTRIBUTING, LICENSE, SECURITY Policy | Receiving issues |
-| Tier 2 | Documentation: Community Guidelines, Code of Conduct Actively working in the open within small teams Innersource Receiving and accepting issues | Guidelines for writing PRs Guidelines for reviewing PRs Formal team structure |
-| Tier 3 | Accepting Pull Requests Development Practices: Testing Suite Contributing guidelines enforced Team structure enforced | Documentation: Community Governance Contributor Ladder |
-| Tier 4 | Documentation: Community Governance Accept Roadmap Input Accept External Reviewers Contributor Ladder Accept Community Governance Development Practices: Releases |  |
+| Tier 1 | <ul><li>Documentation <ul><li>README.md</li><li>CONTRIBUTING.md</li><li>LICENSE</li><li>Security Policy</li><ul></li></ul>| <ul><li>Receiving issues</li></ul> |
+| Tier 2 | <ul><li>Documentation <ul><li>Community Guidelines</li><li>Code of Conduct</li></ul></li><li>Actively working in the open within small teams</li><li>Innersource</li><li>Receiving and accepting issues</li> | <ul><li>Guidelines for writing PRs </li><li>Guidelines for reviewing PRs</li><li>Formal team structure</li></ul> |
+| Tier 3 | <ul><li>Accepting Pull Requests</li><li>Development Practices <ul><li>Testing Suite</li></ul> </li><li>Contributing guidelines enforced</li><li>Team structure enforced</li></ul> | <ul><li>Documentation <ul><li>Community Governance</li><li>Contributor Ladder</li></ul></li></ul> |
+| Tier 4 | <ul><li>Documentation <ul><li>Community Governance</li></ul></li><li>Accept Roadmap Input</li><li>Accept External Reviewers</li><li>Contributor Ladder</li><li>Accept Community Governance</li><li>Development Practices<ul><li>Releases</li></ul></li></ul> |  |
 
 ### Tier 0 → 1: Private to Public
 
@@ -96,7 +96,7 @@ A tier 4 repository is a mature open source project with shared ownership betwee
 
 - Documentation  
   - GOVERNANCE.md dictates the project’s governance structure establishing how the project is managed collaboratively with its community  
-- Contributor Ladder  
+- [Contributor Ladder](https://dsacms.github.io/ospo-guide/outbound/contributor-ladder/)  
   - Contributor, Maintainer, and Alumni roles are fulfilled by the community to assist the project team with development and maintenance  
 - Roadmap Input  
   - The roadmap is made public. Community input is welcome to shape the direction and future of the project  
