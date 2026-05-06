@@ -90,6 +90,10 @@ For more information, visit [https://go.cms.gov/ospo](https://go.cms.gov/ospo).
 
 
 #### External Talks
+### 2026
+- [Punch Tape: Inside the Federal Government's First OSPO](https://youtu.be/ZETBjaiI12M?si=bFgWPDrisDMxgIVc)
+- [GW Open Source Conference: It Is Time: Succession Planning, Shepherding, and Sunsetting Open Source Projects](https://ospo.gwu.edu/oscon-2026-details)
+
 ##### 2025
 - [FormFest: Forming an Open Source Culture in Federal Agencies](https://www.youtube.com/watch?v=J8iSJEEsysM)
 - [DEFCon: CMS.gov OSPO One Year Later: Launching the Agency's First Bug Bounty](https://aicyberchallenge.com/def-con-33/)
