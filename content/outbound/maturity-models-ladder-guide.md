@@ -36,7 +36,7 @@ The Maturity Model Ladder Guide seeks to capture the ways repositories grow on t
 | Tier 1 | <ul><li>Documentation <ul><li>README.md</li><li>CONTRIBUTING.md</li><li>LICENSE</li><li>Security Policy</li><ul></li></ul>| <ul><li>Receiving issues</li></ul> |
 | Tier 2 | <ul><li>Documentation <ul><li>Community Guidelines</li><li>Code of Conduct</li></ul></li><li>Actively working in the open within small teams</li><li>Innersource</li><li>Receiving and accepting issues</li> | <ul><li>Guidelines for writing PRs </li><li>Guidelines for reviewing PRs</li><li>Formal team structure</li></ul> |
 | Tier 3 | <ul><li>Accepting Pull Requests</li><li>Development Practices <ul><li>Testing Suite</li></ul> </li><li>Contributing guidelines enforced</li><li>Team structure enforced</li></ul> | <ul><li>Documentation <ul><li>Community Governance</li><li>Contributor Ladder</li></ul></li></ul> |
-| Tier 4 | <ul><li>Documentation <ul><li>Community Governance</li></ul></li><li>Accept Roadmap Input</li><li>Accept External Reviewers</li><li>Contributor Ladder</li><li>Accept Community Governance</li><li>Development Practices<ul><li>Releases</li></ul></li></ul> |  |
+| Tier 4 | <ul><li>Documentation <ul><li>Community Governance</li></ul></li><li>Accept Roadmap Input</li><li>Accept External Reviewers<ul><li>Contributor Ladder</li></ul></li><li>Accept Community Governance</li><li>Development Practices<ul><li>Releases</li></ul></li></ul> |  |
 
 ### Tier 0 → 1: Private to Public
 
