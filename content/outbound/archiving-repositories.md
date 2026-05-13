@@ -97,13 +97,13 @@ Upstream activity may be below thresholds, but downstream activity indicates act
 
 #### Criteria for Determination
 
-| Status | Description | PR opened  | PR merged/closed | Push  to repo (commits) | Push to  forks | Issue opened | Issue closed | Criticality Score  | Notes |
-| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| ACTIVE | This project is under active development and has an active user base | ✅  | ✅ | ✅ | ✅ | ✅ | ✅ | \> $THRESHOLD\_SCORE |  |
-| STABLE | Upstream activity may be below thresholds, but downstream activity indicates active usage or forks | Y/N | Y/N | Y/N | ✅ | Y/N | Y/N | Half of stats are above threshold Within standard deviation of threshold (=6, this is within \+- 2m)  | No commits from humansOnly dependabot commits and cut a new release if  Only dependabot and code.json commits  |
-| Dormant Downstream | Project may be under active development, but does not have an active downstream user or developer base | ✅  | ✅ | ✅ | ❌ | ✅ | ✅ | ? Doesn’t matter? Or  ❌ Below $THRESHOLD\_SCORE |  |
-| Dormant Upstream | Project may have active users, but the core developers or upstream team is inactive | ❌ : | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ Above $THRESHOLD\_SCORE | Stars of fork \> Stars of upstream repo |
-| Dormant | Project upstream and downstreams are inactive |  | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ Below $THRESHOLD\_SCORE |  |
+| Status | Description | Open PRs  | Merged/ Closed PRs | Push to repo | Push to forks | Open issues | Closed issues | Criticality Score |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| ACTIVE | This project is under active development and has an active user base | ✅  | ✅ | ✅ | ✅ | ✅ | ✅ | Above $THRESHOLD \_SCORE |
+| STABLE | Upstream activity may be below thresholds, but downstream activity indicates active usage or forks. Usually automated commits by dependabot and no commits by humans | Y/N | Y/N | Y/N | ✅ | Y/N | Y/N | TBD: Consider using the standard deviation of threshold|
+| Dormant Downstream | Project may be under active development, but does not have an active downstream user or developer base | ✅  | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ Below $THRESHOLD \_SCORE |
+| Dormant Upstream | Project may have active users, but the core developers or upstream team is inactive. Stars of fork \> Stars of upstream repo | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ Above $THRESHOLD \_SCORE |
+| Dormant | Project upstream and downstreams are inactive | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ Below $THRESHOLD \_SCORE |
 
 ### Tool: archival-identifier
 
