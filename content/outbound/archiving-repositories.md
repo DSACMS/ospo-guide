@@ -97,10 +97,10 @@ Upstream activity may be below thresholds, but downstream activity indicates act
 
 #### Criteria for Determination
 
-| Status | Description | Open PRs  | Merged/ Closed PRs | Push to repo | Push to forks | Open issues | Closed issues | Criticality Score |
+| Status | Description | Open PRs  | Merged/ Closed PRs | Push to repo | Push to forks | Open issues | Closed issues | Criticality Score | 
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | ACTIVE | This project is under active development and has an active user base | ✅  | ✅ | ✅ | ✅ | ✅ | ✅ | Above $THRESHOLD \_SCORE |
-| STABLE | Upstream activity may be below thresholds, but downstream activity indicates active usage or forks. Usually automated commits by dependabot and no commits by humans | Y/N | Y/N | Y/N | ✅ | Y/N | Y/N | TBD: Consider using the standard deviation of threshold|
+| STABLE | Upstream activity may be below thresholds, but downstream activity indicates active usage or forks. Usually automated commits by dependabot and no commits by humans | ✅/❌ | ✅/❌ | ✅/❌ | ✅ | ✅/❌ | ✅/❌ | TBD: Consider using the standard deviation of threshold|
 | Dormant Downstream | Project may be under active development, but does not have an active downstream user or developer base | ✅  | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ Below $THRESHOLD \_SCORE |
 | Dormant Upstream | Project may have active users, but the core developers or upstream team is inactive. Stars of fork \> Stars of upstream repo | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ Above $THRESHOLD \_SCORE |
 | Dormant | Project upstream and downstreams are inactive | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ Below $THRESHOLD \_SCORE |
