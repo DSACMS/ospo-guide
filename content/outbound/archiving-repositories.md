@@ -111,7 +111,7 @@ To put into practice the concepts explained above, the CMS OSPO created the arch
 
 Using these issues, project teams can assess and discuss the results, and select repositories to archive.
 
-For more information on using this action for your organization’s software inventory, visit the [archival-identifier repository](https://github.com/DSACMS/archival-identifier).
+For more information on using this action for your organization’s software inventory, visit the [archival-identifier GitHub Actions Marketplace page](https://github.com/marketplace/actions/archival-identifier).
 
 
 ## Repository Archival Checklists
