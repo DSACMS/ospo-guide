@@ -99,9 +99,9 @@ Additionally, we use `prettier` for code formatting.
 
 ## Branching Model
 
-This project follows [trunk-based development](https://trunkbaseddevelopment.com/), which means:
+This project follows [Github Flow](https://guides.github.com/introduction/flow/), which means:
 
-- Make small changes in [short-lived feature branches](https://trunkbaseddevelopment.com/short-lived-feature-branches/) and merge to `main` frequently.
+- Make small changes in [short-lived feature branches](https://guides.github.com/introduction/flow/) and merge to `origin/main` frequently.
 - Be open to submitting multiple small pull requests for a single ticket (i.e. reference the same ticket across multiple pull requests).
 - Treat each change you merge to `main` as immediately deployable to production. Do not merge changes that depend on subsequent changes you plan to make, even if you plan to make those changes shortly.
 - Ticket any unfinished or partially finished work.

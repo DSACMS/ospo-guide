@@ -71,7 +71,7 @@ To oversee repository operations in DSACMS, the OSPO follows the GitHub Manageme
 Generally, DSAC repositories adhere to the following workflow standards to streamline collaboration.
 
 **Branching**  
-We follow the [GitHub Flow Workflow]([https://guides.github.com/introduction/flow/).
+We follow the [GitHub Flow Workflow](https://guides.github.com/introduction/flow/).
 
 **Sending in PRs**  
 When making pull requests, information specified in our [PULL\_REQUEST\_TEMPLATE.md](https://github.com/DSACMS/repo-scaffolder/blob/main/tier3/%7B%7Bcookiecutter.project_slug%7D%7D/.github/PULL_REQUEST_TEMPLATE.md%20) must be included. A set of checks (e.g. CodeQL, gitleaks, [OSPO workflows](https://github.com/DSACMS/repo-scaffolder/blob/main/docs/.github-directory.md#workflows%20)) will be run to verify contents of the code change.
@@ -164,7 +164,7 @@ CMS's cloud infrastructure platform built on AWS that provides essential cloud s
 
 Visit: [https://cloud.cms.gov/](https://cloud.cms.gov/) 
 
-**Synk**  
+**Snyk**  
 A security scanning tool for identifying vulnerabilities in code dependencies and container images. CMS uses it as part of their vulnerability management and security testing processes.
 
 Visit: [https://snyk.io/](https://snyk.io/) 
