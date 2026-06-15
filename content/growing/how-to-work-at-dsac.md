@@ -169,16 +169,25 @@ A security scanning tool for identifying vulnerabilities in code dependencies an
 
 Visit: [https://snyk.io/](https://snyk.io/) 
 
-**SonarQube**  
-A code quality analysis platform used by CMS for software quality assurance. CMS provides access to SonarQube through their OC Tools Help Desk for static code analysis and identifying code quality issues in development projects.
-
 **Jenkins**  
 Jenkins is a continuous integration/continuous deployment (CI/CD) automation server.
+
+Reach out to OIT for access.
 
 **Wiz Cloud Security Platform**  
 A comprehensive cloud security platform for identifying vulnerabilities, misconfigurations, and threats across cloud environments.
 
-To get access to the tools above, reach out to OIT.
+Reach out to OIT for access.
+
+**SonarQube**  
+A code quality analysis platform used by CMS for software quality assurance. CMS provides access to SonarQube through their OC Tools Help Desk for static code analysis and identifying code quality issues in development projects.
+
+Put in a request via [CMS OC Tools Help Desk](https://jira.cms.gov/servicedesk/customer/portal/1/create/355) to get access.
+
+**LaunchDarkly**
+A feature management platform that allows development teams to hide, show, or test new features safely in real-time without having to rewrite or redeploy code.
+
+Put in a request via [CMS OC Tools Help Desk](https://jira.cms.gov/servicedesk/customer/portal/1/create/355) to get access.
 
 ## Security
 
