@@ -24,7 +24,7 @@ The Digital Service at the Centers for Medicare and Medicaid Services (CMS) is c
 
 {% image_with_class "assets/resources/img/early-career-talent-pipeline/usdc.png" "" "United States Digital Corps logo" %}
 
-- [Civic Digital Fellowship at Coding it Forward](https://www.codingitforward.com) - Paid 10 week summer internship program for currently enrolled undergrad, grad, bootcamp students or recent graduates.
+- [Coding it Forward Fellowship](https://www.codingitforward.com) - Paid 10 week summer internship program for currently enrolled undergrad, grad, bootcamp students or recent graduates.
 
 {% image_with_class "assets/resources/img/early-career-talent-pipeline/coding_it_forward.png" "" "Coding It Forward logo" %}
 
