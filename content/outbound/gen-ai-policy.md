@@ -40,8 +40,15 @@ Using mentioned above, using AI does not change who's responsible for the code y
 Using AI does not lower the bar and quality of your code contributions.
 
 - Unacceptable: Submitting AI generated code you can't explain line by line to a developer, or using AI output without fully understanding it or verifying it's the correct approach
-- Unacceptable: Submitting a PR where the effort you put in, such as writing a prompt, is less than the effort it would take a maintainer to review it. We can already write prompts or run automated tools ourselves and doing that directly is faster and more secure than reviewing a low effort PR.
 - Unacceptable: Using AI to increase the breadth of your contributions, such as spreading yourself across several projects at once. You provide more value by engaging deeply with one or two projects than shallowly with many.
+
+### Review
+The effort you put into a contribution should meet or exceed the effort it takes to review it. We want to reduce the number of extractive contributions coming in, since this takes valuable time and effort away from doing our work.
+
+- Unacceptable: Submitting a PR where the effort you put in, such as writing a prompt, is less than the effort it would take a maintainer to review it. We can already write prompts or run automated tools ourselves and doing that directly is faster and more secure than reviewing a low effort PR.
+
+Please refer to [Reducing the Risk of Extractive Contributions](#reducing-the-risk-of-extractive-contributions) section for additional guidance.
+
 
 ## Pull Request Guidelines
 
