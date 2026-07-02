@@ -14,10 +14,34 @@ sidenav: true
 sticky_sidenav: true
 ---
 
-## DSACMS Gen AI Policy
-- Explicitly state where AI was used in PRs
-- Never ship AI code you can’t explain line by line to a developer
-- If the human effort put in a PR, e.g. writing LLM prompts, is less than the effort we would need to put to review it, please don't submit the PR. Think of it this way: we can already write LLM prompts or run automated tools ourselves, and that would be faster and more secure than reviewing external PRs.
+## DSACMS Generative AI Policy
+
+At DSACMS, AI tools *(LLMs, coding assistants)* are welcome as part of contribution workflow, but they don't change who's responsible for the code you submit.
+
+In our repositories, Generative AI usage is outlined in [CONTRIBUTING.md](https://github.com/DSACMS/repo-scaffolder/blob/main/tier3/%7B%7Bcookiecutter.project_slug%7D%7D/CONTRIBUTING.md), which has a dedicated "AI Usage" section covering acceptable and unacceptable uses when contributing directly to repositories.
+
+The guidelines below are organized around the core tenets we want every developer to hold when using Generative AI here at DSACMS.
+
+## Guidelines
+
+1. Transparency and Disclosure
+
+If AI is used in your work, explicitly state where and how it was used in your pull request.
+
+- Acceptable: Using AI to gain understanding of existing code or to brainstorm solution ideas for an issue.
+- Acceptable: Using AI to translate or proofread your comments or PR descriptions, as long as the wording stays as close as possible to what you originally wrote.
+
+2. Human in the Loop
+Using mentioned above, using AI does not change who's responsible for the code you submit. A person remains accountable for their every contribution and AI does not act on the project's behalf unsupervised.
+
+- Unacceptable: Using external AI tooling *(bots, agents)* to directly interacting with the project, including creating issues, opening PRs, or commenting on GitHub.
+
+3. Responsible Development and Code Quality
+Using AI does not lower the bar and quality of your code contributions.
+
+- Unacceptable: Submitting AI generated code you can't explain line by line to a developer, or using AI output without fully understanding it or verifying it's the correct approach
+- Unacceptable: Submitting a PR where the effort you put in, such as writing a prompt, is less than the effort it would take a maintainer to review it. We can already write prompts or run automated tools ourselves and doing that directly is faster and more secure than reviewing a low effort PR.
+- Unacceptable: Using AI to increase the breadth of your contributions, such as spreading yourself across several projects at once. You provide more value by engaging deeply with one or two projects than shallowly with many.
 
 ## Pull Request Guidelines
 
