@@ -24,19 +24,19 @@ The guidelines below are organized around the core tenets we want every develope
 
 ## Guidelines
 
-1. Transparency and Disclosure
+### Transparency and Disclosure
 
 If AI is used in your work, explicitly state where and how it was used in your pull request.
 
 - Acceptable: Using AI to gain understanding of existing code or to brainstorm solution ideas for an issue.
 - Acceptable: Using AI to translate or proofread your comments or PR descriptions, as long as the wording stays as close as possible to what you originally wrote.
 
-2. Human in the Loop
+### Human in the Loop
 Using mentioned above, using AI does not change who's responsible for the code you submit. A person remains accountable for their every contribution and AI does not act on the project's behalf unsupervised.
 
 - Unacceptable: Using external AI tooling *(bots, agents)* to directly interacting with the project, including creating issues, opening PRs, or commenting on GitHub.
 
-3. Responsible Development and Code Quality
+### Responsible Development and Code Quality
 Using AI does not lower the bar and quality of your code contributions.
 
 - Unacceptable: Submitting AI generated code you can't explain line by line to a developer, or using AI output without fully understanding it or verifying it's the correct approach
