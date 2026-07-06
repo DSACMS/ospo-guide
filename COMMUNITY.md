@@ -111,6 +111,13 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
 		</tr>
 		<tr>
             <td align="center">
+                <a href="https://github.com/cschilly">
+                    <img src="https://avatars.githubusercontent.com/u/259887029?v=4" width="100;" alt="cschilly"/>
+                    <br />
+                    <sub><b>cschilly</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/NoobNoob06">
                     <img src="https://avatars.githubusercontent.com/u/108984067?v=4" width="100;" alt="NoobNoob06"/>
                     <br />
@@ -125,17 +132,17 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/borrow-checker">
+                    <img src="https://avatars.githubusercontent.com/u/2809329?v=4" width="100;" alt="borrow-checker"/>
+                    <br />
+                    <sub><b>TJ Challstrom</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/cms-eo14168">
                     <img src="https://avatars.githubusercontent.com/u/197958188?v=4" width="100;" alt="cms-eo14168"/>
                     <br />
                     <sub><b>cms-eo14168</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/cschilly">
-                    <img src="https://avatars.githubusercontent.com/u/259887029?v=4" width="100;" alt="cschilly"/>
-                    <br />
-                    <sub><b>cschilly</b></sub>
                 </a>
             </td>
 		</tr>
