@@ -14,7 +14,7 @@ sidenav: true
 sticky_sidenav: true
 ---
 
-## [Draft] DSACMS Generative AI Policy
+## [DRAFT] DSACMS Generative AI Policy
 _Last edited: July 8, 2026_
 
 At DSACMS, AI tools *(LLMs, coding assistants)* are welcome as part of contribution workflow, but they don't change who's responsible for the code you submit.
@@ -79,6 +79,7 @@ If checked, please provide an explanation on how AI was used in the development 
 - AI System used: 
   - [ ] ChatGPT
   - [ ] Claude
+  - [ ] Gemini
   - [ ] GitHub Copilot
 - Level of modification: 
   - [ ] As-is
