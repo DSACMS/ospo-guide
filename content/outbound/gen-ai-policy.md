@@ -34,7 +34,7 @@ If AI is used in your work, explicitly state where and how it was used in your p
 ### Human in the Loop
 Using mentioned above, using AI does not change who's responsible for the code you submit. A person remains accountable for their every contribution and AI does not act on the project's behalf unsupervised.
 
-- Unacceptable: Using external AI tooling *(bots, agents)* to directly interacting with the project, including creating issues, opening PRs, or commenting on GitHub.
+- Not Recommended: Using external AI tooling *(bots, agents)* to directly interacting with the project, including creating issues, opening PRs, or commenting on GitHub.
 
 ### Responsible Development and Code Quality
 Using AI does not lower the bar and quality of your code contributions.
@@ -42,7 +42,7 @@ Using AI does not lower the bar and quality of your code contributions.
 - Unacceptable: Submitting AI generated code you can't explain line by line to a developer, or using AI output without fully understanding it or verifying it's the correct approach
 - Unacceptable: Using AI to increase the breadth of your contributions, such as spreading yourself across several projects at once. You provide more value by engaging deeply with one or two projects than shallowly with many.
 
-### Review
+### Human Review and Validation
 The effort you put into a contribution should meet or exceed the effort it takes to review it. We want to reduce the number of extractive contributions coming in, since this takes valuable time and effort away from doing our work.
 
 - Unacceptable: Submitting a PR where the effort you put in, such as writing a prompt, is less than the effort it would take a maintainer to review it. We can already write prompts or run automated tools ourselves and doing that directly is faster and more secure than reviewing a low effort PR.
@@ -59,11 +59,17 @@ We don’t accept PRs that:
 - Touch more than X files at a time
 - Contain more than Y commits
 - Change core system files such as …
-- Are untested / don’t pass our test suite / don’t pass our linters / don’t follow styleguide
+- Are untested / don’t pass our test suite / don’t pass our linters / don’t follow style guide
 
 - [ ] Generated AI was used in this contribution
 
 If checked, please provide an explanation on how AI was used in the development of this pull request:
+
+- Description: _Include a high level description of Gen AI utilization_
+- Type of assistance: _Code generation, documentation, debugging, testing, refactoring, etc._
+- Scope of usage: _Which files, functions, or sections were AI-assisted_
+- Tool(s) used: _Name of the AI system(s) employed (e.g., GitHub Copilot, ChatGPT, etc.)_
+- Level of modification: _Whether AI-generated content was used as-is, modified, or used as inspiration_
 
 ### Example 2: Repositories not accepting AI-generated pull requests
 We don’t accept PRs that:
@@ -71,10 +77,10 @@ We don’t accept PRs that:
 - Touch more than X files at a time
 - Contain more than Y commits
 - Change core system files such as …
-- Are untested / don’t pass our test suite / don’t pass our linters / don’t follow styleguide
+- Are untested / don’t pass our test suite / don’t pass our linters / don’t follow style guide
 - Are entirely AI generated
 
-We accept feedback in the form of issues for the following: bug reports, feature requests
+We only accept feedback in the form of issues for the following: bug reports, feature requests
 
 ## Reducing the Risk of Extractive Contributions
 - Limiting PRs/contributions to existing tickets reduces the risk of "roadmap drift", where contributions take away limited time/energy/attention from the established priorities of the project.
@@ -85,3 +91,7 @@ We accept feedback in the form of issues for the following: bug reports, feature
 - Machine-readable metadata can be derived from metrics, but human judgement prevails, and communication is human-readable, by and for people.
 Templates for responding to extractive contributions can be copy-pasted and automated to encourage contributions that follow the guidelines, without the maintainers needing to custom-respond to every PR.
 - It’s not humans versus machines, it’s clarity v.s. ambiguity.
+
+## Acknowledgements
+- [CMS Technical Review Architecture: AI Code Generation](https://tra.cloud.cms.gov/Application_Development/AD_0010_Application_Introduction.htm)
+- [NASA Fprime AI Policy](https://fprime.jpl.nasa.gov/latest/AI_POLICY/)
