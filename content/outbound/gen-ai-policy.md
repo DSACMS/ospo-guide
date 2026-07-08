@@ -61,15 +61,29 @@ We don’t accept PRs that:
 - Change core system files such as …
 - Are untested / don’t pass our test suite / don’t pass our linters / don’t follow style guide
 
+#### AI Usage
 - [ ] Generated AI was used in this contribution
 
 If checked, please provide an explanation on how AI was used in the development of this pull request:
 
 - Description: _Include a high level description of Gen AI utilization_
-- Type of assistance: _Code generation, documentation, debugging, testing, refactoring, etc._
+- Type of assistance:
+  - [ ] Code generation
+  - [ ] Documentation
+  - [ ] Debugging
+  - [ ] Testing
+  - [ ] Refactoring
+  - [ ] Other: 
 - Scope of usage: _Which files, functions, or sections were AI-assisted_
-- Tool(s) used: _Name of the AI system(s) employed (e.g., GitHub Copilot, ChatGPT, etc.)_
-- Level of modification: _Whether AI-generated content was used as-is, modified, or used as inspiration_
+- AI System used: 
+  - [ ] ChatGPT
+  - [ ] Claude
+  - [ ] GitHub Copilot
+- Level of modification: 
+  - [ ] As-is
+  - [ ] Modified
+  - [ ] Used as inspiration
+- Prompts used: _Please list or explain prompts that were used to develop this contribution_
 
 ### Example 2: Repositories not accepting AI-generated pull requests
 We don’t accept PRs that:
@@ -95,3 +109,4 @@ Templates for responding to extractive contributions can be copy-pasted and auto
 ## Acknowledgements
 - [CMS Technical Review Architecture: AI Code Generation](https://tra.cloud.cms.gov/Application_Development/AD_0010_Application_Introduction.htm)
 - [NASA Fprime AI Policy](https://fprime.jpl.nasa.gov/latest/AI_POLICY/)
+- [Software Freedom Conservancy: Recommendations When Using LLM-backed Generative AI Systems](https://sfconservancy.org/llm-gen-ai/llm-backed-generative-ai-recommendations.html)
