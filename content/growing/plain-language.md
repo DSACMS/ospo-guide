@@ -1,3 +1,17 @@
+title: Plain Language
+description: Resources and training on Plain Language
+permalink: /growing/plain-language/
+layout: layouts/page
+section: growing
+tags: ospo
+eleventyNavigation:
+  parent: ospo-growing
+  key: ospo-growing-plainlanguage
+  order: 9
+  title: Plain Language
+sidenav: true
+sticky_sidenav: true
+
 ## What is Plain Language?
 
 Plain language is communication that people can understand the first time they read or hear it. It helps readers quickly find information, understand what it means, and take appropriate action.
@@ -46,9 +60,11 @@ Most users scan webpages before reading them in detail. Highlight important info
 Clearly explain what readers need to do and what will happen next.
 
 ## Federal Resources
-* PlainLanguage.gov
-* Federal Plain Language Guidelines
-* Digital.gov Plain Language Web Writing Tips
+
+- [Plain language guide series](https://digital.gov/guides/plain-language)
+- [Federal Plain Language Guidelines](https://digital.gov/resources/federal-plain-language-guidelines/)
+- [Plain Language Web Writing Tips](https://digital.gov/resources/plain-language-web-writing-tips/)
 
 ## Additional Reading
-Digital.gov provides practical guidance for creating web content that is concise, accessible, and user-centered. Their recommendations emphasize audience-focused writing, scannable content, and clear calls to action.
+
+[Digital.gov](https://digital.gov/guides/plain-language) provides practical guidance for creating web content that is concise, accessible, and user-centered. Their recommendations emphasize audience-focused writing, scannable content, and clear calls to action.
