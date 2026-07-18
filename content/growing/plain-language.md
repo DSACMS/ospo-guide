@@ -1,3 +1,4 @@
+---
 title: Plain Language
 description: Resources and training on Plain Language
 permalink: /growing/plain-language/
@@ -11,6 +12,7 @@ eleventyNavigation:
   title: Plain Language
 sidenav: true
 sticky_sidenav: true
+---
 
 ## What is Plain Language?
 
@@ -61,9 +63,7 @@ Clearly explain what readers need to do and what will happen next.
 
 ## Federal Resources
 
-- [Plain language guide series](https://digital.gov/guides/plain-language)
-- [Federal Plain Language Guidelines](https://digital.gov/resources/federal-plain-language-guidelines/)
-- [Plain Language Web Writing Tips](https://digital.gov/resources/plain-language-web-writing-tips/)
+- [Plain Language Guide Series](https://digital.gov/guides/plain-language)
 
 ## Additional Reading
 
