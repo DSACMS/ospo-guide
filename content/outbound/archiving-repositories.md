@@ -97,13 +97,25 @@ Upstream activity may be below thresholds, but downstream activity indicates act
 
 #### Criteria for Determination
 
-| Status | Description | Open PRs  | Merged/ Closed PRs | Push to repo | Push to forks | Open issues | Closed issues | Criticality Score | Is repo empty/ README only? | 
-| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Active | This project is under active development and has an active user base | ✅  | ✅ | ✅ | ✅ | ✅ | ✅ | Above $THRESHOLD \_SCORE | Has content |
-| Stable | Upstream activity may be below thresholds, but downstream activity indicates active usage or forks. Usually automated commits by dependabot and no commits by humans | ✅/❌ | ✅/❌ | ✅/❌ | ✅ | ✅/❌ | ✅/❌ | TBD: Consider using the standard deviation of threshold| Has content |
-| Dormant Downstream | Project may be under active development, but does not have an active downstream user or developer base | ✅  | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ Below $THRESHOLD \_SCORE | Has content |
-| Dormant Upstream | Project may have active users, but the core developers or upstream team is inactive. Stars of fork \> Stars of upstream repo | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ Above $THRESHOLD \_SCORE | Has content |
-| Dormant | Project upstream and downstreams are inactive | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ Below $THRESHOLD \_SCORE | Empty OR README-only |
+| Field | Active | Stable | Dormant Downstream | Dormant Upstream | Dormant |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Open PRs | ✅ | ✅/❌ | ✅ | ❌ | ❌ |
+| Merged/Closed PRs | ✅ | ✅/❌ | ✅ | ❌ | ❌ |
+| Push to repo | ✅ | ✅/❌ | ✅ | ❌ | ❌ |
+| Push to forks | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Open issues | ✅ | ✅/❌ | ✅ | ✅ | ❌ |
+| Closed issues | ✅ | ✅/❌ | ✅ | ❌ | ❌ |
+| Criticality Score | Above threshold | See note¹ | Below threshold | Above threshold | Below threshold |
+| Repo content | Has content | Has content | Has content | Has content | Empty/README-only |
+
+**Descriptions:**
+- **Active:** This project is under active development and has an active user base
+- **Stable:** Upstream activity may be below thresholds, but downstream activity indicates active usage or forks. Usually automated commits by dependabot and no commits by humans
+- **Dormant Downstream:** Project may be under active development, but does not have an active downstream user or developer base
+- **Dormant Upstream:** Project may have active users, but the core developers or upstream team is inactive. Stars of fork > Stars of upstream repo
+- **Dormant:** Project upstream and downstreams are inactive
+
+¹ *Stable criticality: TBD — consider using standard deviation of the threshold.*
 
 ### Tool: archival-identifier
 
