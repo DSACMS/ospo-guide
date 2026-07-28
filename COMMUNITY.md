@@ -118,6 +118,13 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/isaac-rtc">
+                    <img src="https://avatars.githubusercontent.com/u/194465296?v=4" width="100;" alt="isaac-rtc"/>
+                    <br />
+                    <sub><b>Isaac Guzman</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/NoobNoob06">
                     <img src="https://avatars.githubusercontent.com/u/108984067?v=4" width="100;" alt="NoobNoob06"/>
                     <br />
