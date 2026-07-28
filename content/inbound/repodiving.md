@@ -20,13 +20,11 @@ Rather than manually inspecting repositories one at a time, the [**repodive-tool
 
 The following guide introduces each available tool, explains its purpose within the toolkit, outlines any required setup, and provides step-by-step instructions for running the associated scripts so you can incorporate them into your own workflows.
 
+Learn about the dependencies needed [here!](https://dsacms.github.io/ospo-guide/inbound/repo-diving#installing-dependencies)
 ## Scripts Available
-
-If needed, learn about the dependencies needed [here!](https://dsacms.github.io/ospo-guide/inbound/repo-diving/#installing-dependencies)
-
 <!-- 1st Script -->
 ### Run SCC on repos
-- run-scc-on-repos.sh
+**Script:** run-scc-on-repos.sh
 
 #### Overview
 
@@ -50,7 +48,7 @@ This script automates running **scc** across every repository in a GitHub organi
 
 <!-- 2nd Script -->
 ### Gen Gource logs on Repositories
-- gen-gource-logs-on-repos.sh
+**Script:** gen-gource-logs-on-repos.sh
 
 #### Overview
 
@@ -77,8 +75,7 @@ This script retrieves repositories from the configured GitHub organization, clon
 
 <!-- 3rd Script -->
 ### Generate a Combined Contributor Breakdown 
-- run-contrib-resolution.sh
-- concat.sh
+**Scripts:** run-contrib-resolution.sh, concat.sh
 
 #### Overview
 The first script generates a contributor report for each cloned Git repository using **git shortlog**. The second script combines those reports, adds together commit counts for matching contributor names and email addresses, and produces a sorted contributor breakdown across all repositories.
