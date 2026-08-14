@@ -81,13 +81,6 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/DinneK">
-                    <img src="https://avatars.githubusercontent.com/u/63877492?v=4" width="100;" alt="DinneK"/>
-                    <br />
-                    <sub><b>Dinne Kopelevich</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/decause-gov">
                     <img src="https://avatars.githubusercontent.com/u/107957201?v=4" width="100;" alt="decause-gov"/>
                     <br />
@@ -99,6 +92,13 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                     <img src="https://avatars.githubusercontent.com/u/24639268?v=4" width="100;" alt="IsaacMilarky"/>
                     <br />
                     <sub><b>Isaac Milarsky</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/DinneK">
+                    <img src="https://avatars.githubusercontent.com/u/63877492?v=4" width="100;" alt="DinneK"/>
+                    <br />
+                    <sub><b>Dinne Kopelevich</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -132,6 +132,13 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/zionmich">
+                    <img src="https://avatars.githubusercontent.com/u/113551695?v=4" width="100;" alt="zionmich"/>
+                    <br />
+                    <sub><b>zionmich</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/eamon-cms">
                     <img src="https://avatars.githubusercontent.com/u/258314873?v=4" width="100;" alt="eamon-cms"/>
                     <br />
@@ -145,6 +152,8 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                     <sub><b>TJ Challstrom</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/cms-eo14168">
                     <img src="https://avatars.githubusercontent.com/u/197958188?v=4" width="100;" alt="cms-eo14168"/>
