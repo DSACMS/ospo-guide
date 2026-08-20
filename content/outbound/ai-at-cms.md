@@ -37,8 +37,8 @@ As defined in the [HHS AI Strategy Document](https://ai.hhs.gov/#strategy), HHS 
 
 The White House Office of Management and Budget (OMB) released two memoranda delineating implementation of Executive Order 14179 "Removing Barriers to American Leadership in Artificial Intelligence" for federal agencies:
 
-1. Memorandum M-25-21 on Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
-2. Memorandum M-25-22 on Driving Efficient Acquisition of Artificial Intelligence in Government.
+1. [Memorandum M-25-21](https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf) on Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
+2. [Memorandum M-25-22](https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf) on Driving Efficient Acquisition of Artificial Intelligence in Government.
 
 These memos focus U.S. AI policy towards a “forward-leaning, pro-innovation, and pro-competition mindset” and direct agencies to leverage AI to be “more agile, cost-effective, and efficient.”
 
