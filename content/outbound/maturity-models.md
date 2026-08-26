@@ -8,7 +8,7 @@ tags: ospo
 eleventyNavigation:
   parent: ospo-outbound
   key: ospo-outbound-maturitymodels
-  order: 2
+  order: 1
   title: Maturity Models
 sidenav: true
 sticky_sidenav: true
@@ -24,8 +24,16 @@ Our maturity model framework is designed to evaluate and categorize open source 
 - [Tier 3](https://github.com/DSACMS/repo-scaffolder/blob/main/tier3/README.md): Working in Public
 - [Tier 4](https://github.com/DSACMS/repo-scaffolder/blob/main/tier4/README.md): Community Governance
 
-Learn more:
-- [maturity-model-tiers.md](https://github.com/DSACMS/repo-scaffolder/blob/main/maturity-model-tiers.md)
-- [Identify your project's maturity model tier](https://github.com/DSACMS/repo-scaffolder?tab=readme-ov-file#need-help-picking-a-maturity-tier)
-- [Get started on your repository using repo-scaffolder](https://dsacms.github.io/repo-scaffolder)
+## Identifying your project's maturity model tier
 
+To determine your project's tier, you can use the following:
+
+- [Maturity Model Tier Quiz](https://dsacms.github.io/repo-scaffolder/#maturity-model-tier-quiz)
+- [tier-determiner script](https://github.com/DSACMS/repo-scaffolder?tab=readme-ov-file#1-identify-your-projects-maturity-model-tier) in repo-scaffolder
+- Flowchart
+  {% image_with_class "assets/resources/img/outbound/flowchart.png" "" "Maturity Model Tiers Flowchart" %}
+
+**Learn more:**
+
+- [Maturity Model Framework in repo-scaffolder landing page](https://dsacms.github.io/repo-scaffolder/#maturity-model-framework)
+- [maturity-model-tiers.md](https://github.com/DSACMS/repo-scaffolder/blob/main/maturity-model-tiers.md)
