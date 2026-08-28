@@ -125,6 +125,13 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/louisasholar-gov">
+                    <img src="https://avatars.githubusercontent.com/u/321897229?v=4" width="100;" alt="louisasholar-gov"/>
+                    <br />
+                    <sub><b>Louisa Sholar </b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/NoobNoob06">
                     <img src="https://avatars.githubusercontent.com/u/108984067?v=4" width="100;" alt="NoobNoob06"/>
                     <br />
@@ -145,6 +152,8 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                     <sub><b>Eamon</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/borrow-checker">
                     <img src="https://avatars.githubusercontent.com/u/2809329?v=4" width="100;" alt="borrow-checker"/>
@@ -152,8 +161,6 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                     <sub><b>TJ Challstrom</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/cms-eo14168">
                     <img src="https://avatars.githubusercontent.com/u/197958188?v=4" width="100;" alt="cms-eo14168"/>
