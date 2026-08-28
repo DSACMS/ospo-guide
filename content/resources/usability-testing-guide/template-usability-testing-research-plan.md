@@ -30,11 +30,9 @@ _What do we think we know, based on past experiences and existing surveys/resear
 
 **Goals**
 
-# _What do we want to learn/understand/achieve? Can be broken down into numerated goals or topics._
+_What do we want to learn/understand/achieve? Can be broken down into numerated goals or topics._
 
-#
-
-# **Success Criteria**
+**Success Criteria**
 
 _What does success look like for this research?_
 
@@ -54,7 +52,8 @@ _What does the timeline for this work look like?_
 
 _How do we plan to answer our research questions and check our assumptions?_
 
-This section should mention o*bservation-based usability testing* as the main tool of investigation.  
+This section should mention o*bservation-based usability testing* as the main tool of investigation.
+
 **Artifacts**
 
 _What kinds of artifacts will you develop and include in this plan?_
