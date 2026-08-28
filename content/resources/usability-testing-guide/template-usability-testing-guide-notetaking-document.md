@@ -1,5 +1,5 @@
 ---
-title: Usability Testing Interview Notetaking Document Template
+title: 'Template: Usability Testing Interview Notetaking Document'
 description: Template for Usability Testing Interview Notetaking Document
 permalink: /resources/usability-testing/interview-notetaking-document-template/
 layout: layouts/page
@@ -8,13 +8,11 @@ tags: ospo
 eleventyNavigation:
   parent: ospo-resources-usabilitytesting
   key: ospo-resources-usabilitytesting-interviewnotetakingdocument
-  order: 1
+  order: 3
   title: Interview Notetaking Document Template
 sidenav: true
 sticky_sidenav: true
 ---
-
-# **Template**: Usability Testing Interview Notetaking Document
 
 Use this template as an outline to capture notes and observations during an interview.
 
@@ -60,4 +58,4 @@ General guidance:
 |                  |        |
 |                  |        |
 |                  |        |
-| 10\.             |        |
+|                  |        |
