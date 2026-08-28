@@ -1,5 +1,5 @@
 ---
-title: Usability Testing Guides
+title: Usability Testing Guides for Repositories
 description: A set of guides on usability testing
 permalink: /resources/usability-testing/
 layout: layouts/page
@@ -13,15 +13,15 @@ eleventyNavigation:
 sidenav: true
 sticky_sidenav: true
 subnav:
-  - text: Packaging Python Projects
-    href: '/resources/packaging/exporting-python-projects/'
-  - text: Creating GitHub Repo Templates
-    href: '/resources/packaging/github-repo-template-guide/'
-  - text: Packaging JavaScript Projects
-    href: '/resources/packaging/npm-packaging-guidelines/'
+  - text: Research Plan Template
+    href: '/resources/usability-testing/research-plan-template/'
+  - text: Interview Script Template
+    href: '/resources/usability-testing/interview-script-template/'
+  - text: Notetaking Document Template
+    href: '/resources/usability-testing/notetaking-document-template/'
+  - text: Post Test Survey Template
+    href: '/resources/usability-testing/post-test-survey-template/'
 ---
-
-# Usability testing guide for repos
 
 ## Introduction
 

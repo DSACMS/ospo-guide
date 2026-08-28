@@ -1,20 +1,18 @@
 ---
-title: Usability Testing Interview Notetaking Document Template
-description: Template for Usability Testing Interview Notetaking Document
-permalink: /resources/usability-testing/interview-notetaking-document-template/
+title: 'Template: Post-Activity Usability Survey (Optional)'
+description: Template for Post-Activity Usability Survey
+permalink: /resources/usability-testing/post-activity-usability-survey-template/
 layout: layouts/page
 section: resources
 tags: ospo
 eleventyNavigation:
   parent: ospo-resources-usabilitytesting
-  key: ospo-resources-usabilitytesting-interviewnotetakingdocument
-  order: 1
-  title: Interview Notetaking Document Template
+  key: ospo-resources-usabilitytesting-postactivitysurvey
+  order: 4
+  title: Post-Activity Survey Template
 sidenav: true
 sticky_sidenav: true
 ---
-
-# **Template**: Post-Activity Usability Survey (Optional)
 
 Use this template as an outline to create a usability survey for a participant after they have completed activities. A survey can help capture reactions to tasks/activities from participants in a uniform way. The content on this survey is intended as inspiration and uses a [Likert scale](https://en.wikipedia.org/wiki/Likert_scale) to assess participants’ thoughts; free to add, omit, or edit content as it suits your research.
 
