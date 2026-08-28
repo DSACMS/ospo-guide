@@ -18,9 +18,9 @@ subnav:
   - text: Interview Script Template
     href: '/resources/usability-testing/interview-script-template/'
   - text: Notetaking Document Template
-    href: '/resources/usability-testing/notetaking-document-template/'
+    href: '/resources/usability-testing/interview-notetaking-document-template/'
   - text: Post Test Survey Template
-    href: '/resources/usability-testing/post-test-survey-template/'
+    href: '/resources/usability-testing/post-activity-usability-survey-template/'
 ---
 
 ## Introduction
