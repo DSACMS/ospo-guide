@@ -72,6 +72,10 @@ The [TRA](https://www.cms.gov/tra/Application_Development/AD_0010_Application_In
 
 The [AI Explorers Program](https://confluenceent.cms.gov/spaces/APP/pages/169593017/CMS+AI+Explorers+Program) supports AI organizational maturity at CMS by conducting technical research and development, supporting AI pilots within CMS components, conducting policy research, and engaging the CMS AI community. The team has created numerous [technical application resources](https://confluenceent.cms.gov/spaces/APP/pages/768063421/Technical+Application+Resources) for AI usage and development in model context protocol, agentic engineering, policy analysis, risk + maturity frameworks,prompt engineering, and many more.
 
+### CMS AI Cross-Cutting Initiative
+
+The AI Cross-Cutting Initiative (CCI) is a team of agency leaders and AI practitioners who develop and oversee various agency-wide initiatives and AI governance at CMS. The AI CCI is CMS’ cross agency AI strategy team. Their activities have launched discussions to propose AI policies and governance frameworks for the agency. Additionally, AI CCI facilitates infrastructure development, workforce training, and information sharing.
+
 ## AI Tools
 
 ### Want an AI workspace?
