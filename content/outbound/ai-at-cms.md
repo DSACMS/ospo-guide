@@ -23,6 +23,10 @@ Learn more about how AI is leveraged on the HHS and CMS levels:
 
 ## AI Policy and Documents
 
+### America's AI Action Plan
+
+President Trump signed [Executive Order 14179, “Removing Barriers to American Leadership in Artificial Intelligence”](https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/), directing the creation of an [AI Action Plan](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf).
+
 ### HHS AI Strategy
 
 As defined in the [HHS AI Strategy Document](https://ai.hhs.gov/#strategy), HHS is leading a whole-of-department transformation to make AI a practical layer of value across public health, health care delivery, biomedical research, human services, and agency operations — uniting Divisions through a “OneHHS” approach that shares data, tools, and infrastructure while protecting Americans’ privacy and earning public trust. There are 5 pillars to the AI Strategy:
