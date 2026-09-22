@@ -77,11 +77,11 @@ Checklist for usability testing:
 - [ ] A lead interviewer
 - [ ] A notetaker
 - [ ] An observer/notetaker (OPTIONAL)
-- [ ] Documents  
-       - [ ] Interview/testing script, including tasks/activities and survey (if applicable)  
-       - [ ] An informed consent form (if applicable)  
-       - [ ] A notetaking document  
-       - [ ] A data storage/disposal strategy, if applicable
+- [ ] Documents
+    - [ ] Interview/testing script, including tasks/activities and survey (if applicable)
+    - [ ] An informed consent form (if applicable)
+    - [ ] A notetaking document
+    - [ ] A data storage/disposal strategy, if applicable
 
 ## What are you capturing in usability testing?
 
@@ -129,7 +129,7 @@ Usability testing is one step towards making improvements to your product \- fol
 - Making the necessary tickets to see your changes implemented
 - Repeat the process for additional development cycles\!
 
-## ---
+---
 
 ## Resources and reference materials:
 
