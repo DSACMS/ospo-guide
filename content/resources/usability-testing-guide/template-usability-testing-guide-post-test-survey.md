@@ -20,5 +20,15 @@ Use this template as an outline to create a usability survey for a participant a
 
 **Post-Activity Usability Survey**
 
-| Moving on to a post-activity usability survey, please rate the following statements from 1-5, with 1 being “Strongly Disagree” and 5 as “Strongly Agree.” I think that I would like to use \[this system\] frequently. I found the \[system\] unnecessarily complex. I thought \[the system\] was easy to use. I think that I would need the support of a technical person to be able to use \[this system\]. I found the various functions in \[this system\] were well integrated. I thought there was too much inconsistency in \[this system\]. I would imagine that most people would learn to use \[this system\] very quickly. I found \[the system\] very cumbersome to use. I felt very confident using \[the system\]. I needed to learn a lot of things before I could get going with \[this system\]. |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+Moving on to a post-activity usability survey, please rate the following statements from 1-5, with 1 being “Strongly Disagree” and 5 as “Strongly Agree.” 
+
+1. I think that I would like to use **[this system]** frequently.
+2. I found the **[system]** unnecessarily complex.
+3. I thought **[the system]** was easy to use.
+4. I think that I would need the support of a technical person to be able to use **[this system]**.
+5. I found the various functions in **[this system]** were well integrated.
+6. I thought there was too much inconsistency in **[this system]**.
+7. I would imagine that most people would learn to use **[this system]** very quickly.
+8. I found **[the system]** very cumbersome to use.
+9. I felt very confident using **[the system]**.
+10. I needed to learn a lot of things before I could get going with **[this system]**.
