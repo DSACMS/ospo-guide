@@ -26,6 +26,7 @@ a[href*="/TODO/"].usa-link--external:after {
   margin-left: 0;
   padding-left: units(0.5);
   vertical-align: baseline;
+  mask-image: none;
   -webkit-mask-image: none;
 }
 
@@ -265,6 +266,11 @@ h2.heading-md {
     input[type="checkbox"] {
       margin-right: 0.5em;
     }
+  }
+
+  .contains-task-list {
+    padding-left: 1.75em;
+    margin-left: 0;
   }
 }
 
