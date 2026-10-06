@@ -14,28 +14,26 @@ sidenav: true
 sticky_sidenav: true
 ---
 
-## California Department of Technology Open Source Summit 2026
-
 _Attended by Natalia Luzuriaga, Open Source Software Engineer @ CMS.gov_
 
-### Agenda
+## Agenda
 
 - 12 – 12:30pm: Lunch and check-in [missed]
 - 12:30 – 1:30pm: Opening remarks [missed] and Lightning talk
 - 1:30 – 1:45pm: Break
 - 1:45 – 4pm: Panel and facilitated working session
 
-### Overview
+## Overview
 
 This event is a joint effort by California Department of Technology and Nava’s Open Source Program Office / Nava Labs. Attendees included open source practitioners from academia (UC OSPOs), foundations (Python Software Foundation, Linux Foundation), and government (CMS, NASA).
 
-### About California and the state’s Open Source Posture
+## About California and the state’s Open Source Posture
 
 The California state government is composed of 150+ departments and agencies working together to deliver services to over 40 million Californians. Chris Given, CIO of California, recognizes the various benefits of open source from enabling code reuse to creating public spaces for collaboration and trust. [SAM 4984](https://www.dgs.ca.gov/Resources/SAM/TOC/4900/4984-1/05-01-2018) is California’s Open Source and Code Reuse Policy where it states open source solutions as the first option to reuse existing code before building or buying new, and to make code developed by the State of California broadly available for reuse. The legislation calls for the state to “create and maintain an enterprise code inventory that includes all new State of California custom-developed code and related information and make this information available to all other Agencies/state entities on an ongoing basis”, leading to the creation of [code.ca.gov](https://www.code.ca.gov), California’s Open Source portal.
 
 California’s technology leadership seeks to prioritize boosting their open source posture. Currently, the open source portal exists but is outdated and not completely managed. They seek to restart this effort and reach out to more agencies to add to their inventory but challenges in education, awareness, and culture are barriers to adoption. Through the Open Source portal, they hope to enable more opportunities of code reuse.
 
-### Brainstorming Session
+## Brainstorming Session
 
 1. Feedback on [California Open Source Portal](https://www.code.ca.gov)
 
@@ -62,5 +60,3 @@ California’s technology leadership seeks to prioritize boosting their open sou
    - Identify “first good issues” on active projects in Open Source portal
    - Build and invest in an early career talent pipeline: internships, hackathons, events
    - UC Community is a great start
-
-### Panel: Why Open Source? Why California? Why Now?
