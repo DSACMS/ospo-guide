@@ -111,6 +111,13 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
 		</tr>
 		<tr>
             <td align="center">
+                <a href="https://github.com/louisasholar-gov">
+                    <img src="https://avatars.githubusercontent.com/u/321897229?v=4" width="100;" alt="louisasholar-gov"/>
+                    <br />
+                    <sub><b>Louisa Sholar </b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/cschilly">
                     <img src="https://avatars.githubusercontent.com/u/259887029?v=4" width="100;" alt="cschilly"/>
                     <br />
@@ -118,17 +125,17 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/huda-code">
+                    <img src="https://avatars.githubusercontent.com/u/109257955?v=4" width="100;" alt="huda-code"/>
+                    <br />
+                    <sub><b>Huda Hajira</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/isaac-rtc">
                     <img src="https://avatars.githubusercontent.com/u/194465296?v=4" width="100;" alt="isaac-rtc"/>
                     <br />
                     <sub><b>Isaac Guzman</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/louisasholar-gov">
-                    <img src="https://avatars.githubusercontent.com/u/321897229?v=4" width="100;" alt="louisasholar-gov"/>
-                    <br />
-                    <sub><b>Louisa Sholar </b></sub>
                 </a>
             </td>
             <td align="center">
@@ -145,6 +152,8 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                     <sub><b>zionmich</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/eamon-cms">
                     <img src="https://avatars.githubusercontent.com/u/258314873?v=4" width="100;" alt="eamon-cms"/>
@@ -152,8 +161,6 @@ Total number of contributors: <!--CONTRIBUTOR COUNT START--> 8 <!--CONTRIBUTOR C
                     <sub><b>Eamon</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/borrow-checker">
                     <img src="https://avatars.githubusercontent.com/u/2809329?v=4" width="100;" alt="borrow-checker"/>
