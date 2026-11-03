@@ -50,6 +50,6 @@ An open source program office (OSPO) serves as the center of competency for an o
 
 For more information, visit [https://go.cms.gov/ospo](https://go.cms.gov/ospo).
 
-## Events, Conferences, and Awards
+## Conferences, Events, and Awards
 
 Check out the events we attended and spoken at in the events page: [https://dsacms.github.io/ospo-guide/events](https://dsacms.github.io/ospo-guide/events)
