@@ -22,6 +22,12 @@ resources:
   description: Resources to support software development in the agency.
   info: Find resources on developer training (GitHub), case studies, user research, and more.
 
+events:
+  path: /events/
+  name: Events
+  description: Events attended by the CMS Open Source Program Office.
+  info: Conferences, meetups, and other events where the agency engages with the open source, civic tech, and healthcare community.
+
 about:
   path: /about/
   name: About

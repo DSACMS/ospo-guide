@@ -12,5 +12,7 @@ ospo:
     url: /resources/
   - name: Tools
     url: /tools/
+  - name: Events
+    url: /events/
   - name: About
     url: /about/
