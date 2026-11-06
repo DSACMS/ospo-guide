@@ -1,5 +1,5 @@
 ---
-title: Packaging Python Projects
+title: Packaging and Publishing Python Libraries
 description: Guidelines for publishing python projects as packages
 permalink: /resources/packaging/exporting-python-projects/
 layout: layouts/page
@@ -14,9 +14,7 @@ sidenav: true
 sticky_sidenav: true
 ---
 
-# Packaging and Publishing Python Libraries
-
-This guide is intended to guide Python developers in how to design their code to be easily packaged and published to PyPi with the help of Poetry. Firstly, this guide assumes that you have already set up your project and have been developing it with the help of Poetry. 
+This guide is intended to guide Python developers in how to design their code to be easily packaged and published to PyPi with the help of Poetry. Firstly, this guide assumes that you have already set up your project and have been developing it with the help of Poetry.
 
 ## Directory Structure
 
@@ -31,13 +29,13 @@ my-project-src-code/
 	example.py
 ```
 
-How your library package will work is that whenever someone installs the library they will import ‘my-project’ and they can import anything that is present in the `\_\_init\_\_.py` file. Therefore, it is important to import everything that you want to be present in the library inside the `\_\_init\_\_.py` file. 
+How your library package will work is that whenever someone installs the library they will import ‘my-project’ and they can import anything that is present in the `\_\_init\_\_.py` file. Therefore, it is important to import everything that you want to be present in the library inside the `\_\_init\_\_.py` file.
 
 ### Exporting to PyPi
 
-First, if you do not already have a PyPi account make sure that you create one. It is highly recommended that you also use an authenticator app such as Google authenticator or an equivalent two factor authentication method.   
+First, if you do not already have a PyPi account make sure that you create one. It is highly recommended that you also use an authenticator app such as Google authenticator or an equivalent two factor authentication method.
 
-Secondly, once you have a PyPi account and have made sure that it is secure and configured to your liking you can generate an API key for publishing. Then you can click on your username in the top right corner and navigate to ‘Account settings.’ 
+Secondly, once you have a PyPi account and have made sure that it is secure and configured to your liking you can generate an API key for publishing. Then you can click on your username in the top right corner and navigate to ‘Account settings.’
 
 <img width="1090" alt="Screenshot 2025-06-02 at 9 39 57 AM" src="https://github.com/user-attachments/assets/c3bcc2c7-a20b-4dc1-977f-1ea1bd1cdaba" />
 
@@ -47,7 +45,6 @@ Once you have navigated to the API token section, click on Add API token to gene
 
 #### Exporting via Poetry
 
-	  
 Now that you have a PyPi account, you can publish to PyPi. First, allow poetry to use your API token with the following command:
 
 ```shell
@@ -63,10 +60,8 @@ poetry publish
 
 #### Troubleshooting
 
-	  
 If you run into problems exporting your project it can be a number of things. Make sure that you have checked your project for any of the following problems:
 
-* Incorrect Python directory structure  
-* Incorrect or expired API key  
-* Incorrectly setup or configured poetry installation
-
+- Incorrect Python directory structure
+- Incorrect or expired API key
+- Incorrectly setup or configured poetry installation

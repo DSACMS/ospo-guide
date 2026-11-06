@@ -1,5 +1,5 @@
 ---
-title: Packaging JavaScript Projects
+title: NPM Packaging Guidelines
 description: 'Guidelines for publishing JavaScript projects as packages'
 permalink: /resources/packaging/npm-packaging-guidelines/
 layout: layouts/page
@@ -9,31 +9,31 @@ hideFromResources: true
 eleventyNavigation:
   parent: ospo-resources-packaging
   key: ospo-resources-packaging-exporting
-  order: 3
+  order: 2
   title: Packaging JavaScript Projects
 sidenav: true
 sticky_sidenav: true
 ---
 
-# NPM Packaging Guidelines
+## Prerequisites
 
-## **Prerequisites**
+- Node.js and npm installed
+- Basic knowledge of HTML, CSS, and JavaScript
+- Your frontend library code ready
 
-* Node.js and npm installed  
-* Basic knowledge of HTML, CSS, and JavaScript  
-* Your frontend library code ready
+## Steps
 
-## **Steps**
+### Step 1: Prepare Your Project Structure
 
-#### Step 1: Prepare Your Project Structure
+- Create a new directory for the package:
 
-* Create a new directory for the package:
 ```shell
-mkdir my-frontend-lib  
+mkdir my-frontend-lib
 cd my-frontend-lib
 ```
 
-* Set up the basic folder structure:
+- Set up the basic folder structure:
+
 ```shell
 my-frontend-lib/
 ├── src/
@@ -46,54 +46,56 @@ my-frontend-lib/
 └── .gitignore
 ```
 
-#### Step 2: Initialize the Package
+### Step 2: Initialize the Package
 
-* Run npm init and answer the prompts:
-```shell 
+- Run npm init and answer the prompts:
+
+```shell
 npm init - y
 ```
 
-#### Step 3: Configure package.json
+### Step 3: Configure package.json
 
-* Edit your **`package.json`** to include these essential fields
+- Edit your **`package.json`** to include these essential fields
 
-#### Step 4: Create Your Library Entry Point
+### Step 4: Create Your Library Entry Point
 
-* Create **`src/index.js`** as your main entry point
+- Create **`src/index.js`** as your main entry point
 
-#### Step 5: Add Your Styles
+### Step 5: Add Your Styles
 
-* Create **`src/styles.css`**
+- Create **`src/styles.css`**
 
-#### Step 6: Create Documentation
+### Step 6: Create Documentation
 
-* Write a comprehensive **`README.md`**
+- Write a comprehensive **`README.md`**
 
-#### Step 7: Create `.gitignore`
+### Step 7: Create `.gitignore`
 
-#### Step 8: Test Locally
+### Step 8: Test Locally
 
-* Before publishing, test your package locally
+- Before publishing, test your package locally
 
-#### Step 9: Publish to NPM
+### Step 9: Publish to NPM
 
-* First, create an npm account at [npmjs.com](http://npmjs.com)  
-  * Follow instructions
+- First, create an npm account at [npmjs.com](http://npmjs.com)
+  - Follow instructions
 
-#### Step 10: Version Management
+### Step 10: Version Management
 
-* Commands for updates
-```shell  
-npm version patch   #For bug fixes  
-npm version minor  #For new features  
-npm version major  #For breaking changes  
+- Commands for updates
+
+```shell
+npm version patch   #For bug fixes
+npm version minor  #For new features
+npm version major  #For breaking changes
 npm publish  #Then publish the update
 ```
 
-## **Common Mistakes**
+## Common Mistakes
 
-* Don't include \`node\_modules\` in your package  
-* Don't publish sensitive information  
-* Always test before publishing  
-* Don't break existing APIs without major version bump  
-* Include all necessary files in the files array
+- Don't include \`node_modules\` in your package
+- Don't publish sensitive information
+- Always test before publishing
+- Don't break existing APIs without major version bump
+- Include all necessary files in the files array
